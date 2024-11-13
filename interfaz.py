@@ -1,6 +1,7 @@
 import json
 import tkinter as tk
 from tkinter import messagebox
+from PIL import Image, ImageTk  # Asegúrate de instalar pillow: pip install pillow
 
 # 1. Base de Hechos
 hechos = {
@@ -36,9 +37,10 @@ def motor_inferencia(hechos):
     if clave in base_conocimientos:
         recomendacion = base_conocimientos[clave]["recomendacion"]
         explicacion = "\n".join(base_conocimientos[clave]["explicacion"])
-        return recomendacion, explicacion
+        imagen_path = base_conocimientos[clave]["imagen"]
+        return recomendacion, explicacion, imagen_path
     else:
-        return "Lo siento, no tengo una recomendación adecuada. Podrías considerar consultar con un médico general.", ""
+        return "Lo siento, no tengo una recomendación adecuada. Podrías considerar consultar con un médico general.", "", None
 
 # Función para actualizar la base de conocimientos
 def actualizar_base_conocimientos():
@@ -46,49 +48,50 @@ def actualizar_base_conocimientos():
 
 # Función para obtener respuesta del sistema experto
 def sistema_experto(hechos):
-    recomendacion, explicacion = motor_inferencia(hechos)
-    return recomendacion, explicacion
+    recomendacion, explicacion, imagen_path = motor_inferencia(hechos)
+    return recomendacion, explicacion, imagen_path
 
 # Interfaz gráfica con tkinter
 def interfaz_grafica():
     def obtener_respuesta():
-        # Asignar respuestas seleccionadas a los hechos
         hechos["motivo_consulta"] = opcion_motivo.get()
         hechos["nivel_sintomas"] = opcion_sintomas.get()
         hechos["historial_medico"] = opcion_historial.get()
         hechos["edad"] = opcion_edad.get()
         hechos["horario_atencion"] = opcion_horario.get()
 
-        # Obtener respuesta del sistema experto
-        recomendacion, explicacion = sistema_experto(hechos)
-        resultado_texto.config(state="normal")  # Habilitar edición para mostrar resultado
-        resultado_texto.delete(1.0, tk.END)     # Limpiar cuadro de texto
-        resultado_texto.insert(tk.END, recomendacion)  # Insertar solo la recomendación
-        resultado_texto.config(state="disabled")  # Deshabilitar edición
+        recomendacion, explicacion, imagen_path = sistema_experto(hechos)
+        resultado_texto.config(state="normal")
+        resultado_texto.delete(1.0, tk.END)
+        resultado_texto.insert(tk.END, recomendacion)
+        resultado_texto.config(state="disabled")
 
-        # Guardar la explicación para mostrarla después
-        global explicacion_guardada
+        global explicacion_guardada, imagen_guardada
         explicacion_guardada = explicacion
+        imagen_guardada = imagen_path
 
-        # Habilitar el botón de mostrar explicación
         boton_explicacion.config(state="normal")
+        boton_ver_doctor.config(state="normal")
     
     def mostrar_explicacion():
-        # Añadir la explicación al resultado si no está ya
         if explicacion_guardada:
             resultado_texto.config(state="normal")
             resultado_texto.insert(tk.END, "\n\nEXPLICACIÓN:\n" + explicacion_guardada)
             resultado_texto.config(state="disabled")
-        
-        # Deshabilitar el botón para evitar múltiples clics
         boton_explicacion.config(state="disabled")
 
-    # Configuración de la ventana principal
+    def mostrar_imagen():
+        if imagen_guardada:
+            imagen = Image.open(imagen_guardada)
+            imagen = imagen.resize((150, 150), Image.LANCZOS)
+            imagen_tk = ImageTk.PhotoImage(imagen)
+            label_imagen.config(image=imagen_tk)
+            label_imagen.image = imagen_tk
+
     ventana = tk.Tk()
     ventana.title("Sistema Experto - Asignación de Doctor")
-    ventana.geometry("600x600")
+    ventana.geometry("600x700")
 
-    # Preguntas y opciones
     tk.Label(ventana, text="¿Cuál es el motivo principal de la consulta?").pack()
     opcion_motivo = tk.StringVar(value="Dolor")
     tk.OptionMenu(ventana, opcion_motivo, "Dolor", "Control de salud", "Revisión de síntomas", "Consulta preventiva").pack()
@@ -109,22 +112,24 @@ def interfaz_grafica():
     opcion_horario = tk.StringVar(value="Matutino")
     tk.OptionMenu(ventana, opcion_horario, "Matutino", "Vespertino", "Nocturno", "Fines de semana").pack()
 
-    # Botón para enviar respuestas y mostrar el resultado
     boton_responder = tk.Button(ventana, text="Obtener Asignación de Doctor", command=obtener_respuesta)
     boton_responder.pack(pady=10)
 
-    # Botón para mostrar explicación
     boton_explicacion = tk.Button(ventana, text="Mostrar explicación", state="disabled", command=mostrar_explicacion)
     boton_explicacion.pack(pady=10)
 
-    # Área de texto para mostrar el resultado
+    boton_ver_doctor = tk.Button(ventana, text="Ver Doctor", state="disabled", command=mostrar_imagen)
+    boton_ver_doctor.pack(pady=10)
+
     tk.Label(ventana, text="Resultado del Sistema Experto:").pack()
     resultado_texto = tk.Text(ventana, height=10, width=70, state="disabled", wrap="word")
     resultado_texto.pack()
 
+    label_imagen = tk.Label(ventana)
+    label_imagen.pack(pady=10)
+
     ventana.mainloop()
 
-# Cargar la base de conocimientos y ejecutar la interfaz gráfica
 if __name__ == "__main__":
     actualizar_base_conocimientos()
     interfaz_grafica()
