@@ -2,6 +2,9 @@ import json
 import tkinter as tk
 from tkinter import messagebox
 from PIL import Image, ImageTk  # Asegúrate de instalar pillow: pip install pillow
+from memoria import aprender_conocimiento
+from tkinter import filedialog
+
 
 # 1. Base de Hechos
 hechos = {
@@ -31,6 +34,12 @@ def cargar_base_conocimientos():
     except json.JSONDecodeError:
         print("Hubo un error al leer el archivo de base de conocimientos.")
 
+# Guardar la base de conocimientos en un archivo JSON
+def guardar_base_conocimientos():
+    datos_json = {str(clave): valor for clave, valor in base_conocimientos.items()}
+    with open('base_conocimientos.json', 'w') as archivo_json:
+        json.dump(datos_json, archivo_json, indent=4)
+
 # Motor de Inferencia
 def motor_inferencia(hechos):
     clave = tuple(hechos.values())
@@ -51,7 +60,7 @@ def sistema_experto(hechos):
     recomendacion, explicacion, imagen_path = motor_inferencia(hechos)
     return recomendacion, explicacion, imagen_path
 
-# Interfaz gráfica con tkinter
+
 def interfaz_grafica():
     def obtener_respuesta():
         hechos["motivo_consulta"] = opcion_motivo.get()
@@ -72,6 +81,9 @@ def interfaz_grafica():
 
         boton_explicacion.config(state="normal")
         boton_ver_doctor.config(state="normal")
+
+    def abrir_ventana_aprender():
+        aprender_conocimiento()
     
     def mostrar_explicacion():
         if explicacion_guardada:
@@ -112,6 +124,9 @@ def interfaz_grafica():
     opcion_horario = tk.StringVar(value="Matutino")
     tk.OptionMenu(ventana, opcion_horario, "Matutino", "Vespertino", "Nocturno", "Fines de semana").pack()
 
+    boton_aprender = tk.Button(ventana, text="Aprender", command=abrir_ventana_aprender)
+    boton_aprender.pack(pady=10)
+
     boton_responder = tk.Button(ventana, text="Obtener Asignación de Doctor", command=obtener_respuesta)
     boton_responder.pack(pady=10)
 
@@ -131,5 +146,6 @@ def interfaz_grafica():
     ventana.mainloop()
 
 if __name__ == "__main__":
-    actualizar_base_conocimientos()
+    cargar_base_conocimientos()
     interfaz_grafica()
+

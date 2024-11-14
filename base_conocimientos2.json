@@ -1,90 +1,90 @@
 {
-    "(Dolor, Leve, No, Menos de 18 a\u00f1os, Matutino)": {
-        "recomendacion": "Dr. Garc\u00eda, Pediatra",
+    "(Dolor, Leve, No, Menos de 18 años, Matutino)": {
+        "recomendacion": "Dr. García, Pediatra",
         "explicacion": [
-            "- Especialista en el cuidado y tratamiento de ni\u00f1os.",
+            "- Especialista en el cuidado y tratamiento de niños.",
             "- Consultas disponibles en horario matutino.",
-            "- Consulta en 2-3 d\u00edas h\u00e1biles.",
+            "- Consulta en 2-3 días hábiles.",
             "- Costo por consulta: $800."
         ],
         "imagen": "/home/keny/Escritorio/spaceCode/se2/image/doc1.jpg"
     },
-    "(Dolor, Moderado, Alergias a alg\u00fan alimento, Entre 18-35 a\u00f1os, Vespertino)": {
-        "recomendacion": "Dr. L\u00f3pez, Alerg\u00f3logo",
+    "(Dolor, Moderado, Alergias a algún alimento, Entre 18-35 años, Vespertino)": {
+        "recomendacion": "Dr. López, Alergólogo",
         "explicacion": [
             "- Especialista en alergias y problemas de salud relacionados.",
             "- Consultas disponibles en horario vespertino.",
-            "- Consulta en 1-2 d\u00edas h\u00e1biles.",
+            "- Consulta en 1-2 días hábiles.",
             "- Costo por consulta: $1,200."
         ],
         "imagen": "/home/keny/Escritorio/spaceCode/se2/image/doc1.jpg"
     },
-    "(Control de salud, Leve, No, M\u00e1s de 60 a\u00f1os, Matutino)": {
-        "recomendacion": "Dr. Mart\u00ednez, Geriatra",
+    "(Control de salud, Leve, No, Más de 60 años, Matutino)": {
+        "recomendacion": "Dr. Martínez, Geriatra",
         "explicacion": [
-            "- Experto en el cuidado de personas mayores de 60 a\u00f1os.",
+            "- Experto en el cuidado de personas mayores de 60 años.",
             "- Consultas en horario matutino.",
-            "- Consulta en 3-5 d\u00edas h\u00e1biles.",
+            "- Consulta en 3-5 días hábiles.",
             "- Costo por consulta: $1,500."
         ],
         "imagen": "/home/keny/Escritorio/spaceCode/se2/image/doc1.jpg"
     },
-    "(Revisi\u00f3n de s\u00edntomas, Fuerte, Operaciones o cirug\u00edas, Entre 36-60 a\u00f1os, Nocturno)": {
+    "(Revisión de síntomas, Fuerte, Operaciones o cirugías, Entre 36-60 años, Nocturno)": {
         "recomendacion": "Dr. Rivera, Especialista en Medicina Interna",
         "explicacion": [
-            "- Adecuado para pacientes con historial quir\u00fargico y s\u00edntomas fuertes.",
+            "- Adecuado para pacientes con historial quirúrgico y síntomas fuertes.",
             "- Disponibilidad en horario nocturno.",
-            "- Consulta de emergencia: atenci\u00f3n en el mismo d\u00eda.",
+            "- Consulta de emergencia: atención en el mismo día.",
             "- Costo por consulta: $2,000."
         ],
         "imagen": "/home/keny/Escritorio/spaceCode/se2/image/doc1.jpg"
     },
-    "(Consulta preventiva, Moderado, Alergias a alg\u00fan medicamento, Entre 18-35 a\u00f1os, Fines de semana)": {
+    "(Consulta preventiva, Moderado, Alergias a algún medicamento, Entre 18-35 años, Fines de semana)": {
         "recomendacion": "Dra. Morales, Medicina General",
         "explicacion": [
             "- Recomendado para consultas preventivas y asesoramiento general.",
             "- Consultas disponibles los fines de semana.",
-            "- Consulta en 2-4 d\u00edas h\u00e1biles.",
+            "- Consulta en 2-4 días hábiles.",
             "- Costo por consulta: $900."
         ],
         "imagen": "/home/keny/Escritorio/spaceCode/se2/image/doc1.jpg"
     },
-    "(Dolor, Muy fuerte, Operaciones o cirug\u00edas, Menos de 18 a\u00f1os, Matutino)": {
-        "recomendacion": "Dr. S\u00e1nchez, Cirujano Pedi\u00e1trico",
+    "(Dolor, Muy fuerte, Operaciones o cirugías, Menos de 18 años, Matutino)": {
+        "recomendacion": "Dr. Sánchez, Cirujano Pediátrico",
         "explicacion": [
-            "- Especialista en cirug\u00edas pedi\u00e1tricas, adecuado para s\u00edntomas muy fuertes.",
+            "- Especialista en cirugías pediátricas, adecuado para síntomas muy fuertes.",
             "- Consultas disponibles en horario matutino.",
-            "- Atenci\u00f3n de urgencia: disponibilidad inmediata.",
+            "- Atención de urgencia: disponibilidad inmediata.",
             "- Costo por consulta: $3,000."
         ],
         "imagen": "/home/keny/Escritorio/spaceCode/se2/image/doc1.jpg"
     },
-    "(Control de salud, Leve, Alergias a alg\u00fan medicamento, Entre 36-60 a\u00f1os, Vespertino)": {
-        "recomendacion": "Dra. Hern\u00e1ndez, Medicina General",
+    "(Control de salud, Leve, Alergias a algún medicamento, Entre 36-60 años, Vespertino)": {
+        "recomendacion": "Dra. Hernández, Medicina General",
         "explicacion": [
             "- Consulta general para control de salud y alergias.",
             "- Consultas en horario vespertino.",
-            "- Consulta en 2-3 d\u00edas h\u00e1biles.",
+            "- Consulta en 2-3 días hábiles.",
             "- Costo por consulta: $1,100."
         ],
         "imagen": "/home/keny/Escritorio/spaceCode/se2/image/doc1.jpg"
     },
-    "(Consulta preventiva, Moderado, No, M\u00e1s de 60 a\u00f1os, Matutino)": {
+    "(Consulta preventiva, Moderado, No, Más de 60 años, Matutino)": {
         "recomendacion": "Dr. Torres, Geriatra",
         "explicacion": [
-            "- Especialista en salud preventiva para personas mayores de 60 a\u00f1os.",
+            "- Especialista en salud preventiva para personas mayores de 60 años.",
             "- Horario matutino disponible.",
-            "- Consulta en 3-5 d\u00edas h\u00e1biles.",
+            "- Consulta en 3-5 días hábiles.",
             "- Costo por consulta: $1,500."
         ],
         "imagen": "/home/keny/Escritorio/spaceCode/se2/image/doc1.jpg"
     },
-    "(Revisi\u00f3n de s\u00edntomas, Fuerte, Alergias a alg\u00fan alimento, Entre 18-35 a\u00f1os, Nocturno)": {
-        "recomendacion": "Dra. Fern\u00e1ndez, Medicina Interna",
+    "(Revisión de síntomas, Fuerte, Alergias a algún alimento, Entre 18-35 años, Nocturno)": {
+        "recomendacion": "Dra. Fernández, Medicina Interna",
         "explicacion": [
-            "- Adecuado para s\u00edntomas fuertes y antecedentes de alergias.",
+            "- Adecuado para síntomas fuertes y antecedentes de alergias.",
             "- Disponibilidad en horario nocturno.",
-            "- Consulta de emergencia: atenci\u00f3n en el mismo d\u00eda.",
+            "- Consulta de emergencia: atención en el mismo día.",
             "- Costo por consulta: $1,800."
         ],
         "imagen": "/home/keny/Escritorio/spaceCode/se2/image/doc1.jpg"
