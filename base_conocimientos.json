@@ -7,7 +7,7 @@
             "- Consulta en 2-3 d\u00edas h\u00e1biles.",
             "- Costo por consulta: $800."
         ],
-        "imagen": "/home/keny/Escritorio/spaceCode/se2/image/doc1.jpg"
+        "imagen": "./image/doc1.jpg"
     },
     "(Dolor, Moderado, Alergias a alg\u00fan alimento, Entre 18-35 a\u00f1os, Vespertino)": {
         "recomendacion": "Dr. L\u00f3pez, Alerg\u00f3logo",

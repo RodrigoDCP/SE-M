@@ -4,7 +4,8 @@ from tkinter import messagebox
 from PIL import Image, ImageTk  # Asegúrate de instalar pillow: pip install pillow
 from memoria import aprender_conocimiento
 from tkinter import filedialog
-
+import sys
+import os
 
 # 1. Base de Hechos
 hechos = {
@@ -17,6 +18,11 @@ hechos = {
 
 # 2. Base de Conocimientos
 base_conocimientos = {}
+
+def reiniciar_aplicacion():
+    """Reinicia la aplicación relanzando el script actual."""
+    python = sys.executable
+    os.execl(python, python, *sys.argv)
 
 # Cargar la base de conocimientos desde un archivo JSON
 def cargar_base_conocimientos():
@@ -103,6 +109,10 @@ def interfaz_grafica():
     ventana = tk.Tk()
     ventana.title("Sistema Experto - Asignación de Doctor")
     ventana.geometry("600x700")
+
+    boton_reiniciar = tk.Button(ventana, text="Reiniciar Aplicación", command=reiniciar_aplicacion)
+    boton_reiniciar.pack(pady=10)
+
 
     tk.Label(ventana, text="¿Cuál es el motivo principal de la consulta?").pack()
     opcion_motivo = tk.StringVar(value="Dolor")
