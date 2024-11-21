@@ -1,161 +1,173 @@
 import json
 import tkinter as tk
 from tkinter import messagebox
-from PIL import Image, ImageTk  # Asegúrate de instalar pillow: pip install pillow
+from PIL import Image, ImageTk
 from memoria import aprender_conocimiento
 from tkinter import filedialog
-import sys
-import os
 
-# 1. Base de Hechos
-hechos = {
-    "motivo_consulta": "",
-    "nivel_sintomas": "",
-    "historial_medico": "",
-    "edad": "",
-    "horario_atencion": ""
-}
+class InterfazMedica:
+    def __init__(self):
+        self.ventana = tk.Tk()
+        self.ventana.title("Sistema Experto - Asignación de Doctor")
+        self.ventana.geometry("600x700")
+        
+        # Base de Hechos como atributo de clase
+        self.hechos = {
+            "motivo_consulta": "",
+            "nivel_sintomas": "",
+            "historial_medico": "",
+            "edad": ""
+        }
+        
+        # Base de Conocimientos como atributo de clase
+        self.base_conocimientos = {}
+        self.cargar_base_conocimientos()
+        
+        self.crear_interfaz()
+        
+    def cargar_base_conocimientos(self):
+        try:
+            with open('base_conocimientos.json', 'r') as archivo_json:
+                datos_json = json.load(archivo_json)
+                self.base_conocimientos = {}
+                for clave, valor in datos_json.items():
+                    clave_tupla = tuple(clave.strip("()").replace("'", "").split(", "))
+                    self.base_conocimientos[clave_tupla] = valor
+        except FileNotFoundError:
+            print("No se encontró el archivo de base de conocimientos. Se usará una base vacía.")
+        except json.JSONDecodeError:
+            print("Hubo un error al leer el archivo de base de conocimientos.")
 
-# 2. Base de Conocimientos
-base_conocimientos = {}
+    def motor_inferencia(self):
+        clave = tuple(self.hechos.values())
+        if clave in self.base_conocimientos:
+            recomendacion = self.base_conocimientos[clave]["recomendacion"]
+            explicacion = "\n".join(self.base_conocimientos[clave]["explicacion"])
+            imagen_path = self.base_conocimientos[clave]["imagen"]
+            return recomendacion, explicacion, imagen_path
+        else:
+            return "Lo siento, no tengo una recomendación adecuada. Podrías considerar consultar con un médico general.", "", None
 
-def reiniciar_aplicacion():
-    """Reinicia la aplicación relanzando el script actual."""
-    python = sys.executable
-    os.execl(python, python, *sys.argv)
+    def actualizar_base_conocimientos(self):
+        self.cargar_base_conocimientos()
 
-# Cargar la base de conocimientos desde un archivo JSON
-def cargar_base_conocimientos():
-    global base_conocimientos
-    try:
-        with open('base_conocimientos.json', 'r') as archivo_json:
-            datos_json = json.load(archivo_json)
-            base_conocimientos = {}
-            
-            for clave, valor in datos_json.items():
-                clave_tupla = tuple(clave.strip("()").replace("'", "").split(", "))
-                base_conocimientos[clave_tupla] = valor
-    except FileNotFoundError:
-        print("No se encontró el archivo de base de conocimientos. Se usará una base vacía.")
-    except json.JSONDecodeError:
-        print("Hubo un error al leer el archivo de base de conocimientos.")
+    def limpiar_interfaz(self, *args):
+        # Limpiar el texto del resultado
+        self.resultado_texto.config(state="normal")
+        self.resultado_texto.delete(1.0, tk.END)
+        self.resultado_texto.config(state="disabled")
+        
+        # Limpiar la imagen
+        self.label_imagen.config(image="")
+        
+        # Restablecer estados de botones
+        self.boton_explicacion.config(state="disabled")
+        self.boton_ver_doctor.config(state="disabled")
+        
+        # Ocultar botón de aprender si está visible
+        self.boton_aprender.pack_forget()
+        
+        # Limpiar variables guardadas
+        self.explicacion_guardada = ""
+        self.imagen_guardada = None
 
-# Guardar la base de conocimientos en un archivo JSON
-def guardar_base_conocimientos():
-    datos_json = {str(clave): valor for clave, valor in base_conocimientos.items()}
-    with open('base_conocimientos.json', 'w') as archivo_json:
-        json.dump(datos_json, archivo_json, indent=4)
+    def crear_interfaz(self):
+        tk.Label(self.ventana, text="¿Cuál es el motivo principal de la consulta?").pack()
+        self.opcion_motivo = tk.StringVar(value="Dolor")
+        self.opcion_motivo.trace('w', self.limpiar_interfaz)
+        tk.OptionMenu(self.ventana, self.opcion_motivo, "Dolor", "Control de salud", "Revisión de síntomas", "Consulta preventiva").pack()
 
-# Motor de Inferencia
-def motor_inferencia(hechos):
-    clave = tuple(hechos.values())
-    if clave in base_conocimientos:
-        recomendacion = base_conocimientos[clave]["recomendacion"]
-        explicacion = "\n".join(base_conocimientos[clave]["explicacion"])
-        imagen_path = base_conocimientos[clave]["imagen"]
-        return recomendacion, explicacion, imagen_path
-    else:
-        return "Lo siento, no tengo una recomendación adecuada. Podrías considerar consultar con un médico general.", "", None
+        tk.Label(self.ventana, text="¿Cómo calificaría la intensidad de sus síntomas?").pack()
+        self.opcion_sintomas = tk.StringVar(value="Leve")
+        self.opcion_sintomas.trace('w', self.limpiar_interfaz)
+        tk.OptionMenu(self.ventana, self.opcion_sintomas, "Leve", "Moderado", "Fuerte", "Muy fuerte").pack()
 
-# Función para actualizar la base de conocimientos
-def actualizar_base_conocimientos():
-    cargar_base_conocimientos()
+        tk.Label(self.ventana, text="¿Tiene antecedentes de alguna enfermedad crónica?").pack()
+        self.opcion_historial = tk.StringVar(value="No")
+        self.opcion_historial.trace('w', self.limpiar_interfaz)
+        tk.OptionMenu(self.ventana, self.opcion_historial, "Alergias a algún alimento", "Alergias a algún medicamento", "Operaciones o cirugías", "No").pack()
 
-# Función para obtener respuesta del sistema experto
-def sistema_experto(hechos):
-    recomendacion, explicacion, imagen_path = motor_inferencia(hechos)
-    return recomendacion, explicacion, imagen_path
+        tk.Label(self.ventana, text="¿Cuál es la edad del paciente?").pack()
+        self.opcion_edad = tk.StringVar(value="Entre 18-35 años")
+        self.opcion_edad.trace('w', self.limpiar_interfaz)
+        tk.OptionMenu(self.ventana, self.opcion_edad, "Menos de 18 años", "Entre 18-35 años", "Entre 36-60 años", "Más de 60 años").pack()
 
+        # El botón de aprender inicialmente está oculto
+        self.boton_aprender = tk.Button(self.ventana, text="Aprender", command=self.abrir_ventana_aprender)
+        # No lo empaquetamos aquí, lo haremos solo cuando sea necesario
 
-def interfaz_grafica():
-    def obtener_respuesta():
-        hechos["motivo_consulta"] = opcion_motivo.get()
-        hechos["nivel_sintomas"] = opcion_sintomas.get()
-        hechos["historial_medico"] = opcion_historial.get()
-        hechos["edad"] = opcion_edad.get()
-        hechos["horario_atencion"] = opcion_horario.get()
+        self.boton_responder = tk.Button(self.ventana, text="Obtener Asignación de Doctor", command=self.obtener_respuesta)
+        self.boton_responder.pack(pady=10)
 
-        recomendacion, explicacion, imagen_path = sistema_experto(hechos)
-        resultado_texto.config(state="normal")
-        resultado_texto.delete(1.0, tk.END)
-        resultado_texto.insert(tk.END, recomendacion)
-        resultado_texto.config(state="disabled")
+        self.boton_explicacion = tk.Button(self.ventana, text="Mostrar explicación", state="disabled", command=self.mostrar_explicacion)
+        self.boton_explicacion.pack(pady=10)
 
-        global explicacion_guardada, imagen_guardada
-        explicacion_guardada = explicacion
-        imagen_guardada = imagen_path
+        self.boton_ver_doctor = tk.Button(self.ventana, text="Ver Doctor", state="disabled", command=self.mostrar_imagen)
+        self.boton_ver_doctor.pack(pady=10)
 
-        boton_explicacion.config(state="normal")
-        boton_ver_doctor.config(state="normal")
+        tk.Label(self.ventana, text="Resultado del Sistema Experto:").pack()
+        self.resultado_texto = tk.Text(self.ventana, height=10, width=70, state="disabled", wrap="word")
+        self.resultado_texto.pack()
 
-    def abrir_ventana_aprender():
-        aprender_conocimiento()
-    
-    def mostrar_explicacion():
-        if explicacion_guardada:
-            resultado_texto.config(state="normal")
-            resultado_texto.insert(tk.END, "\n\nEXPLICACIÓN:\n" + explicacion_guardada)
-            resultado_texto.config(state="disabled")
-        boton_explicacion.config(state="disabled")
+        self.label_imagen = tk.Label(self.ventana)
+        self.label_imagen.pack(pady=10)
 
-    def mostrar_imagen():
-        if imagen_guardada:
-            imagen = Image.open(imagen_guardada)
+        self.explicacion_guardada = ""
+        self.imagen_guardada = None
+
+    def obtener_respuesta(self):
+        self.hechos["motivo_consulta"] = self.opcion_motivo.get()
+        self.hechos["nivel_sintomas"] = self.opcion_sintomas.get()
+        self.hechos["historial_medico"] = self.opcion_historial.get()
+        self.hechos["edad"] = self.opcion_edad.get()
+
+        recomendacion, explicacion, imagen_path = self.motor_inferencia()
+        self.resultado_texto.config(state="normal")
+        self.resultado_texto.delete(1.0, tk.END)
+        self.resultado_texto.insert(tk.END, recomendacion)
+        self.resultado_texto.config(state="disabled")
+
+        self.explicacion_guardada = explicacion
+        self.imagen_guardada = imagen_path
+
+        # Mostrar u ocultar botón de aprender según la recomendación
+        if "Lo siento, no tengo una recomendación adecuada" in recomendacion:
+            self.boton_aprender.pack(pady=10)
+        else:
+            self.boton_aprender.pack_forget()
+
+        self.boton_explicacion.config(state="normal")
+        self.boton_ver_doctor.config(state="normal")
+
+    def abrir_ventana_aprender(self):
+        def on_aprendizaje_completado():
+            self.actualizar_base_conocimientos()
+            messagebox.showinfo("Éxito", "Base de conocimientos actualizada exitosamente")
+            ventana_memoria.destroy()
+            # Actualizar la interfaz con la nueva información
+            self.obtener_respuesta()
+        
+        ventana_memoria = tk.Toplevel(self.ventana)
+        aprender_conocimiento(ventana_memoria, self.hechos, on_aprendizaje_completado)
+
+    def mostrar_explicacion(self):
+        if self.explicacion_guardada:
+            self.resultado_texto.config(state="normal")
+            self.resultado_texto.insert(tk.END, "\n\nEXPLICACIÓN:\n" + self.explicacion_guardada)
+            self.resultado_texto.config(state="disabled")
+        self.boton_explicacion.config(state="disabled")
+
+    def mostrar_imagen(self):
+        if self.imagen_guardada:
+            imagen = Image.open(self.imagen_guardada)
             imagen = imagen.resize((150, 150), Image.LANCZOS)
             imagen_tk = ImageTk.PhotoImage(imagen)
-            label_imagen.config(image=imagen_tk)
-            label_imagen.image = imagen_tk
+            self.label_imagen.config(image=imagen_tk)
+            self.label_imagen.image = imagen_tk
 
-    ventana = tk.Tk()
-    ventana.title("Sistema Experto - Asignación de Doctor")
-    ventana.geometry("600x700")
-
-    boton_reiniciar = tk.Button(ventana, text="Reiniciar Aplicación", command=reiniciar_aplicacion)
-    boton_reiniciar.pack(pady=10)
-
-
-    tk.Label(ventana, text="¿Cuál es el motivo principal de la consulta?").pack()
-    opcion_motivo = tk.StringVar(value="Dolor")
-    tk.OptionMenu(ventana, opcion_motivo, "Dolor", "Control de salud", "Revisión de síntomas", "Consulta preventiva").pack()
-
-    tk.Label(ventana, text="¿Cómo calificaría la intensidad de sus síntomas?").pack()
-    opcion_sintomas = tk.StringVar(value="Leve")
-    tk.OptionMenu(ventana, opcion_sintomas, "Leve", "Moderado", "Fuerte", "Muy fuerte").pack()
-
-    tk.Label(ventana, text="¿Tiene antecedentes de alguna enfermedad crónica?").pack()
-    opcion_historial = tk.StringVar(value="No")
-    tk.OptionMenu(ventana, opcion_historial, "Alergias a algún alimento", "Alergias a algún medicamento", "Operaciones o cirugías", "No").pack()
-
-    tk.Label(ventana, text="¿Cuál es la edad del paciente?").pack()
-    opcion_edad = tk.StringVar(value="Entre 18-35 años")
-    tk.OptionMenu(ventana, opcion_edad, "Menos de 18 años", "Entre 18-35 años", "Entre 36-60 años", "Más de 60 años").pack()
-
-    tk.Label(ventana, text="¿Qué horario de atención necesita?").pack()
-    opcion_horario = tk.StringVar(value="Matutino")
-    tk.OptionMenu(ventana, opcion_horario, "Matutino", "Vespertino", "Nocturno", "Fines de semana").pack()
-
-    boton_aprender = tk.Button(ventana, text="Aprender", command=abrir_ventana_aprender)
-    boton_aprender.pack(pady=10)
-
-    boton_responder = tk.Button(ventana, text="Obtener Asignación de Doctor", command=obtener_respuesta)
-    boton_responder.pack(pady=10)
-
-    boton_explicacion = tk.Button(ventana, text="Mostrar explicación", state="disabled", command=mostrar_explicacion)
-    boton_explicacion.pack(pady=10)
-
-    boton_ver_doctor = tk.Button(ventana, text="Ver Doctor", state="disabled", command=mostrar_imagen)
-    boton_ver_doctor.pack(pady=10)
-
-    tk.Label(ventana, text="Resultado del Sistema Experto:").pack()
-    resultado_texto = tk.Text(ventana, height=10, width=70, state="disabled", wrap="word")
-    resultado_texto.pack()
-
-    label_imagen = tk.Label(ventana)
-    label_imagen.pack(pady=10)
-
-    ventana.mainloop()
+    def iniciar(self):
+        self.ventana.mainloop()
 
 if __name__ == "__main__":
-    cargar_base_conocimientos()
-    interfaz_grafica()
-
+    app = InterfazMedica()
+    app.iniciar()

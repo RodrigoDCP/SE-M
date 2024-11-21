@@ -1,92 +1,1251 @@
 {
-    "(Dolor, Leve, No, Menos de 18 a\u00f1os, Matutino)": {
-        "recomendacion": "Dr. Garc\u00eda, Pediatra",
+    "('Dolor', 'Muy fuerte', 'Operaciones o cirug\u00edas', 'Entre 36-60 a\u00f1os')": {
+        "recomendacion": "Dra.Elvia Zapata Alvarado, Alg\u00f3logo",
         "explicacion": [
-            "- Especialista en el cuidado y tratamiento de ni\u00f1os.",
-            "- Consultas disponibles en horario matutino.",
-            "- Consulta en 2-3 d\u00edas h\u00e1biles.",
+            "Te recomiento este doc ya que es:",
+            "-Adecuado para pacientes con dolor con antecedentes quir\u00fargicos.",
+            "-Recomendado si el dolor es persistente a inflamaci\u00f3n postquir\u00fargica.",
+            "-"
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/stray kids/doc4.jpeg"
+    },
+    "('Dolor', 'Leve', 'Operaciones o cirug\u00edas', 'Entre 18-35 a\u00f1os')": {
+        "recomendacion": "Dr. Juan Carlos Gonz\u00e1lez P\u00e9rez, Alg\u00f3logo",
+        "explicacion": [
+            "-Recomendado por su experiencia en manejo del dolor cr\u00f3nico y agudo.",
+            "-Ideal para pacientes con antecedentes quir\u00fargicos y dolor persistente.",
+            "-Utiliza t\u00e9cnicas avanzadas de bloqueos nerviosos y terapias personalizadas."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/stray kids/doc7.jpeg"
+    },
+    "('Dolor', 'Moderado', 'Operaciones o cirug\u00edas', 'Menos de 18 a\u00f1os')": {
+        "recomendacion": "Dr. Luis Fernando Mart\u00ednez, Traumat\u00f3logo",
+        "explicacion": [
+            "-Especialista en dolor relacionado con lesiones \u00f3seas o articulares.",
+            "-Recomendado si hay cirug\u00edas previas en columna, caderas o rodillas.",
+            "-Ofrece terapias m\u00ednimamente invasivas y rehabilitaci\u00f3n especializada."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/stray kids/doc7.jpeg"
+    },
+    "('Dolor', 'Moderado', 'Operaciones o cirug\u00edas', 'Entre 36-60 a\u00f1os')": {
+        "recomendacion": "Dra. Carolina L\u00f3pez Vargas, Gastroenter\u00f3loga",
+        "explicacion": [
+            "-Ideal para pacientes con dolor relacionado con intervenciones abdominales.",
+            "-Recomendado si hay historial de cirug\u00edas digestivas o complicaciones gastrointestinales.",
+            "-Experta en abordar molestias posquir\u00fargicas del sistema digestivo."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/stray kids/doc4.jpeg"
+    },
+
+        "('Revisi\u00f3n de s\u00edntomas', 'Moderado', 'Operaciones o cirug\u00edas', 'Entre 18-35 a\u00f1os')": {
+            "recomendacion": "Dr. \u00c1lvaro Fern\u00e1ndez, Cirujano General",
+            "explicacion": [
+            "-Especialista en revisi\u00f3n de s\u00edntomas postquir\u00fangicos en adultos j\u00f3venes.",
+            "-Ideal para evaluar complicaciones menores tras operaciones.",
+            "-Ofrece soluciones personalizadas y seguimiento continuo."
+            ],
+            "imagen": "/home/keny/Descargas/descom/image/doc9.jpeg"
+    },
+
+    "('Control de salud', 'Moderado', 'No', 'Entre 36-60 a\u00f1os')": {
+        "recomendacion": "Dr. Ernesto G\u00f3mez, M\u00e9dico Internista",
+        "explicacion": [
+            "-Ideal para controles peri\u00f3dicos en pacientes de mediana edad.",
+            "-Especialista en detectar problemas cr\u00f3nicos de forma temprana.",
+            "-Recomendado para mantener un estado de salud \u00f3ptimo."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc10.jpeg"
+    },
+    "('Consulta preventiva', 'Moderado', 'Operaciones o cirug\u00edas', 'M\u00e1s de 60 a\u00f1os')": {
+        "recomendacion": "Dra. Rosa Vargas, M\u00e9dica Geriatra",
+        "explicacion": [
+            "-Especialista en medicina preventiva para adultos mayores.",
+            "-Enfoque en manejo de secuelas quir\u00fangicas y prevenci\u00f3n de reca\u00eddas.",
+            "-Ideal para personas mayores con historial quir\u00fangico."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc4.jpeg"
+    },
+    "('Revisi\u00f3n de s\u00edntomas', 'Muy fuerte', 'Operaciones o cirug\u00edas', 'Entre 18-35 a\u00f1os')": {
+        "recomendacion": "Dr. Pablo Ram\u00edrez, Cirujano General",
+        "explicacion": [
+            "-Recomendado para pacientes j\u00f3venes con s\u00edntomas severos postquir\u00fangicos.",
+            "-Especialista en tratar complicaciones inmediatas tras cirug\u00edas.",
+            "-Enfoque r\u00e1pido y eficiente para aliviar el dolor."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc10.jpeg"
+    },
+    "('Dolor', 'Moderado', 'Alergias a alg\u00fan alimento', 'M\u00e1s de 60 a\u00f1os')": {
+        "recomendacion": "Dra. Natalia Ruiz, Nutri\u00f3loga y M\u00e9dica General",
+        "explicacion": [
+            "-Especialista en dolor asociado a reacciones alimenticias en adultos mayores.",
+            "-Ofrece un enfoque integral con orientaci\u00f3n nutricional.",
+            "-Ideal para aliviar molestias y mejorar la calidad de vida."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc12.jpeg"
+    },
+    "('Consulta preventiva', 'Leve', 'Alergias a alg\u00fan alimento', 'Entre 18-35 a\u00f1os')": {
+        "recomendacion": "Dr. Rodrigo P\u00e9rez, Nutri\u00f3logo",
+        "explicacion": [
+            "-Ideal para consultas preventivas enfocadas en alimentaci\u00f3n y alergias.",
+            "-Recomendado para adultos j\u00f3venes que buscan una vida saludable.",
+            "-Ofrece diagn\u00f3sticos preventivos y asesoramiento diet\u00e9tico personalizado."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc1.jpeg"
+    },
+    "('Dolor', 'Fuerte', 'Alergias a alg\u00fan medicamento', 'Entre 36-60 a\u00f1os')": {
+        "recomendacion": "Dr. Alejandro M\u00e9ndez, Alg\u00f3logo",
+        "explicacion": [
+            "-Especialista en manejo del dolor en adultos con alergias.",
+            "-Ofrece soluciones efectivas y seguras adaptadas a antecedentes al\u00e9rgicos.",
+            "-Enfoque en mejorar la calidad de vida a mediana edad."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc2.jpeg"
+    },
+    "('Control de salud', 'Fuerte', 'Operaciones o cirug\u00edas', 'Menos de 18 a\u00f1os')": {
+        "recomendacion": "Dra. Mar\u00eda Torres, Pediatra",
+        "explicacion": [
+            "-Especialista en revisiones preventivas en menores con historial quir\u00fangico.",
+            "-Recomendado para prevenir complicaciones y garantizar un desarrollo saludable.",
+            "-Ofrece un enfoque integral y personalizado para pacientes pedi\u00e1tricos."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc12.jpeg"
+    },
+    "('Revisi\u00f3n de s\u00edntomas', 'Moderado', 'Alergias a alg\u00fan medicamento', 'Menos de 18 a\u00f1os')": {
+        "recomendacion": "Dr. Javier L\u00f3pez, Pediatra y Alerg\u00f3logo",
+        "explicacion": [
+            "-Especialista en identificar s\u00edntomas al\u00e9rgicos en menores.",
+            "-Ofrece tratamientos seguros y personalizados seg\u00fan el historial m\u00e9dico.",
+            "-Recomendado para pacientes pedi\u00e1tricos con sensibilidad a medicamentos."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc17.jpeg"
+    },
+    "('Consulta preventiva', 'Fuerte', 'Alergias a alg\u00fan medicamento', 'M\u00e1s de 60 a\u00f1os')": {
+        "recomendacion": "Dra. Gabriela Ruiz, Geriatra",
+        "explicacion": [
+            "-Ideal para personas mayores con historial al\u00e9rgico buscando prevenci\u00f3n.",
+            "-Ofrece soluciones pr\u00e1cticas y seguras adaptadas a la tercera edad.",
+            "-Especialista en mejorar la calidad de vida de sus pacientes."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc12.jpeg"
+    },
+    "('Dolor', 'Muy fuerte', 'No', 'Entre 36-60 a\u00f1os')": {
+        "recomendacion": "Dr. Hugo Fern\u00e1ndez, M\u00e9dico Internista",
+        "explicacion": [
+            "-Especialista en manejo del dolor severo en adultos.",
+            "-Ofrece un enfoque integral para identificar la causa subyacente del dolor.",
+            "-Recomendado para diagn\u00f3sticos y tratamientos personalizados."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc3.jpeg"
+    },
+    "('Revisi\u00f3n de s\u00edntomas', 'Leve', 'No', 'Entre 18-35 a\u00f1os')": {
+        "recomendacion": "Dra. Luisa P\u00e9rez, M\u00e9dica General",
+        "explicacion": [
+            "-Ideal para evaluar s\u00edntomas leves en adultos j\u00f3venes.",
+            "-Ofrece tratamientos efectivos para aliviar molestias menores.",
+            "-Recomendado para diagn\u00f3sticos r\u00e1pidos y soluciones personalizadas."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc4.jpeg"
+    },
+    "('Consulta preventiva', 'Moderado', 'No', 'Entre 18-35 a\u00f1os')": {
+        "recomendacion": "Dr. Santiago Romero, M\u00e9dico General",
+        "explicacion": [
+            "-Ideal para j\u00f3venes adultos interesados en prevenci\u00f3n general.",
+            "-Ofrece ex\u00e1menes de rutina y planes de salud personalizados.",
+            "-Recomendado para identificar riesgos a tiempo y mejorar h\u00e1bitos."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc2.jpeg"
+    },
+    "('Dolor', 'Muy fuerte', 'Alergias a alg\u00fan alimento', 'Entre 36-60 a\u00f1os')": {
+        "recomendacion": "Dra. Patricia Moreno, Alerg\u00f3loga y Alg\u00f3loga",
+        "explicacion": [
+            "-Especialista en tratamiento del dolor severo relacionado con alergias.",
+            "-Enfocada en pacientes con reacciones alimenticias graves.",
+            "-Ofrece opciones no farmacol\u00f3gicas para minimizar riesgos."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc12.jpeg"
+    },
+    "('Control de salud', 'Leve', 'Alergias a alg\u00fan medicamento', 'Menos de 18 a\u00f1os')": {
+        "recomendacion": "Dra. Luc\u00eda Vargas, Pediatra",
+        "explicacion": [
+            "-Especialista en controles pedi\u00e1tricos para menores con alergias.",
+            "-Ideal para mantener un desarrollo saludable en ni\u00f1os.",
+            "-Ofrece atenci\u00f3n integral y estrategias preventivas."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc12.jpeg"
+    },
+    "('Revisi\u00f3n de s\u00edntomas', 'Fuerte', 'Operaciones o cirug\u00edas', 'M\u00e1s de 60 a\u00f1os')": {
+        "recomendacion": "Dr. Alberto Cruz, M\u00e9dico Internista",
+        "explicacion": [
+            "-Ideal para evaluar s\u00edntomas severos en adultos mayores postquir\u00fangicos.",
+            "-Recomendado para identificar posibles complicaciones o secuelas.",
+            "-Ofrece planes de tratamiento adaptados a la edad y el historial."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc14.jpeg"
+    },
+    "('Dolor', 'Moderado', 'Alergias a alg\u00fan medicamento', 'Entre 18-35 a\u00f1os')": {
+        "recomendacion": "Dra. Daniela Herrera, M\u00e9dica General",
+        "explicacion": [
+            "-Especialista en manejo de dolor moderado en adultos j\u00f3venes.",
+            "-Ofrece opciones seguras y personalizadas para pacientes al\u00e9rgicos.",
+            "-Recomendado para tratar y prevenir episodios recurrentes."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc12.jpeg"
+    },
+    "('Consulta preventiva', 'Muy fuerte', 'Operaciones o cirug\u00edas', 'Entre 36-60 a\u00f1os')": {
+        "recomendacion": "Dr. Javier Alarc\u00f3n, Internista y Cirujano General",
+        "explicacion": [
+            "-Especialista en prevenci\u00f3n de complicaciones quir\u00fangicas.",
+            "-Recomendado para pacientes con dolor severo y antecedentes quir\u00fangicos.",
+            "-Enfoque en diagn\u00f3stico r\u00e1pido y terapias preventivas."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc1.jpeg"
+    },
+    "('Revisi\u00f3n de s\u00edntomas', 'Leve', 'Alergias a alg\u00fan alimento', 'Entre 36-60 a\u00f1os')": {
+        "recomendacion": "Dra. Carolina Montalvo, Nutri\u00f3loga y M\u00e9dica General",
+        "explicacion": [
+            "-Ideal para evaluar s\u00edntomas leves relacionados con alergias alimenticias.",
+            "-Ofrece orientaci\u00f3n nutricional y manejo seguro del dolor.",
+            "-Recomendado para adultos con historial alimenticio problem\u00e1tico."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc12.jpeg"
+    },
+    "('Dolor', 'Muy fuerte', 'Operaciones o cirug\u00edas', 'M\u00e1s de 60 a\u00f1os')": {
+        "recomendacion": "Dra. Alicia Ram\u00edrez, Alg\u00f3loga Geri\u00e1trica",
+        "explicacion": [
+            "-Especialista en manejo del dolor severo postquir\u00fangico en adultos mayores.",
+            "-Ofrece terapias avanzadas para mejorar la calidad de vida.",
+            "-Enfoque multidisciplinario y personalizado seg\u00fan la condici\u00f3n del paciente."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc4.jpeg"
+    },
+    "('Consulta preventiva', 'Leve', 'Operaciones o cirug\u00edas', 'Menos de 18 a\u00f1os')": {
+        "recomendacion": "Dr. Jos\u00e9 Miranda, Pediatra",
+        "explicacion": [
+            "-Especialista en prevenci\u00f3n para menores con historial quir\u00fangico.",
+            "-Ofrece atenci\u00f3n integral y monitoreo continuo del desarrollo.",
+            "-Ideal para garantizar la salud a largo plazo de ni\u00f1os y adolescentes."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc5.jpeg"
+    },
+    "('Revisi\u00f3n de s\u00edntomas', 'Moderado', 'Alergias a alg\u00fan medicamento', 'M\u00e1s de 60 a\u00f1os')": {
+        "recomendacion": "Dr. Emilio G\u00f3mez, Geriatra",
+        "explicacion": [
+            "-Especialista en s\u00edntomas moderados en adultos mayores con alergias.",
+            "-Enfocado en identificar problemas asociados al envejecimiento.",
+            "-Recomendado para pacientes con sensibilidad a medicamentos."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc14.jpeg"
+    },
+    "('Dolor', 'Leve', 'Alergias a alg\u00fan alimento', 'Menos de 18 a\u00f1os')": {
+        "recomendacion": "Dra. Alejandra Rivera, Nutri\u00f3loga Pedi\u00e1trica",
+        "explicacion": [
+            "-Especialista en manejo de dolor leve asociado a alergias alimenticias.",
+            "-Ideal para ajustar h\u00e1bitos alimenticios en menores.",
+            "-Enfoque integral para mejorar el bienestar general del paciente."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc12.jpeg"
+    },
+        "('Consulta preventiva', 'Moderado', 'Alergias a alg\u00fan medicamento', 'Entre 36-60 a\u00f1os')": {
+            "recomendacion": "Dra. Gabriela Santos, M\u00e9dica Internista",
+            "explicacion": [
+                "-Especialista en controles preventivos para pacientes con alergias.",
+                "-Recomendado para evitar complicaciones mayores.",
+                "-Ofrece atenci\u00f3n detallada y personalizada para cada caso."
+            ],
+            "imagen": "/home/keny/Descargas/descom/image/doc12.jpeg"
+        },
+        "('Control de salud', 'Moderado', 'Operaciones o cirug\u00edas', 'Entre 18-35 a\u00f1os')": {
+            "recomendacion": "Dr. V\u00edctor S\u00e1nchez, M\u00e9dico General",
+            "explicacion": [
+                "-Especialista en monitoreo de salud para j\u00f3venes con historial quir\u00fangico.",
+                "-Ideal para detectar secuelas o riesgos relacionados con cirug\u00edas previas.",
+                "-Ofrece un enfoque preventivo y personalizado."
+            ],
+            "imagen": "/home/keny/Descargas/descom/image/doc13.jpeg"
+        },
+        "('Dolor', 'Moderado', 'Operaciones o cirug\u00edas', 'Entre 18-35 a\u00f1os')": {
+            "recomendacion": "Dra. M\u00f3nica Castillo, Alg\u00f3loga",
+            "explicacion": [
+                "-Especialista en dolor postquir\u00fangico de intensidad moderada.",
+                "-Recomendado para identificar y tratar secuelas quir\u00fangicas.",
+                "-Ofrece terapias no invasivas y seguimiento continuo."
+            ],
+            "imagen": "/home/keny/Descargas/descom/image/doc4.jpeg"
+        },
+        "('Consulta preventiva', 'Muy fuerte', 'Alergias a alg\u00fan alimento', 'M\u00e1s de 60 a\u00f1os')": {
+            "recomendacion": "Dr. Ricardo Ortega, Geriatra",
+            "explicacion": [
+                "-Especialista en prevenci\u00f3n para adultos mayores con alergias alimenticias.",
+                "-Enfoque en tratamientos seguros y estrategias de salud integral.",
+                "-Recomendado para evitar complicaciones graves asociadas a alergias."
+            ],
+            "imagen": "/home/keny/Descargas/descom/image/doc15.jpeg"
+        },
+        "('Revisi\u00f3n de s\u00edntomas', 'Fuerte', 'No', 'Menos de 18 a\u00f1os')": {
+            "recomendacion": "Dra. Ver\u00f3nica Salinas, Pediatra",
+            "explicacion": [
+                "-Ideal para evaluar s\u00edntomas intensos en menores.",
+                "-Recomendado para diagn\u00f3sticos r\u00e1pidos y precisos.",
+                "-Enfocada en mejorar el bienestar infantil de forma integral."
+            ],
+            "imagen": "/home/keny/Descargas/descom/image/doc12.jpeg"
+        },
+        "('Dolor', 'Muy fuerte', 'Alergias a alg\u00fan medicamento', 'M\u00e1s de 60 a\u00f1os')": {
+            "recomendacion": "Dra. Carmen Esquivel, Alg\u00f3loga y Geriatra",
+            "explicacion": [
+                "-Especialista en manejo de dolor severo en adultos mayores con alergias.",
+                "-Ofrece alternativas seguras y personalizadas para cada paciente.",
+                "-Enfoque en mejorar la calidad de vida y aliviar el sufrimiento."
+            ],
+            "imagen": "/home/keny/Descargas/descom/image/doc4.jpeg"
+        },
+        "('Consulta preventiva', 'Fuerte', 'No', 'Entre 18-35 a\u00f1os')": {
+            "recomendacion": "Dr. Luis Guzm\u00e1n, M\u00e9dico General",
+            "explicacion": [
+                "-Especialista en prevenci\u00f3n y manejo de s\u00edntomas en adultos j\u00f3venes.",
+                "-Ideal para evaluar riesgos de salud y ofrecer tratamientos tempranos.",
+                "-Recomendado para pacientes interesados en su bienestar integral."
+            ],
+            "imagen": "/home/keny/Descargas/descom/image/doc13.jpeg"
+        },
+        "('Revisi\u00f3n de s\u00edntomas', 'Leve', 'Operaciones o cirug\u00edas', 'M\u00e1s de 60 a\u00f1os')": {
+            "recomendacion": "Dr. Juli\u00e1n Rosales, M\u00e9dico Internista",
+            "explicacion": [
+                "-Especialista en seguimiento de s\u00edntomas leves postquir\u00fangicos en adultos mayores.",
+                "-Recomendado para garantizar una recuperaci\u00f3n adecuada.",
+                "-Ofrece diagn\u00f3sticos r\u00e1pidos y orientaci\u00f3n detallada."
+            ],
+            "imagen": "/home/keny/Descargas/descom/image/doc14.jpeg"
+        },
+        "('Control de salud', 'Muy fuerte', 'Operaciones o cirug\u00edas', 'Menos de 18 a\u00f1os')": {
+            "recomendacion": "Dra. Fernanda L\u00f3pez, Pediatra",
+            "explicacion": [
+                "-Especialista en monitoreo intensivo de menores con antecedentes quir\u00fangicos.",
+                "-Recomendado para prevenir complicaciones graves.",
+                "-Enfoque multidisciplinario para garantizar un desarrollo saludable."
+            ],
+            "imagen": "/home/keny/Descargas/descom/image/doc4.jpeg"
+    },
+    
+        "('Dolor', 'Fuerte', 'No', 'M\u00e1s de 60 a\u00f1os')": {
+            "recomendacion": "Dra. Ana Beltr\u00e1n, Geriatra",
+            "explicacion": [
+                "-Especialista en manejo de dolor en adultos mayores.",
+                "-Recomendado para identificar y tratar dolores no espec\u00edficos.",
+                "-Enfoque multidisciplinario para mejorar la calidad de vida."
+            ],
+            "imagen": "/home/keny/Descargas/descom/image/doc4.jpeg"
+        },
+        "('Revisi\u00f3n de s\u00edntomas', 'Leve', 'Operaciones o cirug\u00edas', 'Entre 18-35 a\u00f1os')": {
+            "recomendacion": "Dr. Esteban Morales, Cirujano General",
+            "explicacion": [
+                "-Especialista en evaluar complicaciones quir\u00fangicas en adultos j\u00f3venes.",
+                "-Ideal para s\u00edntomas moderados relacionados con cirug\u00edas recientes.",
+                "-Ofrece diagn\u00f3stico r\u00e1pido y terapias adecuadas."
+            ],
+            "imagen": "/home/keny/Descargas/descom/image/doc12.jpeg"
+        },
+        "('Consulta preventiva', 'Leve', 'Alergias a alg\u00fan medicamento', 'Menos de 18 a\u00f1os')": {
+            "recomendacion": "Dra. Silvia Ortega, Pediatra y Alerg\u00f3loga",
+            "explicacion": [
+                "-Especialista en prevenci\u00f3n pedi\u00e1trica con manejo de alergias.",
+                "-Ideal para menores con historial al\u00e9rgico buscando soluciones a largo plazo.",
+                "-Ofrece orientaci\u00f3n segura para padres y menores."
+            ],
+            "imagen": "/home/keny/Descargas/descom/image/doc12.jpeg"
+        },
+        "('Dolor', 'Muy fuerte', 'Alergias a alg\u00fan medicamento', 'Entre 36-60 a\u00f1os')": {
+            "recomendacion": "Dr. Miguel Vargas, Alg\u00f3logo",
+            "explicacion": [
+                "-Recomendado para tratar dolor severo en adultos con alergias.",
+                "-Utiliza enfoques innovadores para evitar medicamentos al\u00e9rg\u00e9nicos.",
+                "-Ofrece alternativas terap\u00e9uticas seguras y efectivas."
+            ],
+            "imagen": "/home/keny/Descargas/descom/image/doc14.jpeg"
+        },
+        "('Control de salud', 'Moderado', 'Operaciones o cirug\u00edas', 'M\u00e1s de 60 a\u00f1os')": {
+            "recomendacion": "Dra. Irene Ram\u00edrez, M\u00e9dica Geriatra",
+            "explicacion": [
+                "-Especialista en monitoreo de salud para adultos mayores.",
+                "-Ideal para pacientes con historial quir\u00fangico buscando prevenir reca\u00eddas.",
+                "-Ofrece planes de salud integrales y personalizados."
+            ],
+            "imagen": "/home/keny/Descargas/descom/image/doc4.jpeg"
+        },
+        "('Revisi\u00f3n de s\u00edntomas', 'Leve', 'No', 'Menos de 18 a\u00f1os')": {
+            "recomendacion": "Dr. Andr\u00e9s Herrera, Pediatra",
+            "explicacion": [
+                "-Ideal para ni\u00f1os con s\u00edntomas leves y sin historial m\u00e9dico significativo.",
+                "-Recomendado para evaluar molestias comunes y asegurar la salud general.",
+                "-Ofrece diagn\u00f3sticos r\u00e1pidos y orientaci\u00f3n adecuada para padres."
+            ],
+            "imagen": "/home/keny/Descargas/descom/image/doc10.jpeg"
+        },
+        "('Dolor', 'Moderado', 'Alergias a alg\u00fan alimento', 'Entre 18-35 a\u00f1os')": {
+            "recomendacion": "Dra. Natalia Rojas, Nutri\u00f3loga Geri\u00e1trica",
+            "explicacion": [
+                "-Especialista en tratar dolor leve a moderado relacionado con alergias alimenticias.",
+                "-Ideal para mejorar calidad de vida con un enfoque nutricional.",
+                "-Ofrece planes personalizados y monitoreo continuo."
+            ],
+            "imagen": "/home/keny/Descargas/descom/image/doc4.jpeg"
+        },
+        "('Consulta preventiva', 'Muy fuerte', 'No', 'Entre 18-35 a\u00f1os')": {
+            "recomendacion": "Dr. Alberto N\u00fa\u00f1ez, M\u00e9dico General",
+            "explicacion": [
+                "-Especialista en prevenci\u00f3n para adultos j\u00f3venes con s\u00edntomas graves.",
+                "-Recomendado para detectar problemas potenciales y tratarlos de inmediato.",
+                "-Ofrece soluciones integrales con enfoque preventivo."
+            ],
+            "imagen": "/home/keny/Descargas/descom/image/doc14.jpeg"
+        },
+        "('Control de salud', 'Fuerte', 'Alergias a alg\u00fan medicamento', 'Entre 36-60 a\u00f1os')": {
+            "recomendacion": "Dr. Emilio Torres, M\u00e9dico Internista",
+            "explicacion": [
+                "-Especialista en manejo de salud integral en adultos con alergias.",
+                "-Recomendado para prevenir complicaciones relacionadas con medicamentos.",
+                "-Ofrece monitoreo detallado y planes preventivos personalizados."
+            ],
+            "imagen": "/home/keny/Descargas/descom/image/doc2.jpeg"
+        },
+
+            "('Dolor', 'Leve', 'Operaciones o cirug\u00edas', 'Menos de 18 a\u00f1os')": {
+                "recomendacion": "Dra. Ana Sof\u00eda Mu\u00f1oz, Pediatra",
+                "explicacion": [
+                    "-Ideal para manejo de dolor leve postquir\u00fangico en menores.",
+                    "-Ofrece tratamientos no invasivos y seguimiento a largo plazo.",
+                    "-Recomendado para garantizar una recuperaci\u00f3n completa."
+                ],
+                "imagen": "/home/keny/Descargas/descom/image/doc4.jpeg"
+            },
+            "('Revisi\u00f3n de s\u00edntomas', 'Moderado', 'Alergias a alg\u00fan medicamento', 'Entre 18-35 a\u00f1os')": {
+                "recomendacion": "Dr. David Su\u00e1rez, M\u00e9dico General",
+                "explicacion": [
+                    "-Especialista en identificar causas de s\u00edntomas moderados en adultos j\u00f3venes.",
+                    "-Ofrece opciones seguras para pacientes con alergias.",
+                    "-Ideal para diagn\u00f3sticos r\u00e1pidos y planes de tratamiento efectivos."
+                ],
+                "imagen": "/home/keny/Descargas/descom/image/doc5.jpeg"
+            },
+            "('Consulta preventiva', 'Leve', 'No', 'Entre 36-60 a\u00f1os')": {
+                "recomendacion": "Dra. Lorena Garc\u00eda, M\u00e9dico Internista",
+                "explicacion": [
+                    "-Especialista en prevenci\u00f3n en adultos de mediana edad.",
+                    "-Ofrece diagn\u00f3sticos integrales para mejorar la calidad de vida.",
+                    "-Ideal para mantener un estado de salud \u00f3ptimo y prevenir enfermedades."
+                ],
+                "imagen": "/home/keny/Descargas/descom/image/doc12.jpeg"
+            },
+            "('Dolor', 'Muy fuerte', 'Operaciones o cirug\u00edas', 'Entre 18-35 a\u00f1os')": {
+                "recomendacion": "Dr. H\u00e9ctor Maldonado, Alg\u00f3logo",
+                "explicacion": [
+                    "-Especialista en tratar dolor intenso relacionado con antecedentes quir\u00fangicos.",
+                    "-Recomendado para j\u00f3venes con secuelas quir\u00fangicas dolorosas.",
+                    "-Ofrece soluciones r\u00e1pidas y eficaces para aliviar el dolor."
+                ],
+                "imagen": "/home/keny/Descargas/descom/image/doc13.jpeg"
+            },
+            "('Control de salud', 'Muy fuerte', 'Alergias a alg\u00fan alimento', 'Menos de 18 a\u00f1os')": {
+                "recomendacion": "Dra. Mariana S\u00e1nchez, Pediatra y Nutri\u00f3loga",
+                "explicacion": [
+                    "-Especialista en monitoreo de menores con s\u00edntomas severos relacionados con alergias.",
+                    "-Ideal para prevenir complicaciones graves y mejorar la dieta.",
+                    "-Recomendado para garantizar el bienestar nutricional y general del paciente."
+                ],
+                "imagen": "/home/keny/Descargas/descom/image/doc4.jpeg"
+            },
+            "('Revisi\u00f3n de s\u00edntomas', 'Fuerte', 'Alergias a alg\u00fan alimento', 'M\u00e1s de 60 a\u00f1os')": {
+                "recomendacion": "Dra. Alicia Herrera, Nutri\u00f3loga Cl\u00ednica",
+                "explicacion": [
+                    "-Especialista en adultos mayores con alergias y s\u00edntomas intensos.",
+                    "-Recomendado para evaluar s\u00edntomas y ajustar la alimentaci\u00f3n.",
+                    "-Ofrece monitoreo continuo y soluciones pr\u00e1cticas."
+                ],
+                "imagen": "/home/keny/Descargas/descom/image/doc12.jpeg"
+            },
+            "('Dolor', 'Fuerte', 'No', 'Entre 18-35 a\u00f1os')": {
+                "recomendacion": "Dr. Pablo Mart\u00ednez, M\u00e9dico General",
+                "explicacion": [
+                    "-Especialista en manejar dolores intensos en adultos j\u00f3venes.",
+                    "-Ideal para identificar causas subyacentes y tratarlas eficazmente.",
+                    "-Ofrece seguimiento continuo y tratamientos personalizados."
+                ],
+                "imagen": "/home/keny/Descargas/descom/image/doc6.jpeg"
+            },
+            "('Consulta preventiva', 'Moderado', 'Operaciones o cirug\u00edas', 'Entre 18-35 a\u00f1os')": {
+                "recomendacion": "Dra. Carla L\u00f3pez, Cirujana General",
+                "explicacion": [
+                    "-Especialista en prevenci\u00f3n de complicaciones postquir\u00fangicas.",
+                    "-Recomendado para j\u00f3venes adultos con historial quir\u00fangico reciente.",
+                    "-Ofrece un enfoque detallado y personalizado."
+                ],
+                "imagen": "/home/keny/Descargas/descom/image/doc12.jpeg"
+            },
+            "('Revisi\u00f3n de s\u00edntomas', 'Muy fuerte', 'No', 'M\u00e1s de 60 a\u00f1os')": {
+                "recomendacion": "Dr. Ernesto Castillo, Geriatra",
+                "explicacion": [
+                    "-Especialista en manejar s\u00edntomas severos en adultos mayores.",
+                    "-Recomendado para diagn\u00f3sticos detallados y seguimiento continuo.",
+                    "-Ideal para ofrecer alivio inmediato y mejorar la calidad de vida."
+                ],
+                "imagen": "/home/keny/Descargas/descom/image/doc8.jpeg"
+            },
+            "('Dolor', 'Leve', 'Alergias a alg\u00fan medicamento', 'Entre 18-35 a\u00f1os')": {
+                "recomendacion": "Dra. Fernanda Rojas, M\u00e9dica General",
+                "explicacion": [
+                    "-Ideal para tratar dolor leve en adultos j\u00f3venes con alergias.",
+                    "-Ofrece un enfoque seguro y no invasivo.",
+                    "-Recomendado para seguimiento y prevenci\u00f3n de episodios futuros."
+                ],
+                "imagen": "/home/keny/Descargas/descom/image/doc12.jpeg"
+            },
+            "('Consulta preventiva', 'Muy fuerte', 'Operaciones o cirug\u00edas', 'M\u00e1s de 60 a\u00f1os')": {
+                "recomendacion": "Dra. Alejandra Silva, Geriatra y Cirujana",
+                "explicacion": [
+                    "-Especialista en pacientes mayores con antecedentes quir\u00fangicos complejos.",
+                    "-Ofrece estrategias preventivas para evitar reca\u00eddas y complicaciones.",
+                    "-Ideal para monitorear la recuperaci\u00f3n a largo plazo."
+                ],
+                "imagen": "/home/keny/Descargas/descom/image/doc12.jpeg"
+            },
+            "('Dolor', 'Moderado', 'Alergias a alg\u00fan medicamento', 'Entre 36-60 a\u00f1os')": {
+                "recomendacion": "Dr. Javier Gonz\u00e1lez, M\u00e9dico Internista",
+                "explicacion": [
+                    "-Especialista en tratamiento de dolor moderado relacionado con alergias.",
+                    "-Ofrece alternativas terap\u00e9uticas seguras y personalizadas.",
+                    "-Ideal para pacientes con historial al\u00e9rgico que necesitan manejo espec\u00edfico."
+                ],
+                "imagen": "/home/keny/Descargas/descom/image/doc7.jpeg"
+            },
+            "('Revisi\u00f3n de s\u00edntomas', 'Leve', 'No', 'Entre 36-60 a\u00f1os')": {
+                "recomendacion": "Dra. Mar\u00eda L\u00f3pez, M\u00e9dica General",
+                "explicacion": [
+                    "-Especialista en evaluaciones de salud general en adultos.",
+                    "-Ideal para s\u00edntomas leves sin antecedentes m\u00e9dicos complejos.",
+                    "-Ofrece diagn\u00f3sticos r\u00e1pidos y orientaci\u00f3n preventiva."
+                ],
+                "imagen": "/home/keny/Descargas/descom/image/doc9.jpeg"
+            },
+            "('Consulta preventiva', 'Moderado', 'Alergias a alg\u00fan alimento', 'Menos de 18 a\u00f1os')": {
+                "recomendacion": "Dr. Carlos Mart\u00ednez, Pediatra y Alerg\u00f3logo",
+                "explicacion": [
+                    "-Especialista en prevenci\u00f3n y manejo de alergias alimentarias en ni\u00f1os.",
+                    "-Ideal para controlar reacciones al\u00e9rgicas leves a moderadas.",
+                    "-Ofrece seguimiento continuo y recomendaciones personalizadas."
+                ],
+                "imagen": "/home/keny/Descargas/descom/image/doc6.jpeg"
+            },
+            "('Dolor', 'Muy fuerte', 'Alergias a alg\u00fan medicamento', 'Entre 18-35 a\u00f1os')": {
+                "recomendacion": "Dra. Silvia Mendoza, Especialista en Dolor",
+                "explicacion": [
+                    "-Especialista en tratamiento de dolor severo en pacientes con alergias.",
+                    "-Utiliza m\u00e9todos innovadores para manejar el dolor sin riesgo de alergias.",
+                    "-Ofrece alternativas de tratamiento personalizadas y efectivas."
+                ],
+                "imagen": "/home/keny/Descargas/descom/image/doc10.jpeg"
+            },
+            "('Revisi\u00f3n de s\u00edntomas', 'Fuerte', 'No', 'Entre 18-35 a\u00f1os')": {
+                "recomendacion": "Dr. Roberto D\u00edaz, M\u00e9dico General",
+                "explicacion": [
+                    "-Ideal para adultos j\u00f3venes con s\u00edntomas intensos y sin antecedentes m\u00e9dicos graves.",
+                    "-Ofrece diagn\u00f3sticos r\u00e1pidos y tratamiento efectivo para aliviar los s\u00edntomas.",
+                    "-Recomendado para quienes buscan un enfoque integral para su salud."
+                ],
+                "imagen": "/home/keny/Descargas/descom/image/doc8.jpeg"
+            },
+            "('Consulta preventiva', 'Leve', 'Alergias a alg\u00fan medicamento', 'Entre 18-35 a\u00f1os')": {
+                "recomendacion": "Dra. Gabriela P\u00e9rez, M\u00e9dico General",
+                "explicacion": [
+                    "-Especialista en prevenci\u00f3n de reacciones al\u00e9rgicas leves en adultos j\u00f3venes.",
+                    "-Ofrece orientaci\u00f3n para evitar posibles reacciones y controlar alergias.",
+                    "-Ideal para diagn\u00f3stico temprano y tratamiento preventivo."
+                ],
+                "imagen": "/home/keny/Descargas/descom/image/doc9.jpeg"
+            },
+            "('Dolor', 'Moderado', 'Alergias a alg\u00fan alimento', 'Entre 36-60 a\u00f1os')": {
+                "recomendacion": "Dr. \u00d3scar Rivas, Nutri\u00f3logo Cl\u00ednico",
+                "explicacion": [
+                    "-Especialista en manejo de dolor moderado relacionado con alergias alimentarias.",
+                    "-Ofrece un enfoque integral y personalizado para mejorar la dieta y el bienestar.",
+                    "-Ideal para aquellos que buscan controlar los efectos de las alergias alimenticias."
+                ],
+                "imagen": "/home/keny/Descargas/descom/image/doc7.jpeg"
+            },
+            "('Control de salud', 'Fuerte', 'Operaciones o cirugías', 'Más de 60 años')": {
+        "recomendacion": "Dr. Roberto Sánchez, Médico Internista",
+        "explicacion": [
+            "- Ideal para controles periódicos en adultos mayores con historial quirúrgico.",
+            "- Recomendado para prevenir complicaciones relacionadas con intervenciones previas.",
+            "- Experiencia en manejo de condiciones crónicas y recuperación postquirúrgica.",
+            "- Costo por consulta: $700."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc7.jpeg"
+    },
+    "('Consulta preventiva', 'Leve', 'Alergias a algún medicamento', 'Entre 36-60 años')": {
+        "recomendacion": "Dra. Laura Méndez, Alergóloga",
+        "explicacion": [
+            "- Especialista en prevención de reacciones alérgicas en adultos.",
+            "- Recomendado para pacientes con historial de alergias a medicamentos.",
+            "- Ofrece estrategias personalizadas para mejorar la calidad de vida.",
+            "- Costo por consulta: $600."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc4.jpeg"
+    },
+    "('Dolor', 'Moderado', 'No', 'Menos de 18 años')": {
+        "recomendacion": "Dr. Andrés López, Pediatra",
+        "explicacion": [
+            "- Especialista en tratamiento de dolor moderado en niños y adolescentes.",
+            "- Recomendado para molestias temporales sin historial clínico significativo.",
+            "- Ofrece un enfoque integral para asegurar el bienestar del paciente.",
+            "- Costo por consulta: $450."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc5.jpeg"
+    },
+    "('Revisión de síntomas', 'Muy fuerte', 'Alergias a algún alimento', 'Entre 18-35 años')": {
+        "recomendacion": "Dr. Daniel Ruiz, Nutriólogo Clínico",
+        "explicacion": [
+            "- Experto en manejo de síntomas severos relacionados con alergias alimentarias.",
+            "- Ofrece soluciones nutricionales para aliviar molestias y prevenir reacciones.",
+            "- Ideal para adultos jóvenes con sensibilidad alimentaria severa.",
+            "- Costo por consulta: $550."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc8.jpeg"
+    },
+    "('Control de salud', 'Moderado', 'No', 'Entre 18-35 años')": {
+        "recomendacion": "Dra. Cecilia Ramírez, Médico General",
+        "explicacion": [
+            "- Ideal para controles regulares y evaluación de salud en adultos jóvenes.",
+            "- Recomendado para prevenir enfermedades crónicas y mejorar hábitos saludables.",
+            "- Experiencia en ofrecer seguimiento y atención personalizada.",
+            "- Costo por consulta: $500."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc12.jpeg"
+    },
+    "('Consulta preventiva', 'Muy fuerte', 'Operaciones o cirugías', 'Menos de 18 años')": {
+        "recomendacion": "Dra. Natalia Gómez, Pediatra",
+        "explicacion": [
+            "- Especialista en monitoreo preventivo en menores con historial quirúrgico.",
+            "- Experiencia en garantizar una recuperación adecuada y evitar recaídas.",
+            "- Ofrece soluciones personalizadas para mejorar la calidad de vida de los niños.",
+            "- Costo por consulta: $650."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc4.jpeg"
+    },
+    "('Revisión de síntomas', 'Leve', 'Alergias a algún medicamento', 'Entre 36-60 años')": {
+        "recomendacion": "Dr. Alberto Ruiz, Médico General",
+        "explicacion": [
+            "- Ideal para evaluar síntomas leves en pacientes con alergias a medicamentos.",
+            "- Experiencia en ofrecer tratamientos efectivos y seguros para evitar complicaciones.",
+            "- Recomendado para adultos de mediana edad con historial alérgico.",
+            "- Costo por consulta: $500."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc6.jpeg"
+    },
+    "('Dolor', 'Muy fuerte', 'Alergias a algún alimento', 'Más de 60 años')": {
+        "recomendacion": "Dra. Teresa Morales, Nutrióloga Geriátrica",
+        "explicacion": [
+            "- Experta en tratamiento de dolor severo asociado a alergias alimentarias en adultos mayores.",
+            "- Ofrece un enfoque nutricional para mejorar el bienestar y aliviar molestias.",
+            "- Recomendado para personas mayores con historial alérgico severo.",
+            "- Costo por consulta: $700."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc12.jpeg"
+    },
+    "('Dolor', 'Fuerte', 'Alergias a algún medicamento', 'Entre 18-35 años')": {
+        "recomendacion": "Dr. Esteban Rodríguez, Algólogo",
+        "explicacion": [
+            "- Especialista en manejo del dolor intenso en adultos jóvenes con alergias.",
+            "- Utiliza técnicas seguras y efectivas para evitar reacciones adversas.",
+            "- Recomendado para aliviar molestias crónicas y mejorar la calidad de vida.",
+            "- Costo por consulta: $600."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc8.jpeg"
+    },
+    "('Consulta preventiva', 'Leve', 'Operaciones o cirugías', 'Entre 18-35 años')": {
+        "recomendacion": "Dra. Patricia López, Cirujana General",
+        "explicacion": [
+            "- Ideal para seguimiento preventivo en pacientes con historial quirúrgico reciente.",
+            "- Ofrece orientación detallada para prevenir complicaciones y mejorar la recuperación.",
+            "- Recomendado para adultos jóvenes que buscan un monitoreo constante.",
+            "- Costo por consulta: $650."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc4.jpeg"
+    },
+    "('Control de salud', 'Muy fuerte', 'No', 'Más de 60 años')": {
+        "recomendacion": "Dr. Martín Castro, Médico Internista",
+        "explicacion": [
+            "- Especialista en diagnóstico y tratamiento de condiciones graves en adultos mayores.",
+            "- Ideal para pacientes con síntomas intensos que requieren atención inmediata.",
+            "- Ofrece una atención integral y personalizada para mejorar la calidad de vida.",
             "- Costo por consulta: $800."
         ],
-        "imagen": "./image/doc1.jpg"
+        "imagen": "/home/keny/Descargas/descom/image/doc6.jpeg"
     },
-    "(Dolor, Moderado, Alergias a alg\u00fan alimento, Entre 18-35 a\u00f1os, Vespertino)": {
-        "recomendacion": "Dr. L\u00f3pez, Alerg\u00f3logo",
+    "('Consulta preventiva', 'Moderado', 'Operaciones o cirugías', 'Menos de 18 años')": {
+        "recomendacion": "Dra. Marta Ruiz, Pediatra",
         "explicacion": [
-            "- Especialista en alergias y problemas de salud relacionados.",
-            "- Consultas disponibles en horario vespertino.",
-            "- Consulta en 1-2 d\u00edas h\u00e1biles.",
-            "- Costo por consulta: $1,200."
+            "- Especialista en prevención postquirúrgica en niños y adolescentes.",
+            "- Recomendado para evitar complicaciones y garantizar una recuperación adecuada.",
+            "- Ofrece estrategias personalizadas para fortalecer el bienestar infantil.",
+            "- Costo por consulta: $550."
         ],
-        "imagen": "/home/keny/Escritorio/spaceCode/se2/image/doc1.jpg"
+        "imagen": "/home/keny/Descargas/descom/image/doc4.jpeg"
     },
-    "(Control de salud, Leve, No, M\u00e1s de 60 a\u00f1os, Matutino)": {
-        "recomendacion": "Dr. Mart\u00ednez, Geriatra",
+    "('Dolor', 'Fuerte', 'Operaciones o cirugías', 'Entre 18-35 años')": {
+        "recomendacion": "Dr. Sebastián Gómez, Cirujano General",
         "explicacion": [
-            "- Experto en el cuidado de personas mayores de 60 a\u00f1os.",
-            "- Consultas en horario matutino.",
-            "- Consulta en 3-5 d\u00edas h\u00e1biles.",
-            "- Costo por consulta: $1,500."
+            "- Especialista en dolor postquirúrgico intenso.",
+            "- Ofrece soluciones personalizadas para manejar el dolor crónico o agudo.",
+            "- Ideal para adultos jóvenes con antecedentes quirúrgicos y dolor persistente.",
+            "- Costo por consulta: $700."
         ],
-        "imagen": "/home/keny/Escritorio/spaceCode/se2/image/doc1.jpg"
+        "imagen": "/home/keny/Descargas/descom/image/doc10.jpeg"
     },
-    "(Revisi\u00f3n de s\u00edntomas, Fuerte, Operaciones o cirug\u00edas, Entre 36-60 a\u00f1os, Nocturno)": {
-        "recomendacion": "Dr. Rivera, Especialista en Medicina Interna",
+    "('Consulta preventiva', 'Muy fuerte', 'Alergias a algún alimento', 'Entre 18-35 años')": {
+        "recomendacion": "Dra. Lucía Pérez, Nutrióloga",
         "explicacion": [
-            "- Adecuado para pacientes con historial quir\u00fargico y s\u00edntomas fuertes.",
-            "- Disponibilidad en horario nocturno.",
-            "- Consulta de emergencia: atenci\u00f3n en el mismo d\u00eda.",
-            "- Costo por consulta: $2,000."
+            "- Especialista en prevención de reacciones alérgicas alimentarias graves.",
+            "- Ofrece diagnóstico y soluciones nutricionales efectivas.",
+            "- Recomendado para pacientes con alergias alimentarias severas.",
+            "- Costo por consulta: $650."
         ],
-        "imagen": "/home/keny/Escritorio/spaceCode/se2/image/doc1.jpg"
+        "imagen": "/home/keny/Descargas/descom/image/doc4.jpeg"
     },
-    "(Consulta preventiva, Moderado, Alergias a alg\u00fan medicamento, Entre 18-35 a\u00f1os, Fines de semana)": {
-        "recomendacion": "Dra. Morales, Medicina General",
+    "('Revisión de síntomas', 'Moderado', 'Operaciones o cirugías', 'Más de 60 años')": {
+        "recomendacion": "Dr. Francisco Díaz, Médico Geriátrico",
         "explicacion": [
-            "- Recomendado para consultas preventivas y asesoramiento general.",
-            "- Consultas disponibles los fines de semana.",
-            "- Consulta en 2-4 d\u00edas h\u00e1biles.",
-            "- Costo por consulta: $900."
+            "- Ideal para revisar síntomas postquirúrgicos en adultos mayores.",
+            "- Especialista en detección temprana de complicaciones y secuelas.",
+            "- Ofrece un enfoque personalizado para cada paciente geriátrico.",
+            "- Costo por consulta: $750."
         ],
-        "imagen": "/home/keny/Escritorio/spaceCode/se2/image/doc1.jpg"
+        "imagen": "/home/keny/Descargas/descom/image/doc7.jpeg"
     },
-    "(Dolor, Muy fuerte, Operaciones o cirug\u00edas, Menos de 18 a\u00f1os, Matutino)": {
-        "recomendacion": "Dr. S\u00e1nchez, Cirujano Pedi\u00e1trico",
+    "('Dolor', 'Moderado', 'No', 'Más de 60 años')": {
+        "recomendacion": "Dr. Felipe Martínez, Médico Internista",
         "explicacion": [
-            "- Especialista en cirug\u00edas pedi\u00e1tricas, adecuado para s\u00edntomas muy fuertes.",
-            "- Consultas disponibles en horario matutino.",
-            "- Atenci\u00f3n de urgencia: disponibilidad inmediata.",
-            "- Costo por consulta: $3,000."
+            "- Especialista en manejo del dolor moderado en adultos mayores.",
+            "- Ideal para diagnosticar causas subyacentes y ofrecer soluciones efectivas.",
+            "- Recomendado para pacientes con molestias persistentes.",
+            "- Costo por consulta: $700."
         ],
-        "imagen": "/home/keny/Escritorio/spaceCode/se2/image/doc1.jpg"
+        "imagen": "/home/keny/Descargas/descom/image/doc8.jpeg"
     },
-    "(Control de salud, Leve, Alergias a alg\u00fan medicamento, Entre 36-60 a\u00f1os, Vespertino)": {
-        "recomendacion": "Dra. Hern\u00e1ndez, Medicina General",
+    "('Consulta preventiva', 'Fuerte', 'Alergias a algún medicamento', 'Menos de 18 años')": {
+        "recomendacion": "Dra. Sofía Sánchez, Pediatra y Alergóloga",
         "explicacion": [
-            "- Consulta general para control de salud y alergias.",
-            "- Consultas en horario vespertino.",
-            "- Consulta en 2-3 d\u00edas h\u00e1biles.",
-            "- Costo por consulta: $1,100."
+            "- Especialista en prevención y manejo de alergias a medicamentos en menores.",
+            "- Ofrece un enfoque integral para evitar reacciones adversas.",
+            "- Recomendado para niños y adolescentes con historial alérgico.",
+            "- Costo por consulta: $550."
         ],
-        "imagen": "/home/keny/Escritorio/spaceCode/se2/image/doc1.jpg"
+        "imagen": "/home/keny/Descargas/descom/image/doc4.jpeg"
     },
-    "(Consulta preventiva, Moderado, No, M\u00e1s de 60 a\u00f1os, Matutino)": {
-        "recomendacion": "Dr. Torres, Geriatra",
+    "('Revisión de síntomas', 'Leve', 'Operaciones o cirugías', 'Entre 36-60 años')": {
+        "recomendacion": "Dr. Eduardo García, Cirujano General",
         "explicacion": [
-            "- Especialista en salud preventiva para personas mayores de 60 a\u00f1os.",
-            "- Horario matutino disponible.",
-            "- Consulta en 3-5 d\u00edas h\u00e1biles.",
-            "- Costo por consulta: $1,500."
+            "- Ideal para revisar síntomas postquirúrgicos leves en adultos de mediana edad.",
+            "- Ofrece soluciones rápidas y efectivas para la recuperación.",
+            "- Recomendado para pacientes con historial quirúrgico reciente.",
+            "- Costo por consulta: $650."
         ],
-        "imagen": "/home/keny/Escritorio/spaceCode/se2/image/doc1.jpg"
+        "imagen": "/home/keny/Descargas/descom/image/doc7.jpeg"
     },
-    "(Revisi\u00f3n de s\u00edntomas, Fuerte, Alergias a alg\u00fan alimento, Entre 18-35 a\u00f1os, Nocturno)": {
-        "recomendacion": "Dra. Fern\u00e1ndez, Medicina Interna",
+    "('Control de salud', 'Moderado', 'Alergias a algún alimento', 'Entre 36-60 años')": {
+        "recomendacion": "Dra. Isabel Pérez, Nutrióloga",
         "explicacion": [
-            "- Adecuado para s\u00edntomas fuertes y antecedentes de alergias.",
-            "- Disponibilidad en horario nocturno.",
-            "- Consulta de emergencia: atenci\u00f3n en el mismo d\u00eda.",
-            "- Costo por consulta: $1,800."
+            "- Especialista en manejo de alergias alimentarias y control de salud.",
+            "- Ofrece planes de dieta personalizados para mejorar la salud general.",
+            "- Recomendado para adultos con alergias alimenticias leves a moderadas.",
+            "- Costo por consulta: $650."
         ],
-        "imagen": "/home/keny/Escritorio/spaceCode/se2/image/doc1.jpg"
+        "imagen": "/home/keny/Descargas/descom/image/doc7.jpeg"
+    },
+    "('Revisión de síntomas', 'Fuerte', 'Alergias a algún alimento', 'Menos de 18 años')": {
+        "recomendacion": "Dr. Luis González, Pediatra",
+        "explicacion": [
+            "- Especialista en tratar síntomas graves relacionados con alergias alimenticias en menores.",
+            "- Ofrece diagnóstico y tratamiento inmediato para reacciones alérgicas.",
+            "- Recomendado para niños con alergias alimentarias severas.",
+            "- Costo por consulta: $500."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc5.jpeg"
+    },
+    "('Consulta preventiva', 'Moderado', 'No', 'Entre 36-60 años')": {
+        "recomendacion": "Dr. Víctor Hernández, Médico General",
+        "explicacion": [
+            "- Especialista en prevención de enfermedades crónicas en adultos de mediana edad.",
+            "- Ideal para pacientes que buscan mantener un estilo de vida saludable.",
+            "- Ofrece exámenes preventivos y consejos para evitar riesgos futuros.",
+            "- Costo por consulta: $650."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc9.jpeg"
+    },
+    "('Dolor', 'Leve', 'Alergias a algún medicamento', 'Más de 60 años')": {
+        "recomendacion": "Dra. Beatriz Álvarez, Geriatra",
+        "explicacion": [
+            "- Especialista en el tratamiento del dolor leve en adultos mayores con alergias a medicamentos.",
+            "- Ofrece tratamiento personalizado para aliviar molestias sin generar reacciones alérgicas.",
+            "- Recomendado para personas mayores con historial alérgico.",
+            "- Costo por consulta: $700."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc12.jpeg"
+    },
+    "('Dolor', 'Fuerte', 'Alergias a algún alimento', 'Entre 36-60 años')": {
+        "recomendacion": "Dr. Enrique Suárez, Algólogo",
+        "explicacion": [
+            "- Especialista en tratar dolor intenso relacionado con alergias alimenticias.",
+            "- Ofrece diagnóstico y tratamiento personalizado para aliviar molestias severas.",
+            "- Recomendado para adultos con reacciones alérgicas graves.",
+            "- Costo por consulta: $750."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc6.jpeg"
+    },
+    "('Control de salud', 'Leve', 'Operaciones o cirugías', 'Entre 18-35 años')": {
+        "recomendacion": "Dr. Fernando Álvarez, Médico General",
+        "explicacion": [
+            "- Ideal para controles preventivos en jóvenes adultos con antecedentes quirúrgicos.",
+            "- Ofrece diagnósticos rápidos y soluciones preventivas para una salud óptima.",
+            "- Recomendado para quienes buscan mantener un estilo de vida saludable tras cirugías.",
+            "- Costo por consulta: $500."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc5.jpeg"
+    },
+    "('Revisión de síntomas', 'Moderado', 'Alergias a algún medicamento', 'Entre 36-60 años')": {
+        "recomendacion": "Dr. Javier Pérez, Alergólogo",
+        "explicacion": [
+            "- Especialista en la revisión de síntomas alérgicos moderados relacionados con medicamentos.",
+            "- Ofrece tratamiento especializado y seguimiento continuo.",
+            "- Ideal para adultos que experimentan reacciones alérgicas no severas.",
+            "- Costo por consulta: $600."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc9.jpeg"
+    },
+    "('Consulta preventiva', 'Leve', 'No', 'Más de 60 años')": {
+        "recomendacion": "Dra. Rosa González, Médico General",
+        "explicacion": [
+            "- Ideal para realizar consultas preventivas en adultos mayores.",
+            "- Ofrece chequeos regulares para mantener una buena salud en la tercera edad.",
+            "- Recomendado para adultos mayores sin historial médico complejo.",
+            "- Costo por consulta: $600."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc12.jpeg"
+    },
+    "('Revisión de síntomas', 'Leve', 'Alergias a algún medicamento', 'Menos de 18 años')": {
+        "recomendacion": "Dr. Manuel Gómez, Pediatra",
+        "explicacion": [
+            "- Especialista en la revisión de síntomas leves de alergias a medicamentos en niños.",
+            "- Ofrece diagnóstico y seguimiento para prevenir futuros episodios alérgicos.",
+            "- Ideal para menores con reacciones leves a medicamentos.",
+            "- Costo por consulta: $450."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc5.jpeg"
+    },
+    "('Consulta preventiva', 'Leve', 'No', 'Menos de 18 a\u00f1os')": {
+        "recomendacion": "Dr. Rafael Jiménez, Pediatra Preventivo",
+        "explicacion": [
+            "-Especialista en chequeos preventivos para menores.",
+            "-Ideal para evaluaciones tempranas de salud infantil.",
+            "-Costo por consulta: $250."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc5.jpeg"
+    },
+    "('Dolor', 'Fuerte', 'Alergias a alg\u00fan alimento', 'Entre 18-35 a\u00f1os')": {
+        "recomendacion": "Dra. Ana López, Nutri\u00f3loga Cl\u00ednica",
+        "explicacion": [
+            "-Especialista en manejo de dolor relacionado con alergias alimentarias.",
+            "-Enfoque en tratamientos integrales y personalizados.",
+            "-Costo por consulta: $420."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc4.jpeg"
+    },
+    "('Control de salud', 'Muy fuerte', 'Alergias a alg\u00fan medicamento', 'Entre 36-60 a\u00f1os')": {
+        "recomendacion": "Dra. Sofía Ramírez, Inmunóloga",
+        "explicacion": [
+            "-Especialista en control de salud con manejo de alergias complejas.",
+            "-Recomendada para pacientes con reacciones medicamentosas severas.",
+            "-Costo por consulta: $650."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc12.jpeg"
+    },
+    "('Consulta preventiva', 'Fuerte', 'Alergias a alg\u00fan alimento', 'Entre 18-35 a\u00f1os')": {
+        "recomendacion": "Dr. Ramiro Sánchez, Nutricionista Clínico",
+        "explicacion": [
+            "-Especialista en prevención con enfoque en alergias alimentarias.",
+            "-Evaluación integral de riesgos nutricionales y alergénicos.",
+            "-Costo por consulta: $450."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc13.jpeg"
+    },
+    "('Control de salud', 'Moderado', 'Alergias a alg\u00fan medicamento', 'Entre 36-60 a\u00f1os')": {
+        "recomendacion": "Dr. Sergio Álvarez, Alergólogo Internista",
+        "explicacion": [
+            "-Especialista en control de salud con manejo de alergias medicamentosas.",
+            "-Enfoque en diagnóstico diferencial y tratamientos personalizados.",
+            "-Costo por consulta: $550."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc2.jpeg"
+    },
+    "('Control de salud', 'Muy fuerte', 'Operaciones o cirugías', 'Entre 18-35 años')": {
+        "recomendacion": "Dr. Carlos Ramírez, Cirujano General",
+        "explicacion": [
+            "- Especialista en seguimiento intensivo postquirúrgico en adultos jóvenes.",
+            "- Ofrece un enfoque integral para la recuperación rápida y eficaz.",
+            "- Recomendado para pacientes con dolor severo tras cirugía.",
+            "- Costo por consulta: $800."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc6.jpeg"
+    },
+    "('Revisión de síntomas', 'Moderado', 'No', 'Entre 18-35 años')": {
+        "recomendacion": "Dra. Cecilia Herrera, Médica General",
+        "explicacion": [
+            "- Ideal para evaluar síntomas moderados en adultos jóvenes.",
+            "- Ofrece diagnóstico rápido y opciones de tratamiento efectivas.",
+            "- Recomendado para quienes buscan soluciones rápidas a síntomas menores.",
+            "- Costo por consulta: $500."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc9.jpeg"
+    },
+    "('Revisión de síntomas', 'Muy fuerte', 'Alergias a algún alimento', 'Entre 36-60 años')": {
+        "recomendacion": "Dr. Javier Solís, Nutriólogo Clínico",
+        "explicacion": [
+            "- Especialista en tratar reacciones alérgicas graves a alimentos.",
+            "- Ofrece soluciones dietéticas para prevenir y aliviar los síntomas alérgicos.",
+            "- Ideal para adultos con reacciones alérgicas severas a ciertos alimentos.",
+            "- Costo por consulta: $700."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc8.jpeg"
+    },
+    "('Consulta preventiva', 'Fuerte', 'Operaciones o cirugías', 'Más de 60 años')": {
+        "recomendacion": "Dr. Ricardo González, Cirujano General",
+        "explicacion": [
+            "- Especialista en prevención de complicaciones postquirúrgicas en adultos mayores.",
+            "- Ofrece estrategias para optimizar la recuperación y evitar recaídas.",
+            "- Recomendado para personas mayores que han pasado por cirugías.",
+            "- Costo por consulta: $800."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc7.jpeg"
+    },
+    "('Revisión de síntomas', 'Leve', 'Alergias a algún medicamento', 'Entre 18-35 años')": {
+        "recomendacion": "Dr. Diego Martínez, Alergólogo",
+        "explicacion": [
+            "- Especialista en revisar síntomas leves de alergias a medicamentos.",
+            "- Ofrece diagnóstico temprano para evitar complicaciones mayores.",
+            "- Recomendado para adultos jóvenes con alergias a medicamentos leves.",
+            "- Costo por consulta: $500."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc9.jpeg"
+    },
+    "('Consulta preventiva', 'Moderado', 'Alergias a algún alimento', 'Entre 18-35 años')": {
+        "recomendacion": "Dra. Ana Sánchez, Nutrióloga",
+        "explicacion": [
+            "- Especialista en prevención de reacciones alérgicas a alimentos.",
+            "- Ofrece seguimiento nutricional personalizado para evitar reacciones alérgicas.",
+            "- Ideal para jóvenes adultos con alergias alimentarias moderadas.",
+            "- Costo por consulta: $650."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc12.jpeg"
+    },
+    "('Revisión de síntomas', 'Muy fuerte', 'Operaciones o cirugías', 'Menos de 18 años')": {
+        "recomendacion": "Dra. Marta Fernández, Pediatra",
+        "explicacion": [
+            "- Especialista en el manejo de síntomas postquirúrgicos severos en menores.",
+            "- Recomendado para niños con dolor intenso tras cirugía.",
+            "- Ofrece seguimiento constante para garantizar una recuperación segura.",
+            "- Costo por consulta: $700."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc4.jpeg"
+    },
+    "('Consulta preventiva', 'Leve', 'Operaciones o cirugías', 'Entre 36-60 años')": {
+        "recomendacion": "Dr. Antonio Sánchez, Cirujano General",
+        "explicacion": [
+            "- Especialista en prevenir complicaciones postquirúrgicas en adultos.",
+            "- Ofrece evaluaciones regulares para detectar posibles riesgos.",
+            "- Recomendado para adultos con historial quirúrgico reciente.",
+            "- Costo por consulta: $600."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc9.jpeg"
+    },
+    "('Revisión de síntomas', 'Moderado', 'Alergias a algún alimento', 'Más de 60 años')": {
+        "recomendacion": "Dr. Roberto Pérez, Geriatra",
+        "explicacion": [
+            "- Ideal para revisar síntomas moderados en adultos mayores con alergias alimentarias.",
+            "- Ofrece diagnósticos rápidos y opciones de tratamiento personalizadas.",
+            "- Recomendado para personas mayores que necesitan control de alergias alimentarias.",
+            "- Costo por consulta: $700."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc8.jpeg"
+    },
+    "('Consulta preventiva', 'Muy fuerte', 'Alergias a algún medicamento', 'Más de 60 años')": {
+        "recomendacion": "Dr. Martín Rodríguez, Geriatra",
+        "explicacion": [
+            "- Especialista en prevención de reacciones alérgicas severas a medicamentos en adultos mayores.",
+            "- Ofrece tratamiento personalizado para reducir el riesgo de complicaciones.",
+            "- Recomendado para pacientes mayores con historial alérgico grave.",
+            "- Costo por consulta: $750."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc12.jpeg"
+    },
+    "('Revisión de síntomas', 'Moderado', 'Operaciones o cirugías', 'Entre 36-60 años')": {
+        "recomendacion": "Dr. Tomás García, Médico Internista",
+        "explicacion": [
+            "- Especialista en tratar síntomas moderados postquirúrgicos en adultos de mediana edad.",
+            "- Ofrece diagnóstico y tratamiento rápido para evitar complicaciones.",
+            "- Ideal para pacientes con historial quirúrgico reciente.",
+            "- Costo por consulta: $650."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc9.jpeg"
+    },
+    "('Dolor', 'Moderado', 'Operaciones o cirugías', 'Más de 60 años')": {
+        "recomendacion": "Dr. Francisco Rodríguez, Cirujano General",
+        "explicacion": [
+            "- Especialista en manejo del dolor moderado postquirúrgico en adultos mayores.",
+            "- Ofrece terapias personalizadas para aliviar las molestias tras la cirugía.",
+            "- Recomendado para personas mayores con dolor postoperatorio moderado.",
+            "- Costo por consulta: $700."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc6.jpeg"
+    },
+    "('Revisión de síntomas', 'Muy fuerte', 'Alergias a algún medicamento', 'Menos de 18 años')": {
+        "recomendacion": "Dra. Liliana Ramos, Pediatra y Alergóloga",
+        "explicacion": [
+            "- Especialista en manejar reacciones alérgicas graves a medicamentos en niños.",
+            "- Ofrece soluciones rápidas y seguras para aliviar los síntomas intensos.",
+            "- Recomendado para menores con alergias severas a medicamentos.",
+            "- Costo por consulta: $600."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc12.jpeg"
+    },
+    "('Control de salud', 'Fuerte', 'Alergias a algún medicamento', 'Más de 60 años')": {
+        "recomendacion": "Dr. Eduardo Martín, Médico Internista",
+        "explicacion": [
+            "- Especialista en el control de salud para adultos mayores con alergias a medicamentos.",
+            "- Ofrece tratamientos seguros y soluciones personalizadas para evitar reacciones.",
+            "- Recomendado para pacientes mayores con historial alérgico grave.",
+            "- Costo por consulta: $800."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc8.jpeg"
+    },
+    "('Revisión de síntomas', 'Moderado', 'Alergias a algún alimento', 'Menos de 18 años')": {
+        "recomendacion": "Dr. Gabriel Herrera, Pediatra",
+        "explicacion": [
+            "- Ideal para revisar síntomas moderados relacionados con alergias alimenticias en niños.",
+            "- Ofrece diagnóstico rápido y soluciones para aliviar las molestias.",
+            "- Recomendado para niños con alergias alimentarias leves a moderadas.",
+            "- Costo por consulta: $550."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc6.jpeg"
+    },
+    "('Dolor', 'Leve', 'Operaciones o cirugías', 'Más de 60 años')": {
+        "recomendacion": "Dr. Felipe González, Cirujano General",
+        "explicacion": [
+            "- Ideal para tratar dolor leve postquirúrgico en adultos mayores.",
+            "- Ofrece seguimiento para prevenir complicaciones y asegurar la recuperación.",
+            "- Recomendado para personas mayores que han tenido cirugías recientes.",
+            "- Costo por consulta: $600."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc7.jpeg"
+    },
+    "('Consulta preventiva', 'Moderado', 'Alergias a algún medicamento', 'Entre 18-35 años')": {
+        "recomendacion": "Dr. Carlos López, Alergólogo",
+        "explicacion": [
+            "- Especialista en prevención de reacciones alérgicas a medicamentos en adultos jóvenes.",
+            "- Ofrece orientación para evitar complicaciones futuras y reacciones adversas.",
+            "- Recomendado para pacientes con alergias a medicamentos no severas.",
+            "- Costo por consulta: $550."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc9.jpeg"
+    },
+    "('Dolor', 'Leve', 'Operaciones o cirugías', 'Entre 36-60 años')": {
+        "recomendacion": "Dr. Ricardo Soto, Cirujano General",
+        "explicacion": [
+            "- Ideal para tratar dolor leve postquirúrgico en adultos de mediana edad.",
+            "- Ofrece seguimiento continuo para prevenir complicaciones.",
+            "- Recomendado para pacientes con intervenciones quirúrgicas recientes.",
+            "- Costo por consulta: $600."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc6.jpeg"
+    },
+    "('Control de salud', 'Fuerte', 'No', 'Más de 60 años')": {
+        "recomendacion": "Dra. Mariana Torres, Geriatra",
+        "explicacion": [
+            "- Especialista en el control de salud en adultos mayores.",
+            "- Ofrece evaluaciones periódicas para identificar problemas de salud a tiempo.",
+            "- Recomendado para personas mayores que desean mantener una vida saludable.",
+            "- Costo por consulta: $750."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc7.jpeg"
+    },
+    "('Dolor', 'Moderado', 'Alergias a algún alimento', 'Menos de 18 años')": {
+        "recomendacion": "Dr. Luis Hernández, Pediatra",
+        "explicacion": [
+            "- Especialista en manejo de dolor asociado a alergias alimentarias en niños.",
+            "- Ofrece soluciones seguras y personalizadas para reducir molestias.",
+            "- Ideal para niños con reacciones alérgicas leves a alimentos.",
+            "- Costo por consulta: $550."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc4.jpeg"
+    },
+    "('Revisión de síntomas', 'Fuerte', 'Operaciones o cirugías', 'Entre 18-35 años')": {
+        "recomendacion": "Dr. Pablo García, Cirujano General",
+        "explicacion": [
+            "- Recomendado para adultos jóvenes con síntomas postquirúrgicos severos.",
+            "- Ofrece un enfoque rápido para tratar complicaciones inmediatas.",
+            "- Ideal para evaluar riesgos postoperatorios y aliviar el dolor.",
+            "- Costo por consulta: $700."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc10.jpeg"
+    },
+    "('Dolor', 'Leve', 'Alergias a algún medicamento', 'Entre 36-60 años')": {
+        "recomendacion": "Dr. Gustavo Jiménez, Alergólogo",
+        "explicacion": [
+            "- Ideal para tratar dolor leve relacionado con reacciones alérgicas a medicamentos.",
+            "- Ofrece soluciones personalizadas para prevenir complicaciones.",
+            "- Recomendado para adultos con reacciones alérgicas leves a medicamentos.",
+            "- Costo por consulta: $600."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc6.jpeg"
+    },
+    "('Revisión de síntomas', 'Muy fuerte', 'Operaciones o cirugías', 'Entre 36-60 años')": {
+        "recomendacion": "Dr. Sebastián González, Cirujano General",
+        "explicacion": [
+            "- Especialista en tratamiento de síntomas severos postquirúrgicos en adultos de mediana edad.",
+            "- Ofrece diagnóstico rápido y seguimiento inmediato para aliviar el dolor.",
+            "- Ideal para pacientes con dolor grave tras cirugía.",
+            "- Costo por consulta: $800."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc5.jpeg"
+    },
+    "('Consulta preventiva', 'Moderado', 'Operaciones o cirugías', 'Entre 36-60 años')": {
+        "recomendacion": "Dr. Eduardo Martínez, Cirujano General",
+        "explicacion": [
+            "- Especialista en prevención de complicaciones postquirúrgicas en adultos de mediana edad.",
+            "- Ideal para quienes buscan monitoreo tras cirugías recientes.",
+            "- Ofrece atención personalizada para evitar recaídas y complicaciones.",
+            "- Costo por consulta: $700."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc9.jpeg"
+    },
+    "('Consulta preventiva', 'Fuerte', 'Alergias a algún alimento', 'Entre 36-60 años')": {
+        "recomendacion": "Dra. Claudia Pérez, Nutrióloga",
+        "explicacion": [
+            "- Especialista en prevención de reacciones alérgicas graves a alimentos.",
+            "- Ofrece soluciones dietéticas y nutricionales para evitar problemas.",
+            "- Ideal para adultos con alergias alimentarias severas.",
+            "- Costo por consulta: $700."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc7.jpeg"
+    },
+    "('Control de salud', 'Leve', 'Alergias a algún medicamento', 'Más de 60 años')": {
+        "recomendacion": "Dr. Enrique Solis, Médico Internista",
+        "explicacion": [
+            "- Ideal para control de salud en adultos mayores con antecedentes alérgicos.",
+            "- Ofrece un enfoque personalizado para evitar reacciones adversas.",
+            "- Recomendado para pacientes que buscan un manejo proactivo de su salud.",
+            "- Costo por consulta: $650."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc8.jpeg"
+    },
+    "('Revisión de síntomas', 'Fuerte', 'Operaciones o cirugías', 'Menos de 18 años')": {
+        "recomendacion": "Dra. Sofía García, Pediatra",
+        "explicacion": [
+            "- Ideal para niños con síntomas fuertes postquirúrgicos.",
+            "- Especialista en la identificación temprana de complicaciones postcirugía.",
+            "- Recomendado para niños con dolor intenso y secuelas de cirugía.",
+            "- Costo por consulta: $700."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc4.jpeg"
+    },
+    "('Consulta preventiva', 'Leve', 'Operaciones o cirugías', 'Más de 60 años')": {
+        "recomendacion": "Dr. Víctor Sánchez, Geriatra",
+        "explicacion": [
+            "- Especialista en prevención de complicaciones quirúrgicas en adultos mayores.",
+            "- Ideal para mantener un estado de salud general saludable.",
+            "- Recomendado para pacientes con antecedentes quirúrgicos leves.",
+            "- Costo por consulta: $650."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc12.jpeg"
+    },
+    "('Control de salud', 'Fuerte', 'Operaciones o cirugías', 'Entre 18-35 años')": {
+        "recomendacion": "Dr. Ricardo Fernández, Cirujano General",
+        "explicacion": [
+            "- Ideal para adultos jóvenes con dolor postquirúrgico intenso.",
+            "- Ofrece soluciones personalizadas para aliviar el dolor y prevenir complicaciones.",
+            "- Recomendado para pacientes con secuelas de cirugía reciente.",
+            "- Costo por consulta: $750."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc10.jpeg"
+    },
+    "('Dolor', 'Leve', 'Alergias a algún medicamento', 'Menos de 18 años')": {
+        "recomendacion": "Dr. Francisco García, Pediatra",
+        "explicacion": [
+            "- Especialista en el manejo de dolor leve relacionado con reacciones alérgicas a medicamentos en niños.",
+            "- Ofrece soluciones rápidas y efectivas para aliviar el dolor de forma segura.",
+            "- Ideal para menores que han experimentado alergias a medicamentos.",
+            "- Costo por consulta: $450."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc12.jpeg"
+    },
+    "('Revisión de síntomas', 'Moderado', 'Operaciones o cirugías', 'Menos de 18 años')": {
+        "recomendacion": "Dra. Carmen Sánchez, Pediatra",
+        "explicacion": [
+            "- Ideal para revisar síntomas postquirúrgicos moderados en menores.",
+            "- Ofrece seguimiento cercano para evaluar cualquier posible complicación.",
+            "- Recomendado para niños con cirugías recientes o intervenciones menores.",
+            "- Costo por consulta: $500."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc13.jpeg"
+    },
+    "('Consulta preventiva', 'Moderado', 'No', 'Más de 60 años')": {
+        "recomendacion": "Dr. Andrés Gómez, Médico General",
+        "explicacion": [
+            "- Ideal para adultos mayores que buscan mantener su salud en óptimas condiciones.",
+            "- Ofrece evaluación de factores de riesgo y tratamiento preventivo.",
+            "- Recomendado para la revisión periódica de salud en personas mayores.",
+            "- Costo por consulta: $650."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc9.jpeg"
+    },
+    "('Dolor', 'Leve', 'Alergias a algún alimento', 'Entre 36-60 años')": {
+        "recomendacion": "Dr. Javier Molina, Nutriólogo",
+        "explicacion": [
+            "- Especialista en tratamiento de dolor leve asociado con alergias alimenticias.",
+            "- Ofrece planes de dieta y estrategias para evitar reacciones alérgicas.",
+            "- Ideal para adultos con reacciones alérgicas leves a alimentos.",
+            "- Costo por consulta: $600."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc5.jpeg"
+    },
+    "('Dolor', 'Moderado', 'Alergias a algún medicamento', 'Más de 60 años')": {
+        "recomendacion": "Dra. Teresa Martínez, Geriatra",
+        "explicacion": [
+            "- Ideal para tratar dolor moderado asociado a alergias a medicamentos en adultos mayores.",
+            "- Ofrece alternativas para controlar el dolor sin riesgo de reacciones alérgicas graves.",
+            "- Recomendado para pacientes mayores con antecedentes alérgicos.",
+            "- Costo por consulta: $700."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc9.jpeg"
+    },
+    "('Dolor', 'Leve', 'No', 'Entre 36-60 años')": {
+        "recomendacion": "Dr. Roberto Rodríguez, Médico General",
+        "explicacion": [
+            "- Ideal para pacientes con dolor leve relacionado con condiciones no específicas.",
+            "- Ofrece diagnóstico rápido y orientación para aliviar molestias leves.",
+            "- Recomendado para adultos de mediana edad sin historial médico complejo.",
+            "- Costo por consulta: $550."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc5.jpeg"
+    },
+    "('Revisión de síntomas', 'Muy fuerte', 'Operaciones o cirugías', 'Más de 60 años')": {
+        "recomendacion": "Dra. Ana García, Cirujana General",
+        "explicacion": [
+            "- Especialista en tratar síntomas severos postquirúrgicos en adultos mayores.",
+            "- Ofrece seguimiento cercano y diagnóstico inmediato para evitar complicaciones.",
+            "- Recomendado para personas mayores con dolor severo después de la cirugía.",
+            "- Costo por consulta: $800."
+        ],
+        "imagen": "/home/keny/Descargas/descom/image/doc8.jpeg"
     }
 }
+        
+        
