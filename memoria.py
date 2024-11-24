@@ -17,7 +17,7 @@ def guardar_base_conocimientos(base_conocimientos):
         json.dump(base_conocimientos, archivo_json, indent=4)
 
 def aprender_conocimiento(ventana_padre, hechos_actuales, callback_actualizacion=None):
-    """Función para aprender nuevo conocimiento basado en los hechos actuales."""
+    """Funcion para aprender nuevo conocimiento basado en los hechos actuales."""
     def cargar_imagen():
         ruta_imagen = filedialog.askopenfilename(
             title="Selecciona una imagen",
@@ -57,14 +57,14 @@ def aprender_conocimiento(ventana_padre, hechos_actuales, callback_actualizacion
         # Guardar la base de conocimientos actualizada
         guardar_base_conocimientos(base_conocimientos)
 
-        # Llamar al callback de actualización si existe
+        # Llamar al callback de actualizacion si existe
         if callback_actualizacion:
             callback_actualizacion()
         else:
-            messagebox.showinfo("Éxito", "¡Nuevo conocimiento guardado exitosamente!")
+            messagebox.showinfo("exito", "¡Nuevo conocimiento guardado exitosamente!")
             ventana_padre.destroy()
 
-    # Configuración de la ventana de aprendizaje
+    # Configuracion de la ventana de aprendizaje
     ventana_padre.title("Aprender Nuevo Conocimiento")
     ventana_padre.geometry("400x600")
 
@@ -82,7 +82,7 @@ def aprender_conocimiento(ventana_padre, hechos_actuales, callback_actualizacion
     campo_doctor = tk.Entry(ventana_padre)
     campo_doctor.pack()
 
-    tk.Label(ventana_padre, text="Explicación del conocimiento:").pack()
+    tk.Label(ventana_padre, text="Explicacion del conocimiento:").pack()
     campo_explicacion = tk.Text(ventana_padre, height=5, width=40)
     campo_explicacion.pack()
 
