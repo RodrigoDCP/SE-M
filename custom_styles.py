@@ -40,10 +40,10 @@ class CustomButton(tk.Canvas):
         self.width = width
         self.height = height
         
-        # Crear el botón redondeado
+        # Crear el boton redondeado
         self.create_rounded_button()
         
-        # Eventos del ratón
+        # Eventos del raton
         self.bind('<Enter>', self.on_enter)
         self.bind('<Leave>', self.on_leave)
         self.bind('<Button-1>', self.on_click)
@@ -55,11 +55,11 @@ class CustomButton(tk.Canvas):
         # Limpiar el canvas
         self.delete('all')
         
-        # Dibujar el rectángulo redondeado
+        # Dibujar el rectangulo redondeado
         self.create_rounded_rectangle(2, 2, self.width-2, self.height-2, 
                                     radius=self.height//2, fill=color)
         
-        # Añadir el texto
+        # Aniadir el texto
         self.create_text(self.width//2, self.height//2, text=self.text,
                         fill='white', font=Styles.FONTS['button'])
         
@@ -127,7 +127,7 @@ class CustomLabel(tk.Label):
         )
 
 def setup_window_style(window):
-    """Configura el estilo básico de una ventana"""
+    """Configura el estilo basico de una ventana"""
     window.configure(bg=Styles.COLORS['background'])
     
     # Configurar el estilo de los widgets ttk

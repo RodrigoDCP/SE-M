@@ -29,7 +29,7 @@ class VentanaBienvenida:
         main_frame = CustomFrame(self.ventana)
         main_frame.pack(expand=True, fill='both', padx=40, pady=40)
 
-        # Logo o ícono médico (emoji como placeholder)
+        # Logo o icono médico (emoji como placeholder)
         logo_label = CustomLabel(
             main_frame,
             text="🏥",
@@ -37,7 +37,7 @@ class VentanaBienvenida:
         )
         logo_label.pack(pady=(20, 0))
 
-        # Título principal
+        # Titulo principal
         titulo = CustomLabel(
             main_frame,
             text="Sistema Experto Médico",
@@ -53,7 +53,7 @@ class VentanaBienvenida:
         # Mensaje de bienvenida con mejor formato
         self.crear_texto_bienvenida(content_frame)
 
-        # Botón comenzar
+        # Boton comenzar
         CustomButton(
             main_frame,
             text="Comenzar Consulta →",
@@ -68,17 +68,17 @@ class VentanaBienvenida:
         
         CustomLabel(
             key_points_frame,
-            text="Este sistema te ayudará a encontrar el médico más adecuado\n" +
-                 "según tus necesidades específicas.",
+            text="Este sistema te ayudara a encontrar el médico mas adecuado\n" +
+                 "segun tus necesidades especificas.",
             font=Styles.FONTS['body_bold'],
             fg=Styles.COLORS['primary']
         ).pack(pady=(0, 15))
 
         puntos = [
             "📋 Tu motivo de consulta",
-            "📊 La intensidad de tus síntomas",
+            "📊 La intensidad de tus sintomas",
             "📁 Tu historial médico",
-            "👤 Tu edad y condición actual"
+            "👤 Tu edad y condicion actual"
         ]
 
         for punto in puntos:

@@ -1,25 +1,16 @@
 import tkinter as tk
 from tkinter import filedialog, messagebox, scrolledtext
-import json
+from motor import MotorInferencia
 from custom_styles import Styles, CustomButton, CustomFrame, CustomLabel, setup_window_style
-
-def cargar_base_conocimientos():
-    try:
-        with open('base_conocimientos.json', 'r') as archivo_json:
-            return json.load(archivo_json)
-    except FileNotFoundError:
-        return {}
-
-def guardar_base_conocimientos(base_conocimientos):
-    with open('base_conocimientos.json', 'w') as archivo_json:
-        json.dump(base_conocimientos, archivo_json, indent=4)
 
 def aprender_conocimiento(ventana_padre, hechos_actuales, callback_actualizacion=None):
     def cargar_imagen():
+        ventana_memoria.grab_release()  # Liberar temporalmente el control
         ruta_imagen = filedialog.askopenfilename(
             title="Selecciona una imagen",
             filetypes=[("Archivos de imagen", "*.png;*.jpg;*.jpeg;*.gif")]
         )
+        ventana_memoria.grab_set()  # Recuperar el control
         if ruta_imagen:
             campo_imagen.delete(0, tk.END)
             campo_imagen.insert(0, ruta_imagen)
@@ -33,35 +24,28 @@ def aprender_conocimiento(ventana_padre, hechos_actuales, callback_actualizacion
             messagebox.showerror("Error", "Por favor complete todos los campos")
             return
 
-        clave = (
-            hechos_actuales["motivo_consulta"],
-            hechos_actuales["nivel_sintomas"],
-            hechos_actuales["historial_medico"],
-            hechos_actuales["edad"]
-        )
-
-        base_conocimientos = cargar_base_conocimientos()
-        base_conocimientos[str(clave)] = {
-            "recomendacion": doctor,
-            "explicacion": explicacion.splitlines(),
-            "imagen": imagen
-        }
-
-        guardar_base_conocimientos(base_conocimientos)
-
-        if callback_actualizacion:
-            callback_actualizacion()
-        else:
+        if MotorInferencia.guardar_conocimiento(hechos_actuales, doctor, explicacion, imagen):
+            if callback_actualizacion:
+                callback_actualizacion()
             messagebox.showinfo("Exito", "Nuevo conocimiento guardado exitosamente!")
-            ventana_padre.destroy()
+            ventana_memoria.destroy()
+        else:
+            messagebox.showerror("Error", "No se pudo guardar el conocimiento")
 
     # Configuración de la ventana
-    ventana_padre.title("Agregar Nuevo Conocimiento")
-    ventana_padre.geometry("900x600")  # Ventana más ancha para las dos columnas
-    setup_window_style(ventana_padre)
+    ventana_memoria = tk.Toplevel(ventana_padre)
+    ventana_memoria.title("Agregar Nuevo Conocimiento")
+    ventana_memoria.geometry("900x600")
+    
+    # Hacer la ventana modal
+    ventana_memoria.transient(ventana_padre)
+    ventana_memoria.grab_set()
+    ventana_memoria.focus_set()
+    
+    setup_window_style(ventana_memoria)
 
     # Frame principal
-    main_frame = CustomFrame(ventana_padre)
+    main_frame = CustomFrame(ventana_memoria)
     main_frame.pack(expand=True, fill='both', padx=20, pady=20)
 
     # Título principal
@@ -163,6 +147,7 @@ def aprender_conocimiento(ventana_padre, hechos_actuales, callback_actualizacion
     )
     campo_imagen.pack(side='left', fill='x', expand=True, padx=(0, 10))
     
+    # Botón seleccionar imagen
     CustomButton(
         imagen_frame,
         text="Seleccionar",
@@ -171,7 +156,7 @@ def aprender_conocimiento(ventana_padre, hechos_actuales, callback_actualizacion
         color=Styles.COLORS['secondary']
     ).pack(side='right')
 
-    # Botón guardar centrado en la parte inferior
+    # Botón guardar
     CustomButton(
         main_frame,
         text="Guardar Conocimiento",
