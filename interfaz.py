@@ -1,10 +1,11 @@
 import json
 import tkinter as tk
-import tkinter as ttk
 from tkinter import messagebox
 from PIL import Image, ImageTk
 from memoria import aprender_conocimiento
 from tkinter import filedialog
+from custom_styles import Styles, CustomButton, CustomDropdown, CustomFrame, CustomLabel, setup_window_style
+
 
 def centrar_ventana(ventana):
     ventana.update_idletasks()
@@ -15,11 +16,13 @@ def centrar_ventana(ventana):
     x = int((ancho_pantalla - ancho) / 2)
     y = int((alto_pantalla - alto) / 2)
     ventana.geometry(f"{ancho}x{alto}+{x}+{y}")
+
 class InterfazMedica:
     def __init__(self):
         self.ventana = tk.Tk()
         self.ventana.title("Sistema Experto - Asignacion de Doctor")
-        self.ventana.geometry("600x700")
+        #self.ventana.state('zoomed') 
+        self.ventana.geometry("600x600")
         self.hechos = {
             "motivo_consulta": "",
             "nivel_sintomas": "",
@@ -31,7 +34,7 @@ class InterfazMedica:
         self.base_conocimientos = {}
         self.cargar_base_conocimientos()
         self.crear_interfaz()
-        centrar_ventana(self.ventana)  # Centramos la ventana después de crearla
+
         
     def cargar_base_conocimientos(self):
         try:
@@ -80,66 +83,127 @@ class InterfazMedica:
         self.imagen_guardada = None
 
     def crear_interfaz(self):
-        frame_principal = tk.Frame(self.ventana, bg="#2b2b2b", padx=20, pady=20)
+        # Frame principal con padding
+        frame_principal = tk.Frame(self.ventana, bg=Styles.COLORS['background'], padx=20, pady=20)
         frame_principal.pack(fill="both", expand=True)
 
-        frame_izquierdo = tk.Frame(frame_principal, bg="#1e1e1e")
+        # Frame izquierdo (formulario)
+        frame_izquierdo = CustomFrame(frame_principal)
         frame_izquierdo.pack(side="left", fill="y", padx=10)
 
-        frame_derecho = tk.Frame(frame_principal, bg="#1e1e1e")
+        # Frame derecho (resultados)
+        frame_derecho = CustomFrame(frame_principal)
         frame_derecho.pack(side="right", fill="both", expand=True, padx=10)
 
-        tk.Label(frame_izquierdo, text="¿Cual es el motivo principal de la consulta?", fg="white", bg="#1e1e1e").pack(anchor="w", pady=5)
+        # Título
+        CustomLabel(
+            frame_izquierdo,
+            text="Información del Paciente",
+            font=Styles.FONTS['subheading'],
+            fg=Styles.COLORS['primary']
+        ).pack(pady=(0, 20))
+
+        # Campos del formulario
+        CustomLabel(frame_izquierdo, text="¿Cuál es el motivo principal de la consulta?").pack(anchor="w", pady=5)
         self.opcion_motivo = tk.StringVar(value="Dolor")
         self.opcion_motivo.trace('w', self.limpiar_interfaz)
-        opciones_motivo = tk.OptionMenu(frame_izquierdo, self.opcion_motivo, "Dolor", "Control de salud", "Revision de sintomas", "Consulta preventiva")
-        opciones_motivo.pack(fill="x", pady=5)
+        CustomDropdown(frame_izquierdo, 
+                      values=["Dolor", "Control de salud", "Revision de sintomas", "Consulta preventiva"],
+                      textvariable=self.opcion_motivo).pack(fill="x", pady=5)
 
-        tk.Label(frame_izquierdo, text="¿Como calificaria la intensidad de sus sintomas?", fg="white", bg="#1e1e1e").pack(anchor="w", pady=5)
+        CustomLabel(frame_izquierdo, text="¿Cómo calificaría la intensidad de sus síntomas?").pack(anchor="w", pady=5)
         self.opcion_sintomas = tk.StringVar(value="Leve")
         self.opcion_sintomas.trace('w', self.limpiar_interfaz)
-        opciones_sintomas = tk.OptionMenu(frame_izquierdo, self.opcion_sintomas, "Leve", "Moderado", "Fuerte", "Muy fuerte")
-        opciones_sintomas.pack(fill="x", pady=5)
+        CustomDropdown(frame_izquierdo,
+                      values=["Leve", "Moderado", "Fuerte", "Muy fuerte"],
+                      textvariable=self.opcion_sintomas).pack(fill="x", pady=5)
 
-        tk.Label(frame_izquierdo, text="¿Tiene antecedentes de alguna enfermedad cronica?", fg="white", bg="#1e1e1e").pack(anchor="w", pady=5)
+        CustomLabel(frame_izquierdo, text="¿Tiene antecedentes de alguna enfermedad crónica?").pack(anchor="w", pady=5)
         self.opcion_historial = tk.StringVar(value="No")
         self.opcion_historial.trace('w', self.limpiar_interfaz)
-        opciones_historial = tk.OptionMenu(frame_izquierdo, self.opcion_historial, "Alergias a algun alimento", "Alergias a algun medicamento", "Operaciones o cirugias", "No")
-        opciones_historial.pack(fill="x", pady=5)
+        CustomDropdown(frame_izquierdo,
+                      values=["Alergias a algun alimento", "Alergias a algun medicamento", 
+                             "Operaciones o cirugias", "No"],
+                      textvariable=self.opcion_historial).pack(fill="x", pady=5)
 
-        tk.Label(frame_izquierdo, text="¿Cual es la edad del paciente?", fg="white", bg="#1e1e1e").pack(anchor="w", pady=5)
+        CustomLabel(frame_izquierdo, text="¿Cuál es la edad del paciente?").pack(anchor="w", pady=5)
         self.opcion_edad = tk.StringVar(value="Entre 18-35 anios")
         self.opcion_edad.trace('w', self.limpiar_interfaz)
-        opciones_edad = tk.OptionMenu(frame_izquierdo, self.opcion_edad, "Menos de 18 anios", "Entre 18-35 anios", "Entre 36-60 anios", "Mas de 60 anios")
-        opciones_edad.pack(fill="x", pady=5)
+        CustomDropdown(frame_izquierdo,
+                      values=["Menos de 18 anios", "Entre 18-35 anios", "Entre 36-60 anios", "Mas de 60 anios"],
+                      textvariable=self.opcion_edad).pack(fill="x", pady=5)
 
-        self.boton_responder = tk.Button(frame_izquierdo, text="Obtener Asignacion de Doctor", command=self.obtener_respuesta, bg="#005f73", fg="white", font=("Arial", 10, "bold"))
-        self.boton_responder.pack(fill="x", pady=10)
+        # Botón de consulta
+        CustomButton(
+            frame_izquierdo,
+            text="Obtener Asignación",
+            command=self.obtener_respuesta,
+            width=250
+        ).pack(pady=20)
 
-        #self.resultado_texto = tk.Text(frame_derecho, height=10, state="disabled", wrap="word", bg="#2b2b2b", fg="white")
-        #self.resultado_texto.pack(fill="both", pady=5)
+        # Frame derecho
+        CustomLabel(
+            frame_derecho,
+            text="Resultado del Sistema Experto",
+            font=Styles.FONTS['subheading'],
+            fg=Styles.COLORS['primary']
+        ).pack(pady=(0, 20))
 
-        self.boton_aprender = tk.Button(frame_derecho, text="Aprender", command=self.abrir_ventana_aprender, bg="#e9d8a6", fg="black", font=("Arial", 10, "bold"))
-        self.boton_aprender.pack_forget()
+        # Frame para botones de acción
+        frame_botones = tk.Frame(frame_derecho, bg=Styles.COLORS['surface'])
+        frame_botones.pack(fill="x", pady=10)
 
-        self.boton_explicacion = tk.Button(frame_derecho, text="Mostrar Explicación", command=self.mostrar_explicacion, bg="#2a9d8f", fg="white", font=("Arial", 10, "bold"))
-        self.boton_explicacion.pack(pady=10)
+        # Botones de acción
+        self.boton_explicacion = CustomButton(
+            frame_botones,
+            text="Ver Explicación",
+            command=self.mostrar_explicacion,
+            width=180,
+            color=Styles.COLORS['secondary']
+        )
+        self.boton_explicacion.pack(side="left", padx=5)
+        
+        self.boton_ver_doctor = CustomButton(
+            frame_botones,
+            text="Ver Doctor",
+            command=self.mostrar_imagen,
+            width=180,
+            color=Styles.COLORS['secondary']
+        )
+        self.boton_ver_doctor.pack(side="left", padx=5)
+        
+        self.boton_aprender = CustomButton(
+            frame_botones,
+            text="Aprender Caso",
+            command=self.abrir_ventana_aprender,
+            width=180,
+            color=Styles.COLORS['warning']
+        )
 
-        self.boton_ver_doctor = tk.Button(frame_derecho, text="Ver Imagen Doctor", command=self.mostrar_imagen, bg="#264653", fg="white", font=("Arial", 10, "bold"))
-        self.boton_ver_doctor.pack(pady=10)
+        # Área de resultado
+        self.resultado_texto = tk.Text(
+            frame_derecho,
+            height=10,
+            wrap="word",
+            font=Styles.FONTS['body'],
+            bg=Styles.COLORS['surface'],
+            fg=Styles.COLORS['text'],
+            padx=10,
+            pady=10
+        )
+        self.resultado_texto.pack(fill="both", expand=True, pady=10)
 
-        tk.Label(frame_derecho, text="Resultado del Sistema Experto:", fg="white", bg="#1e1e1e").pack(anchor="w", pady=5)
-        self.resultado_texto = tk.Text(frame_derecho, height=10, state="disabled", wrap="word", bg="#2b2b2b", fg="white")
-        self.resultado_texto.pack(fill="both", pady=5)
-
-
-        self.label_imagen = tk.Label(frame_derecho)
+        # Label para imagen
+        self.label_imagen = tk.Label(frame_derecho, bg=Styles.COLORS['surface'])
         self.label_imagen.pack(pady=10)
 
-        # Aquí van las variables para guardar la explicación y la imagen
+        # Variables para guardar datos
         self.explicacion_guardada = ""
         self.imagen_guardada = None
 
+        # Deshabilitar botones inicialmente
+        self.boton_explicacion.config(state="disabled")
+        self.boton_ver_doctor.config(state="disabled")
 
     def obtener_respuesta(self):
         self.hechos["motivo_consulta"] = self.opcion_motivo.get()
@@ -158,24 +222,12 @@ class InterfazMedica:
 
         # Mostrar u ocultar boton de aprender segun la recomendacion
         if "Lo siento, no tengo una recomendacion adecuada" in recomendacion:
-            self.boton_aprender.pack(pady=10)
+            self.boton_aprender.pack(side="left", padx=5)
         else:
             self.boton_aprender.pack_forget()
 
         self.boton_explicacion.config(state="normal")
         self.boton_ver_doctor.config(state="normal")
-
-    def abrir_ventana_aprender(self):
-        def on_aprendizaje_completado():
-            self.actualizar_base_conocimientos()
-            messagebox.showinfo("exito", "Base de conocimientos actualizada exitosamente")
-            ventana_memoria.destroy()
-            # Actualizar la interfaz con la nueva informacion
-            self.obtener_respuesta()
-        
-        ventana_memoria = tk.Toplevel(self.ventana)
-        aprender_conocimiento(ventana_memoria, self.hechos, on_aprendizaje_completado)
-        centrar_ventana(ventana_memoria) #Centramos la ventana
 
     def mostrar_explicacion(self):
         if self.explicacion_guardada:
@@ -184,7 +236,7 @@ class InterfazMedica:
             self.resultado_texto.config(state="disabled")
         self.boton_explicacion.config(state="disabled")
 
-    def mostrar_imagen(self, event=None):
+    def mostrar_imagen(self):
         if self.imagen_guardada:
             try:
                 # Crear nueva ventana
@@ -199,11 +251,22 @@ class InterfazMedica:
                 label_imagen.image = imagen_tk
                 label_imagen.pack(padx=20, pady=20)
                 
-                # Centrar la ventana después de crear todo su contenido
-                centrar_ventana(ventana_imagen)  # Agregar esta línea
+                centrar_ventana(ventana_imagen)
                 
             except Exception as e:
                 messagebox.showerror("Error", f"No se pudo cargar la imagen: {str(e)}")
+
+    def abrir_ventana_aprender(self):
+        def on_aprendizaje_completado():
+            self.actualizar_base_conocimientos()
+            messagebox.showinfo("Exito", "Base de conocimientos actualizada exitosamente")
+            ventana_memoria.destroy()
+            # Actualizar la interfaz con la nueva informacion
+            self.obtener_respuesta()
+        
+        ventana_memoria = tk.Toplevel(self.ventana)
+        aprender_conocimiento(ventana_memoria, self.hechos, on_aprendizaje_completado)
+        centrar_ventana(ventana_memoria)
 
     def iniciar(self):
         self.ventana.mainloop()

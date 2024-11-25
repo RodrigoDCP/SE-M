@@ -1,23 +1,20 @@
 import tkinter as tk
-from tkinter import filedialog, messagebox
+from tkinter import filedialog, messagebox, scrolledtext
 import json
+from custom_styles import Styles, CustomButton, CustomFrame, CustomLabel, setup_window_style
 
 def cargar_base_conocimientos():
-    """Carga la base de conocimientos desde un archivo JSON."""
     try:
         with open('base_conocimientos.json', 'r') as archivo_json:
-            datos_json = json.load(archivo_json)
-            return datos_json
+            return json.load(archivo_json)
     except FileNotFoundError:
         return {}
 
 def guardar_base_conocimientos(base_conocimientos):
-    """Guarda la base de conocimientos en un archivo JSON."""
     with open('base_conocimientos.json', 'w') as archivo_json:
         json.dump(base_conocimientos, archivo_json, indent=4)
 
 def aprender_conocimiento(ventana_padre, hechos_actuales, callback_actualizacion=None):
-    """Funcion para aprender nuevo conocimiento basado en los hechos actuales."""
     def cargar_imagen():
         ruta_imagen = filedialog.askopenfilename(
             title="Selecciona una imagen",
@@ -36,7 +33,6 @@ def aprender_conocimiento(ventana_padre, hechos_actuales, callback_actualizacion
             messagebox.showerror("Error", "Por favor complete todos los campos")
             return
 
-        # Creando la clave como una tupla con los hechos actuales
         clave = (
             hechos_actuales["motivo_consulta"],
             hechos_actuales["nivel_sintomas"],
@@ -44,54 +40,141 @@ def aprender_conocimiento(ventana_padre, hechos_actuales, callback_actualizacion
             hechos_actuales["edad"]
         )
 
-        # Cargar la base de conocimientos actual
         base_conocimientos = cargar_base_conocimientos()
-
-        # Guardar los nuevos datos
         base_conocimientos[str(clave)] = {
             "recomendacion": doctor,
             "explicacion": explicacion.splitlines(),
             "imagen": imagen
         }
 
-        # Guardar la base de conocimientos actualizada
         guardar_base_conocimientos(base_conocimientos)
 
-        # Llamar al callback de actualizacion si existe
         if callback_actualizacion:
             callback_actualizacion()
         else:
-            messagebox.showinfo("exito", "¡Nuevo conocimiento guardado exitosamente!")
+            messagebox.showinfo("Exito", "Nuevo conocimiento guardado exitosamente!")
             ventana_padre.destroy()
 
-    # Configuracion de la ventana de aprendizaje
-    ventana_padre.title("Aprender Nuevo Conocimiento")
-    ventana_padre.geometry("400x600")
+    # Configuración de la ventana
+    ventana_padre.title("Agregar Nuevo Conocimiento")
+    ventana_padre.geometry("900x600")  # Ventana más ancha para las dos columnas
+    setup_window_style(ventana_padre)
 
-    # Mostrar los hechos actuales
-    tk.Label(ventana_padre, text="Hechos del caso:").pack()
-    texto_hechos = f"""
-    Motivo: {hechos_actuales['motivo_consulta']}
-    Nivel: {hechos_actuales['nivel_sintomas']}
-    Historial: {hechos_actuales['historial_medico']}
-    Edad: {hechos_actuales['edad']}
-    """
-    tk.Label(ventana_padre, text=texto_hechos, justify=tk.LEFT).pack()
+    # Frame principal
+    main_frame = CustomFrame(ventana_padre)
+    main_frame.pack(expand=True, fill='both', padx=20, pady=20)
 
-    tk.Label(ventana_padre, text="Nombre del doctor:").pack()
-    campo_doctor = tk.Entry(ventana_padre)
-    campo_doctor.pack()
+    # Título principal
+    titulo = CustomLabel(
+        main_frame,
+        text="Agregar Nuevo Conocimiento",
+        font=Styles.FONTS['subheading'],
+        fg=Styles.COLORS['primary']
+    )
+    titulo.pack(pady=(0, 20))
 
-    tk.Label(ventana_padre, text="Explicacion del conocimiento:").pack()
-    campo_explicacion = tk.Text(ventana_padre, height=5, width=40)
-    campo_explicacion.pack()
+    # Contenedor para las dos columnas
+    columns_frame = tk.Frame(main_frame, bg=Styles.COLORS['surface'])
+    columns_frame.pack(fill='both', expand=True)
 
-    tk.Label(ventana_padre, text="Selecciona una imagen:").pack()
-    campo_imagen = tk.Entry(ventana_padre)
-    campo_imagen.pack()
+    # Columna izquierda (Datos del caso)
+    left_frame = CustomFrame(columns_frame)
+    left_frame.pack(side='left', fill='both', expand=True, padx=(0, 10))
 
-    boton_imagen = tk.Button(ventana_padre, text="Seleccionar Imagen", command=cargar_imagen)
-    boton_imagen.pack(pady=10)
+    # Título datos del caso
+    CustomLabel(
+        left_frame,
+        text="Datos del Caso",
+        font=Styles.FONTS['body_bold'],
+        fg=Styles.COLORS['primary']
+    ).pack(pady=(0, 10))
 
-    boton_guardar = tk.Button(ventana_padre, text="Guardar Conocimiento", command=guardar_nuevo_conocimiento)
-    boton_guardar.pack(pady=10)
+    # Mostrar los datos del caso
+    for key, value in hechos_actuales.items():
+        case_frame = tk.Frame(left_frame, bg=Styles.COLORS['surface'])
+        case_frame.pack(fill='x', pady=5)
+        
+        CustomLabel(
+            case_frame,
+            text=f"{key.replace('_', ' ').title()}:",
+            font=Styles.FONTS['body_bold'],
+            fg=Styles.COLORS['secondary'],
+            width=15,
+            anchor='e'
+        ).pack(side='left', padx=(5, 10))
+        
+        CustomLabel(
+            case_frame,
+            text=value,
+            anchor='w'
+        ).pack(side='left')
+
+    # Columna derecha (Formulario)
+    right_frame = CustomFrame(columns_frame)
+    right_frame.pack(side='right', fill='both', expand=True, padx=(10, 0))
+
+    # Campo doctor
+    CustomLabel(
+        right_frame,
+        text="Nombre del doctor:",
+        font=Styles.FONTS['body_bold'],
+        fg=Styles.COLORS['secondary']
+    ).pack(anchor='w', pady=(0, 5))
+    
+    campo_doctor = tk.Entry(
+        right_frame,
+        font=Styles.FONTS['body'],
+        bg='white'
+    )
+    campo_doctor.pack(fill='x', pady=(0, 10))
+
+    # Campo explicación
+    CustomLabel(
+        right_frame,
+        text="Explicacion del conocimiento:",
+        font=Styles.FONTS['body_bold'],
+        fg=Styles.COLORS['secondary']
+    ).pack(anchor='w', pady=(0, 5))
+    
+    campo_explicacion = scrolledtext.ScrolledText(
+        right_frame,
+        font=Styles.FONTS['body'],
+        bg='white',
+        height=8,
+        wrap=tk.WORD
+    )
+    campo_explicacion.pack(fill='x', pady=(0, 10))
+
+    # Campo imagen
+    CustomLabel(
+        right_frame,
+        text="Imagen del doctor:",
+        font=Styles.FONTS['body_bold'],
+        fg=Styles.COLORS['secondary']
+    ).pack(anchor='w', pady=(0, 5))
+    
+    imagen_frame = tk.Frame(right_frame, bg=Styles.COLORS['surface'])
+    imagen_frame.pack(fill='x', pady=(0, 15))
+    
+    campo_imagen = tk.Entry(
+        imagen_frame,
+        font=Styles.FONTS['body'],
+        bg='white'
+    )
+    campo_imagen.pack(side='left', fill='x', expand=True, padx=(0, 10))
+    
+    CustomButton(
+        imagen_frame,
+        text="Seleccionar",
+        command=cargar_imagen,
+        width=100,
+        color=Styles.COLORS['secondary']
+    ).pack(side='right')
+
+    # Botón guardar centrado en la parte inferior
+    CustomButton(
+        main_frame,
+        text="Guardar Conocimiento",
+        command=guardar_nuevo_conocimiento,
+        width=200
+    ).pack(pady=(20, 0))

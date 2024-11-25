@@ -1,9 +1,9 @@
 import tkinter as tk
 from tkinter import ttk
 from interfaz import InterfazMedica
+from custom_styles import Styles, CustomButton, CustomFrame, CustomLabel, setup_window_style
 
 def centrar_ventana(ventana):
-    """Centra cualquier ventana en la pantalla."""
     ventana.update_idletasks()
     ancho = ventana.winfo_width()
     alto = ventana.winfo_height()
@@ -17,109 +17,82 @@ class VentanaBienvenida:
     def __init__(self):
         self.ventana = tk.Tk()
         self.ventana.title("Bienvenida - Sistema Experto Médico")
-        self.ventana.geometry("600x500")
+        self.ventana.geometry("700x600")
         
-        # Configuración de colores
-        self.COLORS = {
-            'primary': '#2563eb',    # Azul principal
-            'background': '#f8fafc',  # Fondo claro
-            'text': '#1e293b',       # Texto oscuro
-            'accent': '#818cf8'      # Acento
-        }
-        
-        # Configurar ventana
-        self.ventana.configure(bg=self.COLORS['background'])
+        # Configurar estilo de la ventana
+        setup_window_style(self.ventana)
         self.crear_interfaz()
         centrar_ventana(self.ventana)
         
     def crear_interfaz(self):
-        # Configurar estilos
-        style = ttk.Style()
-        style.configure('Main.TFrame', background=self.COLORS['background'])
-        style.configure('Title.TLabel',
-                       background=self.COLORS['background'],
-                       foreground=self.COLORS['primary'],
-                       font=('Helvetica', 24, 'bold'))
-        style.configure('Content.TLabel',
-                       background=self.COLORS['background'],
-                       foreground=self.COLORS['text'],
-                       font=('Helvetica', 12))
-        style.configure('Start.TButton',
-                       font=('Helvetica', 12, 'bold'),
-                       padding=15)
+        # Frame principal con efecto de tarjeta
+        main_frame = CustomFrame(self.ventana)
+        main_frame.pack(expand=True, fill='both', padx=40, pady=40)
 
-        # Frame principal
-        main_frame = ttk.Frame(self.ventana, style='Main.TFrame')
-        main_frame.pack(expand=True, fill='both', padx=40, pady=20)
-
-        # Título con ícono
-        ttk.Label(
+        # Logo o ícono médico (emoji como placeholder)
+        logo_label = CustomLabel(
             main_frame,
-            text="🏥 Sistema Experto Médico",
-            style='Title.TLabel'
-        ).pack(pady=(0, 30))
-
-        # Mensaje de bienvenida
-        mensaje = """¡Bienvenido al Sistema Experto Médico!
-
-Este sistema está diseñado para ayudarte a encontrar
-el médico más adecuado según tus necesidades específicas.
-
-El sistema te guiará a través de algunas preguntas sobre:
-• Tu motivo de consulta
-• La intensidad de tus síntomas
-• Tu historial médico
-• Tu edad
-
-Con esta información, podremos recomendarte
-el especialista más apropiado para tu caso."""
-
-        # Crear Text widget para el mensaje
-        texto = tk.Text(
-            main_frame,
-            height=10,
-            width=45,
-            font=('Helvetica', 11),
-            bg=self.COLORS['background'],
-            fg=self.COLORS['text'],
-            bd=0,
-            wrap='word'
+            text="🏥",
+            font=('Segoe UI', 48)
         )
-        texto.pack(pady=20)
-        texto.insert('1.0', mensaje)
-        texto.configure(state='disabled')
+        logo_label.pack(pady=(20, 0))
 
-        # Nota importante
-        ttk.Label(
+        # Título principal
+        titulo = CustomLabel(
             main_frame,
-            text="Nota: Este sistema es una guía y no reemplaza\nla consulta con un profesional médico.",
-            style='Content.TLabel',
-            justify='center'
-        ).pack(pady=(0, 30))
+            text="Sistema Experto Médico",
+            font=Styles.FONTS['heading'],
+            fg=Styles.COLORS['primary']
+        )
+        titulo.pack(pady=(0, 30))
 
-        # Frame para el botón
-        button_frame = ttk.Frame(main_frame, style='Main.TFrame')
-        button_frame.pack(pady=20)
+        # Frame para el contenido
+        content_frame = tk.Frame(main_frame, bg=Styles.COLORS['surface'])
+        content_frame.pack(fill='both', expand=True, padx=20)
+
+        # Mensaje de bienvenida con mejor formato
+        self.crear_texto_bienvenida(content_frame)
 
         # Botón comenzar
-        boton_comenzar = ttk.Button(
-            button_frame,
-            text="Comenzar →",
+        CustomButton(
+            main_frame,
+            text="Comenzar Consulta →",
             command=self.iniciar_sistema,
-            style='Start.TButton'
-        )
-        boton_comenzar.pack(pady=10)
+            width=250
+        ).pack(pady=30)
+
+    def crear_texto_bienvenida(self, parent):
+        # Frame para los puntos clave
+        key_points_frame = CustomFrame(parent)
+        key_points_frame.pack(fill='x', pady=10)
+        
+        CustomLabel(
+            key_points_frame,
+            text="Este sistema te ayudará a encontrar el médico más adecuado\n" +
+                 "según tus necesidades específicas.",
+            font=Styles.FONTS['body_bold'],
+            fg=Styles.COLORS['primary']
+        ).pack(pady=(0, 15))
+
+        puntos = [
+            "📋 Tu motivo de consulta",
+            "📊 La intensidad de tus síntomas",
+            "📁 Tu historial médico",
+            "👤 Tu edad y condición actual"
+        ]
+
+        for punto in puntos:
+            CustomLabel(
+                key_points_frame,
+                text=punto,
+                justify='left',
+                pady=5
+            ).pack(anchor='w')
 
     def iniciar_sistema(self):
-        """Cierra la ventana de bienvenida e inicia el sistema principal."""
         self.ventana.destroy()
         app = InterfazMedica()
         app.iniciar()
 
     def iniciar(self):
-        """Inicia la ventana de bienvenida."""
         self.ventana.mainloop()
-
-if __name__ == "__main__":
-    app = VentanaBienvenida()
-    app.iniciar()

@@ -1,0 +1,618 @@
+{
+    "('Control de salud', 'Fuerte', 'Alergias a algun alimento', 'Entre 36-60 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Control de salud', 'Fuerte', 'Alergias a algun alimento', 'Mas de 60 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Control de salud', 'Fuerte', 'Operaciones o cirugias', 'Entre 36-60 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Control de salud', 'Fuerte', 'No', 'Entre 18-35 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Control de salud', 'Fuerte', 'No', 'Entre 36-60 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Control de salud', 'Muy fuerte', 'Alergias a algun alimento', 'Entre 36-60 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Control de salud', 'Muy fuerte', 'Alergias a algun medicamento', 'Menos de 18 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Control de salud', 'Muy fuerte', 'Alergias a algun medicamento', 'Entre 18-35 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Control de salud', 'Muy fuerte', 'Alergias a algun medicamento', 'Mas de 60 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Control de salud', 'Muy fuerte', 'Operaciones o cirugias', 'Entre 36-60 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Control de salud', 'Muy fuerte', 'No', 'Menos de 18 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Control de salud', 'Muy fuerte', 'No', 'Entre 36-60 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Revision de sintomas', 'Leve', 'Alergias a algun alimento', 'Menos de 18 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Revision de sintomas', 'Leve', 'Alergias a algun alimento', 'Entre 18-35 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Revision de sintomas', 'Leve', 'Alergias a algun alimento', 'Mas de 60 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Revision de sintomas', 'Leve', 'Alergias a algun medicamento', 'Mas de 60 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Revision de sintomas', 'Leve', 'Operaciones o cirugias', 'Menos de 18 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Revision de sintomas', 'Moderado', 'Alergias a algun alimento', 'Entre 18-35 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Revision de sintomas', 'Moderado', 'Alergias a algun alimento', 'Entre 36-60 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Revision de sintomas', 'Moderado', 'No', 'Menos de 18 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Revision de sintomas', 'Moderado', 'No', 'Entre 36-60 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Revision de sintomas', 'Fuerte', 'Alergias a algun alimento', 'Entre 36-60 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Revision de sintomas', 'Fuerte', 'Alergias a algun medicamento', 'Menos de 18 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Revision de sintomas', 'Fuerte', 'Alergias a algun medicamento', 'Entre 18-35 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Revision de sintomas', 'Fuerte', 'Alergias a algun medicamento', 'Entre 36-60 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Revision de sintomas', 'Fuerte', 'Alergias a algun medicamento', 'Mas de 60 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Revision de sintomas', 'Fuerte', 'No', 'Entre 36-60 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Revision de sintomas', 'Muy fuerte', 'Alergias a algun alimento', 'Menos de 18 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Revision de sintomas', 'Muy fuerte', 'Alergias a algun alimento', 'Mas de 60 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Revision de sintomas', 'Muy fuerte', 'Alergias a algun medicamento', 'Entre 18-35 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Revision de sintomas', 'Muy fuerte', 'Alergias a algun medicamento', 'Mas de 60 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Revision de sintomas', 'Muy fuerte', 'Operaciones o cirugias', 'Mas de 60 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Revision de sintomas', 'Muy fuerte', 'No', 'Menos de 18 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Revision de sintomas', 'Muy fuerte', 'No', 'Entre 36-60 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Consulta preventiva', 'Leve', 'Alergias a algun alimento', 'Menos de 18 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Consulta preventiva', 'Leve', 'Alergias a algun alimento', 'Mas de 60 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Consulta preventiva', 'Leve', 'Alergias a algun medicamento', 'Mas de 60 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Consulta preventiva', 'Moderado', 'Alergias a algun alimento', 'Entre 36-60 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Consulta preventiva', 'Moderado', 'Alergias a algun medicamento', 'Menos de 18 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Consulta preventiva', 'Moderado', 'Alergias a algun medicamento', 'Mas de 60 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Consulta preventiva', 'Fuerte', 'Alergias a algun alimento', 'Menos de 18 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Consulta preventiva', 'Fuerte', 'Alergias a algun alimento', 'Mas de 60 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Consulta preventiva', 'Fuerte', 'Alergias a algun medicamento', 'Entre 36-60 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Consulta preventiva', 'Fuerte', 'Operaciones o cirugias', 'Menos de 18 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Consulta preventiva', 'Fuerte', 'Operaciones o cirugias', 'Entre 18-35 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Consulta preventiva', 'Fuerte', 'Operaciones o cirugias', 'Entre 36-60 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Consulta preventiva', 'Fuerte', 'No', 'Menos de 18 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Consulta preventiva', 'Fuerte', 'No', 'Mas de 60 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Consulta preventiva', 'Muy fuerte', 'Alergias a algun alimento', 'Menos de 18 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Consulta preventiva', 'Muy fuerte', 'Alergias a algun alimento', 'Entre 36-60 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Consulta preventiva', 'Muy fuerte', 'Alergias a algun medicamento', 'Menos de 18 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Consulta preventiva', 'Muy fuerte', 'Alergias a algun medicamento', 'Entre 18-35 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Consulta preventiva', 'Muy fuerte', 'Alergias a algun medicamento', 'Entre 36-60 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Consulta preventiva', 'Muy fuerte', 'Operaciones o cirugias', 'Entre 18-35 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Consulta preventiva', 'Muy fuerte', 'No', 'Menos de 18 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    },
+    "('Consulta preventiva', 'Muy fuerte', 'No', 'Entre 36-60 anios')": {
+        "recomendacion": "Recomendacion generica",
+        "explicacion": [
+            "Este es un ejemplo de explicacion para la combinacion de atributos:",
+            "Recomendado por ",
+            " unoabc",
+            " dosabc",
+            " Costo por consulta: $"
+        ],
+        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15.jpeg"
+    }
+  }

@@ -7,7 +7,7 @@
             "-Recomendado si el dolor es persistente a inflamacion postquirurgica.",
             " Costo por consulta: $450"
         ],
-        "imagen": "C:/home/keny/Descargas/SE-M-PRUEBA/image/doctor4.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc4.jpeg"
     },
     "('Dolor', 'Muy fuerte', 'Operaciones o cirugias', 'Entre 36-60 anios')": {
         "recomendacion": "Dra.Elvia Zapata Alvarado, Algologo",
@@ -17,7 +17,7 @@
             "-Recomendado si el dolor es persistente a inflamacion postquirurgica.",
             "- Costo por consulta: $ 568. "
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc4.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc4.jpeg"
     },
     "('Dolor', 'Leve', 'Operaciones o cirugias', 'Entre 18-35 anios')": {
         "recomendacion": "Dr. Juan Carlos Gonzalez Perez, Algologo",
@@ -27,7 +27,7 @@
             "-Utiliza tecnicas avanzadas de bloqueos nerviosos y terapias personalizadas.",
             " Costo por consulta: $450"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc7.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc7.jpeg"
     },
     "('Dolor', 'Moderado', 'Operaciones o cirugias', 'Menos de 18 anios')": {
         "recomendacion": "Dr. Luis Fernando Martinez, Traumatologo",
@@ -37,7 +37,7 @@
             "-Ofrece terapias minimamente invasivas y rehabilitacion especializada.",
             " Costo por consulta: $880"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc7.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc7.jpeg"
     },
     "('Dolor', 'Moderado', 'Operaciones o cirugias', 'Entre 36-60 anios')": {
         "recomendacion": "Dra. Carolina Lopez Vargas, Gastroenterologa",
@@ -47,7 +47,7 @@
             "-Experta en abordar molestias posquirurgicas del sistema digestivo.",
             " Costo por consulta: $456"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc4.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc4.jpeg"
     },
     "('Revision de sintomas', 'Moderado', 'Operaciones o cirugias', 'Entre 18-35 anios')": {
         "recomendacion": "Dr. Alvaro Fernandez, Cirujano General",
@@ -57,7 +57,7 @@
             "-Ofrece soluciones personalizadas y seguimiento continuo.",
             " Costo por consulta: $5000"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc9.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc9.jpeg"
     },
     "('Control de salud', 'Moderado', 'No', 'Entre 36-60 anios')": {
         "recomendacion": "Dr. Ernesto Gomez, Medico Internista",
@@ -67,7 +67,7 @@
             "-Recomendado para mantener un estado de salud optimo.",
             " Costo por consulta: $999"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc10.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc10.jpeg"
     },
     "('Consulta preventiva', 'Moderado', 'Operaciones o cirugias', 'Mas de 60 anios')": {
         "recomendacion": "Dra. Rosa Vargas, Medica Geriatra",
@@ -77,7 +77,7 @@
             "-Ideal para personas mayores con historial quirungico.",
             " Costo por consulta: $5000"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc4.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc4.jpeg"
     },
     "('Revision de sintomas', 'Muy fuerte', 'Operaciones o cirugias', 'Entre 18-35 anios')": {
         "recomendacion": "Dr. Pablo Ramirez, Cirujano General",
@@ -87,7 +87,7 @@
             "-Enfoque rapido y eficiente para aliviar el dolor.",
             " Costo por consulta: $880"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc10.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc10.jpeg"
     },
     "('Dolor', 'Moderado', 'Alergias a algun alimento', 'Mas de 60 anios')": {
         "recomendacion": "Dra. Natalia Ruiz, Nutriologa y Medica General",
@@ -97,7 +97,7 @@
             "-Ideal para aliviar molestias y mejorar la calidad de vida.",
             " Costo por consulta: $1200"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc12.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
     "('Consulta preventiva', 'Leve', 'Alergias a algun alimento', 'Entre 18-35 anios')": {
         "recomendacion": "Dr. Rodrigo Perez, Nutriologo",
@@ -107,7 +107,7 @@
             "-Ofrece diagnosticos preventivos y asesoramiento dietetico personalizado.",
             " Costo por consulta: $999"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc1.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc1.jpeg"
     },
     "('Dolor', 'Fuerte', 'Alergias a algun medicamento', 'Entre 36-60 anios')": {
         "recomendacion": "Dr. Alejandro Mendez, Algologo",
@@ -117,7 +117,7 @@
             "-Enfoque en mejorar la calidad de vida a mediana edad.",
             " Costo por consulta: $560"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc2.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc2.jpeg"
     },
     "('Control de salud', 'Fuerte', 'Operaciones o cirugias', 'Menos de 18 anios')": {
         "recomendacion": "Dra. Maria Torres, Pediatra",
@@ -127,7 +127,7 @@
             "-Ofrece un enfoque integral y personalizado para pacientes pediatricos.",
             " Costo por consulta: $850"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc12.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
     "('Revision de sintomas', 'Moderado', 'Alergias a algun medicamento', 'Menos de 18 anios')": {
         "recomendacion": "Dr. Javier Lopez, Pediatra y Alergologo",
@@ -137,7 +137,7 @@
             "-Recomendado para pacientes pediatricos con sensibilidad a medicamentos.",
             " Costo por consulta: $560"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc17.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc17.jpeg"
     },
     "('Consulta preventiva', 'Fuerte', 'Alergias a algun medicamento', 'Mas de 60 anios')": {
         "recomendacion": "Dra. Gabriela Ruiz, Geriatra",
@@ -147,7 +147,7 @@
             "-Especialista en mejorar la calidad de vida de sus pacientes.",
             " Costo por consulta: $900"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc12.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
     "('Dolor', 'Muy fuerte', 'No', 'Entre 36-60 anios')": {
         "recomendacion": "Dr. Hugo Fernandez, Medico Internista",
@@ -157,7 +157,7 @@
             "-Recomendado para diagnosticos y tratamientos personalizados.",
             " Costo por consulta: $1500"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc3.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc3.jpeg"
     },
     "('Revision de sintomas', 'Leve', 'No', 'Entre 18-35 anios')": {
         "recomendacion": "Dra. Luisa Perez, Medica General",
@@ -167,7 +167,7 @@
             "-Recomendado para diagnosticos rapidos y soluciones personalizadas.",
             " Costo por consulta: $750"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc4.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc4.jpeg"
     },
     "('Consulta preventiva', 'Moderado', 'No', 'Entre 18-35 anios')": {
         "recomendacion": "Dr. Santiago Romero, Medico General",
@@ -177,7 +177,7 @@
             "-Recomendado para identificar riesgos a tiempo y mejorar habitos.",
             " Costo por consulta: $800"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc2.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc2.jpeg"
     },
     "('Dolor', 'Muy fuerte', 'Alergias a algun alimento', 'Entre 36-60 anios')": {
         "recomendacion": "Dra. Patricia Moreno, Alergologa y Algologa",
@@ -187,7 +187,7 @@
             "-Ofrece opciones no farmacologicas para minimizar riesgos.",
             " Costo por consulta: $1000"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc12.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
     "('Control de salud', 'Leve', 'Alergias a algun medicamento', 'Menos de 18 anios')": {
         "recomendacion": "Dra. Lucia Vargas, Pediatra",
@@ -197,7 +197,7 @@
             "-Ofrece atencion integral y estrategias preventivas.",
             " Costo por consulta: $750"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc12.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
     "('Revision de sintomas', 'Fuerte', 'Operaciones o cirugias', 'Mas de 60 anios')": {
         "recomendacion": "Dr. Alberto Cruz, Medico Internista",
@@ -207,7 +207,7 @@
             "-Ofrece planes de tratamiento adaptados a la edad y el historial.",
             " Costo por consulta: $1200"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc14.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc14.jpeg"
     },
     "('Dolor', 'Moderado', 'Alergias a algun medicamento', 'Entre 18-35 anios')": {
         "recomendacion": "Dra. Daniela Herrera, Medica General",
@@ -217,7 +217,7 @@
             "-Recomendado para tratar y prevenir episodios recurrentes.",
             " Costo por consulta: $900"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc12.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
     "('Consulta preventiva', 'Muy fuerte', 'Operaciones o cirugias', 'Entre 36-60 anios')": {
         "recomendacion": "Dr. Javier Alarcon, Internista y Cirujano General",
@@ -227,7 +227,7 @@
             "-Enfoque en diagnostico rapido y terapias preventivas.",
             " Costo por consulta: $1100"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc1.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc1.jpeg"
     },
     "('Revision de sintomas', 'Leve', 'Alergias a algun alimento', 'Entre 36-60 anios')": {
         "recomendacion": "Dra. Carolina Montalvo, Nutriologa y Medica General",
@@ -237,7 +237,7 @@
             "-Recomendado para adultos con historial alimenticio problematico.",
             " Costo por consulta: $1000"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc12.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
     "('Dolor', 'Muy fuerte', 'Operaciones o cirugias', 'Mas de 60 anios')": {
         "recomendacion": "Dra. Alicia Ramirez, Algologa Geriatrica",
@@ -247,7 +247,7 @@
             "-Enfoque multidisciplinario y personalizado segun la condicion del paciente.",
             " Costo por consulta: $1000"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc4.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc4.jpeg"
     },
     "('Consulta preventiva', 'Leve', 'Operaciones o cirugias', 'Menos de 18 anios')": {
         "recomendacion": "Dr. Jose Miranda, Pediatra",
@@ -257,7 +257,7 @@
             "-Ideal para garantizar la salud a largo plazo de ninios y adolescentes.",
             " Costo por consulta: $800"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc5.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc5.jpeg"
     },
     "('Revision de sintomas', 'Moderado', 'Alergias a algun medicamento', 'Mas de 60 anios')": {
         "recomendacion": "Dr. Emilio Gomez, Geriatra",
@@ -267,7 +267,7 @@
             "-Recomendado para pacientes con sensibilidad a medicamentos.",
             " Costo por consulta: $900"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc14.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc14.jpeg"
     },
     "('Dolor', 'Leve', 'Alergias a algun alimento', 'Menos de 18 anios')": {
         "recomendacion": "Dra. Alejandra Rivera, Nutriologa Pediatrica",
@@ -277,7 +277,7 @@
             "-Enfoque integral para mejorar el bienestar general del paciente.",
             " Costo por consulta: $800"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc12.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
     "('Consulta preventiva', 'Moderado', 'Alergias a algun medicamento', 'Entre 36-60 anios')": {
         "recomendacion": "Dra. Gabriela Santos, Medica Internista",
@@ -287,7 +287,7 @@
             "-Ofrece atencion detallada y personalizada para cada caso.",
             " Costo por consulta: $950"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc12.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
     "('Control de salud', 'Moderado', 'Operaciones o cirugias', 'Entre 18-35 anios')": {
         "recomendacion": "Dr. Victor Sanchez, Medico General",
@@ -297,7 +297,7 @@
             "-Ofrece un enfoque preventivo y personalizado.",
             " Costo por consulta: $700"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc13.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc13.jpeg"
     },
     "('Dolor', 'Moderado', 'Operaciones o cirugias', 'Entre 18-35 anios')": {
         "recomendacion": "Dra. Monica Castillo, Algologa",
@@ -307,7 +307,7 @@
             "-Ofrece terapias no invasivas y seguimiento continuo.",
             " Costo por consulta: $780"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc4.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc4.jpeg"
     },
     "('Consulta preventiva', 'Muy fuerte', 'Alergias a algun alimento', 'Mas de 60 anios')": {
         "recomendacion": "Dr. Ricardo Ortega, Geriatra",
@@ -317,7 +317,7 @@
             "-Recomendado para evitar complicaciones graves asociadas a alergias.",
             " Costo por consulta: $990"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc15.jpeg"
     },
     "('Revision de sintomas', 'Fuerte', 'No', 'Menos de 18 anios')": {
         "recomendacion": "Dr. Andres Pereira Rojas, Traumatologo",
@@ -327,7 +327,7 @@
             "- Sus diagnosticos son muy acertados",
             "- Costo por consulta: $650 . "
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc5.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc5.jpeg"
     },
     "('Dolor', 'Muy fuerte', 'Alergias a algun medicamento', 'Mas de 60 anios')": {
         "recomendacion": "Dra. Carmen Esquivel, Algologa y Geriatra",
@@ -337,7 +337,7 @@
             "-Enfoque en mejorar la calidad de vida y aliviar el sufrimiento.",
             " Costo por consulta: $1090"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc4.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc4.jpeg"
     },
     "('Consulta preventiva', 'Fuerte', 'No', 'Entre 18-35 anios')": {
         "recomendacion": "Dr. Luis Guzman, Medico General",
@@ -347,7 +347,7 @@
             "-Recomendado para pacientes interesados en su bienestar integral.",
             " Costo por consulta: $1500"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc13.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc13.jpeg"
     },
     "('Revision de sintomas', 'Leve', 'Operaciones o cirugias', 'Mas de 60 anios')": {
         "recomendacion": "Dr. Julian Rosales, Medico Internista",
@@ -357,7 +357,7 @@
             "-Ofrece diagnosticos rapidos y orientacion detallada.",
             " Costo por consulta: $1200"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc14.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc14.jpeg"
     },
     "('Control de salud', 'Muy fuerte', 'Operaciones o cirugias', 'Menos de 18 anios')": {
         "recomendacion": "Dra. Fernanda Lopez, Pediatra",
@@ -367,7 +367,7 @@
             "-Enfoque multidisciplinario para garantizar un desarrollo saludable.",
             " Costo por consulta: $1600"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc4.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc4.jpeg"
     },
     "('Dolor', 'Fuerte', 'No', 'Mas de 60 anios')": {
         "recomendacion": "Dra. Ana Beltran, Geriatra",
@@ -377,7 +377,7 @@
             "-Enfoque multidisciplinario para mejorar la calidad de vida.",
             " Costo por consulta: $1300"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc4.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc4.jpeg"
     },
     "('Revision de sintomas', 'Leve', 'Operaciones o cirugias', 'Entre 18-35 anios')": {
         "recomendacion": "Dr. Esteban Morales, Cirujano General",
@@ -387,7 +387,7 @@
             "-Ofrece diagnostico rapido y terapias adecuadas.",
             " Costo por consulta: $1100"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc12.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
     "('Consulta preventiva', 'Leve', 'Alergias a algun medicamento', 'Menos de 18 anios')": {
         "recomendacion": "Dra. Silvia Ortega, Pediatra y Alergologa",
@@ -397,7 +397,7 @@
             "-Ofrece orientacion segura para padres y menores.",
             " Costo por consulta: $1000"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc12.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
     "('Dolor', 'Muy fuerte', 'Alergias a algun medicamento', 'Entre 36-60 anios')": {
         "recomendacion": "Dr. Miguel Vargas, Algologo",
@@ -407,7 +407,7 @@
             "-Ofrece alternativas terapeuticas seguras y efectivas.",
             " Costo por consulta: $100"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc14.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc14.jpeg"
     },
     "('Control de salud', 'Moderado', 'Operaciones o cirugias', 'Mas de 60 anios')": {
         "recomendacion": "Dra. Irene Ramirez, Medica Geriatra",
@@ -417,7 +417,7 @@
             "-Ofrece planes de salud integrales y personalizados.",
             " Costo por consulta: $1200"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc4.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc4.jpeg"
     },
     "('Revision de sintomas', 'Leve', 'No', 'Menos de 18 anios')": {
         "recomendacion": "Dr. Andres Herrera, Pediatra",
@@ -427,7 +427,7 @@
             "-Ofrece diagnosticos rapidos y orientacion adecuada para padres.",
             " Costo por consulta: $1100"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc10.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc10.jpeg"
     },
     "('Dolor', 'Moderado', 'Alergias a algun alimento', 'Entre 18-35 anios')": {
         "recomendacion": "Dra. Natalia Rojas, Nutriologa Geriatrica",
@@ -437,7 +437,7 @@
             "-Ofrece planes personalizados y monitoreo continuo.",
             " Costo por consulta: $1200"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc4.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc4.jpeg"
     },
     "('Consulta preventiva', 'Muy fuerte', 'No', 'Entre 18-35 anios')": {
         "recomendacion": "Dr. Alberto Nuniez, Medico General",
@@ -447,7 +447,7 @@
             "-Ofrece soluciones integrales con enfoque preventivo.",
             " Costo por consulta: $1600"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc14.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc14.jpeg"
     },
     "('Control de salud', 'Fuerte', 'Alergias a algun medicamento', 'Entre 36-60 anios')": {
         "recomendacion": "Dr. Emilio Torres, Medico Internista",
@@ -457,7 +457,7 @@
             "-Ofrece monitoreo detallado y planes preventivos personalizados.",
             " Costo por consulta: $700"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc2.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc2.jpeg"
     },
     "('Dolor', 'Leve', 'Operaciones o cirugias', 'Menos de 18 anios')": {
         "recomendacion": "Dra. Ana Sofia Munioz, Pediatra",
@@ -467,7 +467,7 @@
             "-Recomendado para garantizar una recuperacion completa.",
             " Costo por consulta: $8000"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc4.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc4.jpeg"
     },
     "('Revision de sintomas', 'Moderado', 'Alergias a algun medicamento', 'Entre 18-35 anios')": {
         "recomendacion": "Dr. David Suarez, Medico General",
@@ -477,7 +477,7 @@
             "-Ideal para diagnosticos rapidos y planes de tratamiento efectivos.",
             " Costo por consulta: $100"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc5.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc5.jpeg"
     },
     "('Consulta preventiva', 'Leve', 'No', 'Entre 36-60 anios')": {
         "recomendacion": "Dra. Lorena Garcia, Medico Internista",
@@ -487,7 +487,7 @@
             "-Ideal para mantener un estado de salud optimo y prevenir enfermedades.",
             " Costo por consulta: $1200"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc12.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
     "('Dolor', 'Muy fuerte', 'Operaciones o cirugias', 'Entre 18-35 anios')": {
         "recomendacion": "Dr. Hector Maldonado, Algologo",
@@ -497,7 +497,7 @@
             "-Ofrece soluciones rapidas y eficaces para aliviar el dolor.",
             " Costo por consulta: $1400"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc13.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc13.jpeg"
     },
     "('Control de salud', 'Muy fuerte', 'Alergias a algun alimento', 'Menos de 18 anios')": {
         "recomendacion": "Dra. Mariana Sanchez, Pediatra y Nutriologa",
@@ -507,7 +507,7 @@
             "-Recomendado para garantizar el bienestar nutricional y general del paciente.",
             " Costo por consulta: $1800"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc4.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc4.jpeg"
     },
     "('Revision de sintomas', 'Fuerte', 'Alergias a algun alimento', 'Mas de 60 anios')": {
         "recomendacion": "Dra. Alicia Herrera, Nutriologa Clinica",
@@ -517,7 +517,7 @@
             "-Ofrece monitoreo continuo y soluciones practicas.",
             " Costo por consulta: $2000"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc12.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
     "('Dolor', 'Fuerte', 'No', 'Entre 18-35 anios')": {
         "recomendacion": "Dr. Pablo Martinez, Medico General",
@@ -527,7 +527,7 @@
             "-Ofrece seguimiento continuo y tratamientos personalizados.",
             " Costo por consulta: $500"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc6.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc6.jpeg"
     },
     "('Consulta preventiva', 'Moderado', 'Operaciones o cirugias', 'Entre 18-35 anios')": {
         "recomendacion": "Dra. Carla Lopez, Cirujana General",
@@ -537,7 +537,7 @@
             "-Ofrece un enfoque detallado y personalizado.",
             " Costo por consulta: $780"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc12.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
     "('Revision de sintomas', 'Muy fuerte', 'No', 'Mas de 60 anios')": {
         "recomendacion": "Dr. Raul Martinez Sanchez, Geriatra",
@@ -547,7 +547,7 @@
             "- Ofrece un enfoque multidisciplinario para mejorar la calidad de vida y prevenir complicaciones.",
             "- Costo por consulta: $1000."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc14.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc14.jpeg"
     },
     "('Dolor', 'Leve', 'Alergias a algun medicamento', 'Entre 18-35 anios')": {
         "recomendacion": "Dra. Fernanda Rojas, Medica General",
@@ -557,7 +557,7 @@
             "-Recomendado para seguimiento y prevencion de episodios futuros.",
             " Costo por consulta: $1500"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc12.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
     "('Consulta preventiva', 'Muy fuerte', 'Operaciones o cirugias', 'Mas de 60 anios')": {
         "recomendacion": "Dra. Alejandra Silva, Geriatra y Cirujana",
@@ -567,7 +567,7 @@
             "-Ideal para monitorear la recuperacion a largo plazo.",
             " Costo por consulta: $1200"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc12.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
     "('Dolor', 'Moderado', 'Alergias a algun medicamento', 'Entre 36-60 anios')": {
         "recomendacion": "Dr. Javier Gonzalez, Medico Internista",
@@ -577,7 +577,7 @@
             "-Ideal para pacientes con historial alergico que necesitan manejo especifico.",
             " Costo por consulta: $500"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc7.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc7.jpeg"
     },
     "('Revision de sintomas', 'Leve', 'No', 'Entre 36-60 anios')": {
         "recomendacion": "Dr. Felipe Cruz, Internista",
@@ -587,7 +587,7 @@
             "- Ofrece soluciones para mejorar la salud y prevenir problemas futuros.",
             "- Costo por consulta: $800."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc9.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc9.jpeg"
     },
     "('Consulta preventiva', 'Moderado', 'Alergias a algun alimento', 'Menos de 18 anios')": {
         "recomendacion": "Dr. Carlos Martinez, Pediatra y Alergologo",
@@ -597,7 +597,7 @@
             "-Ofrece seguimiento continuo y soluciones personalizadas.",
             " Costo por consulta: $900"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc6.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc6.jpeg"
     },
     "('Dolor', 'Muy fuerte', 'Alergias a algun medicamento', 'Entre 18-35 anios')": {
         "recomendacion": "Dra. Silvia Mendoza, Especialista en Dolor",
@@ -607,7 +607,7 @@
             "-Ofrece alternativas de tratamiento personalizadas y efectivas.",
             " Costo por consulta: $1500"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc10.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc10.jpeg"
     },
     "('Revision de sintomas', 'Fuerte', 'No', 'Entre 18-35 anios')": {
         "recomendacion": "Dra. Mariana Sanchez Gomez, Medico Internista",
@@ -617,7 +617,7 @@
             "- Ofrece un enfoque integral que incluye medicamentos, cambios en el estilo de vida y seguimiento regular.",
             "- Costo por consulta: $900."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc4.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc4.jpeg"
     },
     "('Consulta preventiva', 'Leve', 'Alergias a algun medicamento', 'Entre 18-35 anios')": {
         "recomendacion": "Dra. Gabriela Perez, Medico General",
@@ -627,7 +627,7 @@
             "-Ideal para diagnostico temprano y tratamiento preventivo.",
             " Costo por consulta: $660"
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc9.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc9.jpeg"
     },
     "('Dolor', 'Moderado', 'Alergias a algun alimento', 'Entre 36-60 anios')": {
         "recomendacion": "Dr. Oscar Rivas, Nutriologo Clinico",
@@ -637,7 +637,7 @@
             "-Ideal para aquellos que buscan controlar los efectos de las alergias alimenticias.",
             "- Costo por consulta: $900."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc7.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc7.jpeg"
     },
     "('Control de salud', 'Fuerte', 'Operaciones o cirugias', 'Mas de 60 anios')": {
         "recomendacion": "Dr. Roberto Sanchez, Medico Internista",
@@ -647,7 +647,7 @@
             "- Experiencia en manejo de condiciones cronicas y recuperacion postquirurgica.",
             "- Costo por consulta: $7,000,000."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc7.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc7.jpeg"
     },
     "('Consulta preventiva', 'Leve', 'Alergias a algun medicamento', 'Entre 36-60 anios')": {
         "recomendacion": "Dra. Laura Mendez, Alergologa",
@@ -657,7 +657,7 @@
             "- Ofrece estrategias personalizadas para mejorar la calidad de vida.",
             "- Costo por consulta: $600."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc4.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc4.jpeg"
     },
     "('Dolor', 'Moderado', 'No', 'Menos de 18 anios')": {
         "recomendacion": "Dr. Andres Lopez, Pediatra",
@@ -667,18 +667,18 @@
             "- Ofrece un enfoque integral para asegurar el bienestar del paciente.",
             "- Costo por consulta: $450."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc5.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc5.jpeg"
     },
+    
     "('Revision de sintomas', 'Muy fuerte', 'Alergias a algun alimento', 'Entre 18-35 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dra. Carolina López, Alergóloga",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en el manejo de reacciones alérgicas severas a alimentos en adultos jóvenes.",
+            "- Realiza pruebas diagnósticas para identificar alérgenos específicos y proporciona tratamiento inmediato para síntomas graves.",
+            "- Ofrece estrategias personalizadas para evitar futuras reacciones alérgicas y mejorar la calidad de vida.",
+                "- Costo por consulta: $1,100."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc15.jpeg"
     },
     "('Control de salud', 'Moderado', 'No', 'Entre 18-35 anios')": {
         "recomendacion": "Dra. Cecilia Ramirez, Medico General",
@@ -688,7 +688,7 @@
             "- Experiencia en ofrecer seguimiento y atencion personalizada.",
             "- Costo por consulta: $500."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc12.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
     "('Consulta preventiva', 'Muy fuerte', 'Operaciones o cirugias', 'Menos de 18 anios')": {
         "recomendacion": "Dra. Natalia Gomez, Pediatra",
@@ -698,18 +698,18 @@
             "- Ofrece soluciones personalizadas para mejorar la calidad de vida de los ninios.",
             "- Costo por consulta: $650."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc4.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc4.jpeg"
     },
+    
     "('Revision de sintomas', 'Leve', 'Alergias a algun medicamento', 'Entre 36-60 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dr. Ricardo Hernández, Alergólogo",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en el tratamiento de alergias leves a medicamentos en adultos de 36 a 60 años.",
+            "- Ofrece diagnóstico preciso y manejo de reacciones alérgicas leves a medicamentos.",
+            "- Brinda recomendaciones sobre alternativas terapéuticas y estrategias para minimizar el riesgo de futuras reacciones.",
+            "- Costo por consulta: $950."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc15.jpeg"
     },
     "('Dolor', 'Muy fuerte', 'Alergias a algun alimento', 'Mas de 60 anios')": {
         "recomendacion": "Dra. Teresa Morales, Nutriologa Geriatrica",
@@ -719,7 +719,7 @@
             "- Recomendado para personas mayores con historial alergico severo.",
             "- Costo por consulta: $700."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc12.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
     "('Dolor', 'Fuerte', 'Alergias a algun medicamento', 'Entre 18-35 anios')": {
         "recomendacion": "Dr. Esteban Rodriguez, Algologo",
@@ -729,7 +729,7 @@
             "- Recomendado para aliviar molestias cronicas y mejorar la calidad de vida.",
             "- Costo por consulta: $600."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc8.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc8.jpeg"
     },
     "('Consulta preventiva', 'Leve', 'Operaciones o cirugias', 'Entre 18-35 anios')": {
         "recomendacion": "Dra. Patricia Lopez, Cirujana General",
@@ -739,7 +739,7 @@
             "- Recomendado para adultos jovenes que buscan un monitoreo constante.",
             "- Costo por consulta: $650."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc4.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc4.jpeg"
     },
     "('Control de salud', 'Muy fuerte', 'No', 'Mas de 60 anios')": {
         "recomendacion": "Dr. Martin Castro, Medico Internista",
@@ -749,7 +749,7 @@
             "- Ofrece una atencion integral y personalizada para mejorar la calidad de vida.",
             "- Costo por consulta: $800."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc6.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc6.jpeg"
     },
     "('Consulta preventiva', 'Moderado', 'Operaciones o cirugias', 'Menos de 18 anios')": {
         "recomendacion": "Dra. Marta Ruiz, Pediatra",
@@ -759,7 +759,7 @@
             "- Ofrece estrategias personalizadas para fortalecer el bienestar infantil.",
             "- Costo por consulta: $550."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc4.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc4.jpeg"
     },
     "('Dolor', 'Fuerte', 'Operaciones o cirugias', 'Entre 18-35 anios')": {
         "recomendacion": "Dr. Sebastian Gomez, Cirujano General",
@@ -769,7 +769,7 @@
             "- Ideal para adultos jovenes con antecedentes quirurgicos y dolor persistente.",
             "- Costo por consulta: $700."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc10.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc10.jpeg"
     },
     "('Consulta preventiva', 'Muy fuerte', 'Alergias a algun alimento', 'Entre 18-35 anios')": {
         "recomendacion": "Dra. Lucia Perez, Nutriologa",
@@ -779,18 +779,19 @@
             "- Recomendado para pacientes con alergias alimentarias severas.",
             "- Costo por consulta: $650."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc4.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc4.jpeg"
     },
+    
     "('Revision de sintomas', 'Moderado', 'Operaciones o cirugias', 'Mas de 60 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dr. Eduardo Martínez, Cirujano Geriátrico",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en el seguimiento postquirúrgico de adultos mayores con síntomas moderados después de una operación.",
+            "- Ofrece un enfoque integral para la recuperación postoperatoria, adaptado a las necesidades de las personas mayores.",
+            "- Brinda consejos sobre ejercicios, dieta y cuidados para acelerar la rehabilitación y reducir riesgos.",
+            "- Costo por consulta: $1,200."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc15.jpeg"
+        
     },
     "('Dolor', 'Moderado', 'No', 'Mas de 60 anios')": {
         "recomendacion": "Dr. Felipe Martinez, Medico Internista",
@@ -800,7 +801,7 @@
             "- Recomendado para pacientes con molestias persistentes.",
             "- Costo por consulta: $700."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc8.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc8.jpeg"
     },
     "('Consulta preventiva', 'Fuerte', 'Alergias a algun medicamento', 'Menos de 18 anios')": {
         "recomendacion": "Dra. Sofia Sanchez, Pediatra y Alergologa",
@@ -810,18 +811,18 @@
             "- Recomendado para ninios y adolescentes con historial alergico.",
             "- Costo por consulta: $550."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc4.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc4.jpeg"
     },
+    
     "('Revision de sintomas', 'Leve', 'Operaciones o cirugias', 'Entre 36-60 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dr. Javier González, Cirujano General",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en el seguimiento postoperatorio de pacientes adultos con síntomas leves después de cirugías.",
+            "- Brinda atención personalizada para asegurar una recuperación adecuada y prevenir complicaciones menores.",
+            "- Ofrece orientación sobre cuidados postquirúrgicos, manejo del dolor leve y mejora del bienestar general.",
+            "- Costo por consulta: $1,100."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc15.jpeg"
     },
     "('Control de salud', 'Moderado', 'Alergias a algun alimento', 'Entre 36-60 anios')": {
         "recomendacion": "Dra. Isabel Perez, Nutriologa",
@@ -831,18 +832,18 @@
             "- Recomendado para adultos con alergias alimenticias leves a moderadas.",
             "- Costo por consulta: $650."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc7.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc7.jpeg"
     },
+    
     "('Revision de sintomas', 'Fuerte', 'Alergias a algun alimento', 'Menos de 18 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dr. Andrés Rodríguez, Alergólogo Pediátrico",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en el manejo de reacciones alérgicas fuertes a alimentos en niños y adolescentes.",
+            "- Realiza diagnósticos precisos y proporciona tratamientos para controlar síntomas alérgicos graves.",
+            "- Ofrece planes de prevención para evitar futuras reacciones alérgicas peligrosas.",
+            "- Costo por consulta: $1,000."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc15.jpeg"
     },
     "('Consulta preventiva', 'Moderado', 'No', 'Entre 36-60 anios')": {
         "recomendacion": "Dr. Victor Hernandez, Medico General",
@@ -852,7 +853,7 @@
             "- Ofrece examenes preventivos y consejos para evitar riesgos futuros.",
             "- Costo por consulta: $650."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc9.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc9.jpeg"
     },
     "('Dolor', 'Leve', 'Alergias a algun medicamento', 'Mas de 60 anios')": {
         "recomendacion": "Dra. Beatriz alvarez, Geriatra",
@@ -862,7 +863,7 @@
             "- Recomendado para personas mayores con historial alergico.",
             "- Costo por consulta: $700."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc12.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
     "('Dolor', 'Fuerte', 'Alergias a algun alimento', 'Entre 36-60 anios')": {
         "recomendacion": "Dr. Enrique Suarez, Algologo",
@@ -872,7 +873,7 @@
             "- Recomendado para adultos con reacciones alergicas graves.",
             "- Costo por consulta: $750."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc6.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc6.jpeg"
     },
     "('Control de salud', 'Leve', 'Operaciones o cirugias', 'Entre 18-35 anios')": {
         "recomendacion": "Dr. Fernando alvarez, Medico General",
@@ -882,18 +883,18 @@
             "- Recomendado para quienes buscan mantener un estilo de vida saludable tras cirugias.",
             "- Costo por consulta: $500."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc5.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc5.jpeg"
     },
+    
     "('Revision de sintomas', 'Moderado', 'Alergias a algun medicamento', 'Entre 36-60 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dr. Claudia Martínez, Alergóloga",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en el manejo de reacciones alérgicas moderadas a medicamentos en adultos de 36 a 60 años.",
+            "- Realiza pruebas de alergia específicas para identificar alérgenos y prescribir tratamientos adecuados.",
+            "- Ofrece opciones terapéuticas personalizadas para controlar los síntomas y prevenir futuras reacciones alérgicas.",
+            "- Costo por consulta: $1,050."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc15.jpeg"
     },
     "('Consulta preventiva', 'Leve', 'No', 'Mas de 60 anios')": {
         "recomendacion": "Dra. Rosa Gonzalez, Medico General",
@@ -903,18 +904,18 @@
             "- Recomendado para adultos mayores sin historial medico complejo.",
             "- Costo por consulta: $600."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc12.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
+    
     "('Revision de sintomas', 'Leve', 'Alergias a algun medicamento', 'Menos de 18 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dr. Laura Fernández, Alergóloga Pediátrica",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en el manejo de alergias leves a medicamentos en niños y adolescentes.",
+            "- Realiza diagnóstico preciso para identificar reacciones leves a medicamentos y ofrece tratamientos seguros.",
+            "- Brinda recomendaciones para evitar futuros episodios alérgicos y manejar los síntomas de manera efectiva.",
+            "- Costo por consulta: $900."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc15.jpeg"
     },
     "('Consulta preventiva', 'Leve', 'No', 'Menos de 18 anios')": {
         "recomendacion": "Dr. Rafael Jimenez, Pediatra Preventivo",
@@ -923,7 +924,7 @@
             "-Ideal para evaluaciones tempranas de salud infantil.",
             "-Costo por consulta: $250."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc5.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc5.jpeg"
     },
     "('Dolor', 'Fuerte', 'Alergias a algun alimento', 'Entre 18-35 anios')": {
         "recomendacion": "Dra. Ana Lopez, Nutriologa Clinica",
@@ -932,7 +933,7 @@
             "-Enfoque en tratamientos integrales y personalizados.",
             "-Costo por consulta: $420."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc4.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc4.jpeg"
     },
     "('Control de salud', 'Muy fuerte', 'Alergias a algun medicamento', 'Entre 36-60 anios')": {
         "recomendacion": "Dra. Sofia Ramirez, Inmunologa",
@@ -941,7 +942,7 @@
             "-Recomendada para pacientes con reacciones medicamentosas severas.",
             "-Costo por consulta: $650."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc12.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
     "('Consulta preventiva', 'Fuerte', 'Alergias a algun alimento', 'Entre 18-35 anios')": {
         "recomendacion": "Dr. Ramiro Sanchez, Nutricionista Clinico",
@@ -950,7 +951,7 @@
             "-Evaluacion integral de riesgos nutricionales y alergenicos.",
             "-Costo por consulta: $450."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc13.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc13.jpeg"
     },
     "('Control de salud', 'Moderado', 'Alergias a algun medicamento', 'Entre 36-60 anios')": {
         "recomendacion": "Dr. Sergio alvarez, Alergologo Internista",
@@ -959,7 +960,7 @@
             "-Enfoque en diagnostico diferencial y tratamientos personalizados.",
             "-Costo por consulta: $550."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc2.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc2.jpeg"
     },
     "('Control de salud', 'Muy fuerte', 'Operaciones o cirugias', 'Entre 18-35 anios')": {
         "recomendacion": "Dr. Carlos Ramirez, Cirujano General",
@@ -969,29 +970,29 @@
             "- Recomendado para pacientes con dolor severo tras cirugia.",
             "- Costo por consulta: $800."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc6.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc6.jpeg"
     },
+    
     "('Revision de sintomas', 'Moderado', 'No', 'Entre 18-35 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dr. Carlos Martínez, especialista en medicina general.",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
+
+                "Se ofrece una revisión exhaustiva de los síntomas moderados para detectar posibles condiciones subyacentes.",
+                "Se recomiendan exámenes preventivos y seguimiento para evitar complicaciones futuras.",
+                "Costo por consulta: $750."
+            ],
+            "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc15.jpeg"
+        },
+    
     "('Revision de sintomas', 'Muy fuerte', 'Alergias a algun alimento', 'Entre 36-60 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dra. Mariana González, Alergóloga",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en el tratamiento de reacciones alérgicas graves a alimentos en adultos de 36 a 60 años.",
+            "- Realiza pruebas de alergia específicas y recomienda un plan de manejo para evitar exposiciones peligrosas.",
+            "- Ofrece asesoría para adaptar dietas y prevenir futuros episodios alérgicos severos.",
+            "- Costo por consulta: $1,200."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc15.jpeg"
     },
     "('Consulta preventiva', 'Fuerte', 'Operaciones o cirugias', 'Mas de 60 anios')": {
         "recomendacion": "Dr. Ricardo Gonzalez, Cirujano General",
@@ -1001,18 +1002,18 @@
             "- Recomendado para personas mayores que han pasado por cirugias.",
             "- Costo por consulta: $800."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc7.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc7.jpeg"
     },
+    
     "('Revision de sintomas', 'Leve', 'Alergias a algun medicamento', 'Entre 18-35 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dr. Laura Jiménez, Alergóloga",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en el diagnóstico y manejo de alergias leves a medicamentos en adultos jóvenes.",
+            "- Realiza pruebas para identificar alérgenos y propone alternativas para evitar reacciones alérgicas.",
+            "- Ofrece tratamiento preventivo y soluciones para controlar síntomas leves de alergias a medicamentos.",
+            "- Costo por consulta: $900."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc15.jpeg"
     },
     "('Consulta preventiva', 'Moderado', 'Alergias a algun alimento', 'Entre 18-35 anios')": {
         "recomendacion": "Dra. Ana Sanchez, Nutriologa",
@@ -1022,18 +1023,18 @@
             "- Ideal para jovenes adultos con alergias alimentarias moderadas.",
             "- Costo por consulta: $650."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc12.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
+    
     "('Revision de sintomas', 'Muy fuerte', 'Operaciones o cirugias', 'Menos de 18 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dr. Luis Pérez, Cirujano Pediátrico",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en el manejo de síntomas postoperatorios muy fuertes en niños y adolescentes.",
+            "- Brinda seguimiento especializado después de cirugías complejas en menores de 18 años.",
+            "- Se enfoca en aliviar el dolor postquirúrgico intenso y en evitar complicaciones durante la recuperación.",
+            "- Costo por consulta: $1,500."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc15.jpeg"
     },
     "('Consulta preventiva', 'Leve', 'Operaciones o cirugias', 'Entre 36-60 anios')": {
         "recomendacion": "Dr. Antonio Sanchez, Cirujano General",
@@ -1043,18 +1044,18 @@
             "- Recomendado para adultos con historial quirurgico reciente.",
             "- Costo por consulta: $600."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc9.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc9.jpeg"
     },
+    
     "('Revision de sintomas', 'Moderado', 'Alergias a algun alimento', 'Mas de 60 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dra. Isabel Rodríguez, Alergóloga Geriátrica",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en el diagnóstico y tratamiento de alergias alimentarias moderadas en adultos mayores.",
+            "- Ofrece planes de manejo personalizado para evitar reacciones alérgicas y mejorar la calidad de vida.",
+            "- Brinda orientación sobre dietas adaptadas para adultos mayores con alergias alimentarias.",
+            "- Costo por consulta: $1,000."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc15.jpeg"
     },
     "('Consulta preventiva', 'Muy fuerte', 'Alergias a algun medicamento', 'Mas de 60 anios')": {
         "recomendacion": "Dr. Martin Rodriguez, Geriatra",
@@ -1064,18 +1065,18 @@
             "- Recomendado para pacientes mayores con historial alergico grave.",
             "- Costo por consulta: $750."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc12.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
+    
     "('Revision de sintomas', 'Moderado', 'Operaciones o cirugias', 'Entre 36-60 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dr. Enrique Sánchez, Cirujano General",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en el manejo de síntomas moderados postoperatorios en adultos de entre 36 y 60 años.",
+            "- Ofrece seguimiento y control integral para pacientes que se están recuperando de cirugías.",
+            "- Enfocado en la rehabilitación y prevención de complicaciones durante el proceso de recuperación postquirúrgica.",
+            "- Costo por consulta: $1,400."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc15.jpeg"
     },
     "('Dolor', 'Moderado', 'Operaciones o cirugias', 'Mas de 60 anios')": {
         "recomendacion": "Dr. Francisco Rodriguez, Cirujano General",
@@ -1085,18 +1086,18 @@
             "- Recomendado para personas mayores con dolor postoperatorio moderado.",
             "- Costo por consulta: $700."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc6.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc6.jpeg"
     },
+    
     "('Revision de sintomas', 'Muy fuerte', 'Alergias a algun medicamento', 'Menos de 18 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dr. Felipe Gómez, Alergólogo Pediátrico",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en el diagnóstico y tratamiento de reacciones alérgicas graves a medicamentos en niños y adolescentes.",
+            "- Realiza pruebas detalladas para identificar medicamentos causantes de reacciones alérgicas intensas.",
+            "- Brinda tratamiento inmediato y recomendaciones para evitar futuros episodios alérgicos.",
+            "- Costo por consulta: $1,100."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc15.jpeg"
     },
     "('Control de salud', 'Fuerte', 'Alergias a algun medicamento', 'Mas de 60 anios')": {
         "recomendacion": "Dr. Eduardo Martin, Medico Internista",
@@ -1106,18 +1107,18 @@
             "- Recomendado para pacientes mayores con historial alergico grave.",
             "- Costo por consulta: $800."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc8.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc8.jpeg"
     },
+    
     "('Revision de sintomas', 'Moderado', 'Alergias a algun alimento', 'Menos de 18 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dra. Gabriela Ruiz, Alergóloga Pediátrica",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en el diagnóstico y tratamiento de alergias alimentarias moderadas en niños y adolescentes.",
+            "- Ofrece pruebas específicas para identificar alérgenos y proporciona tratamiento adecuado.",
+            "- Enseña a padres y cuidadores cómo manejar las alergias alimentarias para mejorar la calidad de vida de los niños.",
+            "- Costo por consulta: $900."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc15.jpeg"
     },
     "('Dolor', 'Leve', 'Operaciones o cirugias', 'Mas de 60 anios')": {
         "recomendacion": "Dr. Felipe Gonzalez, Cirujano General",
@@ -1127,7 +1128,7 @@
             "- Recomendado para personas mayores que han tenido cirugias recientes.",
             "- Costo por consulta: $600."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc7.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc7.jpeg"
     },
     "('Consulta preventiva', 'Moderado', 'Alergias a algun medicamento', 'Entre 18-35 anios')": {
         "recomendacion": "Dr. Carlos Lopez, Alergologo",
@@ -1137,7 +1138,7 @@
             "- Recomendado para pacientes con alergias a medicamentos no severas.",
             "- Costo por consulta: $550."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc9.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc9.jpeg"
     },
     "('Dolor', 'Leve', 'Operaciones o cirugias', 'Entre 36-60 anios')": {
         "recomendacion": "Dr. Ricardo Soto, Cirujano General",
@@ -1147,7 +1148,7 @@
             "- Recomendado para pacientes con intervenciones quirurgicas recientes.",
             "- Costo por consulta: $600."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc6.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc6.jpeg"
     },
     "('Control de salud', 'Fuerte', 'No', 'Mas de 60 anios')": {
         "recomendacion": "Dra. Mariana Torres, Geriatra",
@@ -1157,7 +1158,7 @@
             "- Recomendado para personas mayores que desean mantener una vida saludable.",
             "- Costo por consulta: $750."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc7.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc7.jpeg"
     },
     "('Dolor', 'Moderado', 'Alergias a algun alimento', 'Menos de 18 anios')": {
         "recomendacion": "Dr. Luis Hernandez, Pediatra",
@@ -1167,18 +1168,18 @@
             "- Ideal para ninios con reacciones alergicas leves a alimentos.",
             "- Costo por consulta: $550."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc4.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc4.jpeg"
     },
+    
     "('Revision de sintomas', 'Fuerte', 'Operaciones o cirugias', 'Entre 18-35 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dr. Sergio Martínez, Cirujano General",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en el manejo de síntomas postoperatorios graves en adultos jóvenes.",
+            "- Ofrece un seguimiento integral y personalizado para pacientes jóvenes que han pasado por cirugías complejas.",
+            "- Se enfoca en la reducción del dolor y la prevención de complicaciones postquirúrgicas en este grupo etario.",
+            "- Costo por consulta: $1,200."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc15.jpeg"
     },
     "('Dolor', 'Leve', 'Alergias a algun medicamento', 'Entre 36-60 anios')": {
         "recomendacion": "Dr. Gustavo Jimenez, Alergologo",
@@ -1188,18 +1189,18 @@
             "- Recomendado para adultos con reacciones alergicas leves a medicamentos.",
             "- Costo por consulta: $600."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc6.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc6.jpeg"
     },
+    
     "('Revision de sintomas', 'Muy fuerte', 'Operaciones o cirugias', 'Entre 36-60 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dr. Luis Hernández, Cirujano General",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en la atención de síntomas postoperatorios fuertes en adultos de mediana edad.",
+            "- Brinda seguimiento integral después de cirugías complejas, enfocado en la recuperación rápida y sin complicaciones.",
+            "- Ofrece asesoría para el manejo del dolor postquirúrgico y la rehabilitación en pacientes entre 36 y 60 años.",
+            "- Costo por consulta: $1,500."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc15.jpeg"
     },
     "('Consulta preventiva', 'Moderado', 'Operaciones o cirugias', 'Entre 36-60 anios')": {
         "recomendacion": "Dr. Eduardo Martinez, Cirujano General",
@@ -1209,7 +1210,7 @@
             "- Ofrece atencion personalizada para evitar recaidas y complicaciones.",
             "- Costo por consulta: $700."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc9.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc9.jpeg"
     },
     "('Consulta preventiva', 'Fuerte', 'Alergias a algun alimento', 'Entre 36-60 anios')": {
         "recomendacion": "Dra. Claudia Perez, Nutriologa",
@@ -1219,7 +1220,7 @@
             "- Ideal para adultos con alergias alimentarias severas.",
             "- Costo por consulta: $700."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc7.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc7.jpeg"
     },
     "('Control de salud', 'Leve', 'Alergias a algun medicamento', 'Mas de 60 anios')": {
         "recomendacion": "Dr. Enrique Solis, Medico Internista",
@@ -1229,18 +1230,18 @@
             "- Recomendado para pacientes que buscan un manejo proactivo de su salud.",
             "- Costo por consulta: $650."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc8.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc8.jpeg"
     },
+    
     "('Revision de sintomas', 'Fuerte', 'Operaciones o cirugias', 'Menos de 18 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dr. Ricardo Gómez, Cirujano Pediátrico",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en el manejo de síntomas postoperatorios fuertes en niños y adolescentes.",
+            "- Realiza seguimientos detallados después de operaciones o cirugías para garantizar una recuperación adecuada.",
+            "- Proporciona tratamientos personalizados para el control del dolor y la prevención de complicaciones en pacientes jóvenes.",
+                "- Costo por consulta: $1,200."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc15.jpeg"
     },
     "('Consulta preventiva', 'Leve', 'Operaciones o cirugias', 'Mas de 60 anios')": {
         "recomendacion": "Dr. Victor Sanchez, Geriatra",
@@ -1250,7 +1251,7 @@
             "- Recomendado para pacientes con antecedentes quirurgicos leves.",
             "- Costo por consulta: $650."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc12.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
     "('Control de salud', 'Fuerte', 'Operaciones o cirugias', 'Entre 18-35 anios')": {
         "recomendacion": "Dr. Ricardo Fernandez, Cirujano General",
@@ -1260,7 +1261,7 @@
             "- Recomendado para pacientes con secuelas de cirugia reciente.",
             "- Costo por consulta: $750."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc10.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc10.jpeg"
     },
     "('Dolor', 'Leve', 'Alergias a algun medicamento', 'Menos de 18 anios')": {
         "recomendacion": "Dr. Francisco Garcia, Pediatra",
@@ -1270,18 +1271,19 @@
             "- Ideal para menores que han experimentado alergias a medicamentos.",
             "- Costo por consulta: $450."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc12.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
-    "('Revision de sintomas', 'Moderado', 'Operaciones o cirugias', 'Menos de 18 anios')": {
-        "recomendacion": "Recomendacion generica",
+    
+        "('Revision de sintomas', 'Moderado', 'Operaciones o cirugias', 'Menos de 18 anios')": {
+        "recomendacion": "Dr. Mariana Castro, Cirujana Pediátrica",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en el seguimiento postoperatorio de niños y adolescentes.",
+            "- Proporciona atención integral para niños que han pasado por operaciones o cirugías.",
+            "- Ofrece un enfoque personalizado para monitorear la recuperación de los más jóvenes y prevenir complicaciones.",
+            "- Costo por consulta: $1,000."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc15.jpeg"
+    
     },
     "('Consulta preventiva', 'Moderado', 'No', 'Mas de 60 anios')": {
         "recomendacion": "Dr. Andres Gomez, Medico General",
@@ -1291,7 +1293,7 @@
             "- Recomendado para la revision periodica de salud en personas mayores.",
             "- Costo por consulta: $650."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc9.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc9.jpeg"
     },
     "('Dolor', 'Leve', 'Alergias a algun alimento', 'Entre 36-60 anios')": {
         "recomendacion": "Dr. Javier Molina, Nutriologo",
@@ -1301,7 +1303,7 @@
             "- Ideal para adultos con reacciones alergicas leves a alimentos.",
             "- Costo por consulta: $600."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc5.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc5.jpeg"
     },
     "('Dolor', 'Moderado', 'Alergias a algun medicamento', 'Mas de 60 anios')": {
         "recomendacion": "Dra. Teresa Martinez, Geriatra",
@@ -1311,7 +1313,7 @@
             "- Recomendado para pacientes mayores con antecedentes alergicos.",
             "- Costo por consulta: $700."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc9.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc9.jpeg"
     },
     "('Dolor', 'Leve', 'No', 'Entre 36-60 anios')": {
         "recomendacion": "Dr. Roberto Rodriguez, Medico General",
@@ -1321,7 +1323,7 @@
             "- Recomendado para adultos de mediana edad sin historial medico complejo.",
             "- Costo por consulta: $550."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc5.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc5.jpeg"
     },
     "('Dolor', 'Leve', 'No', 'Menos de 18 anios')": {
         "recomendacion": "Dra. Valeria Torres, Pediatra",
@@ -1331,7 +1333,7 @@
             "- Ideal para tratar molestias comunes sin historial medico complejo.",
             "- Costo por consulta: $400."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc12.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
     "('Control de salud', 'Muy fuerte', 'Alergias a algun alimento', 'Entre 18-35 anios')": {
         "recomendacion": "Dr. Diego Guzman, Nutriologo Clinico",
@@ -1341,18 +1343,18 @@
             "- Recomendado para pacientes que requieren un manejo nutricional estricto.",
             "- Costo por consulta: $750."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc7.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc7.jpeg"
     },
+
     "('Revision de sintomas', 'Moderado', 'No', 'Mas de 60 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dr. Antonio Ruiz, Médico Geriatra",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en la atención médica integral para adultos mayores con síntomas moderados.",
+            "- Ofrece un enfoque de diagnóstico y tratamiento adecuado para prevenir el empeoramiento de los síntomas.",
+            "- Realiza revisiones periódicas para asegurar un manejo preventivo y una mejor calidad de vida en la tercera edad.",
+            "- Costo por consulta: $950."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc15.jpeg"
     },
     "('Consulta preventiva', 'Fuerte', 'No', 'Entre 36-60 anios')": {
         "recomendacion": "Dr. Hector Vargas, Medico Internista",
@@ -1362,7 +1364,7 @@
             "- Ideal para pacientes que buscan mantener un estilo de vida saludable.",
             "- Costo por consulta: $750."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc8.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc8.jpeg"
     },
     "('Dolor', 'Fuerte', 'No', 'Entre 36-60 anios')": {
         "recomendacion": "Dra. Gabriela Fuentes, Algologa",
@@ -1372,7 +1374,7 @@
             "- Recomendado para pacientes que requieren un manejo especializado del dolor.",
             "- Costo por consulta: $800."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc12.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
     "('Control de salud', 'Leve', 'No', 'Entre 18-35 anios')": {
         "recomendacion": "Dra. Fernanda Lopez, Medico General",
@@ -1382,18 +1384,18 @@
             "- Recomendado para pacientes que buscan mantener un buen estado de salud.",
             "- Costo por consulta: $500."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc4.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc4.jpeg"
     },
-    "('Revision de sintomas', 'Muy fuerte', 'No', 'Entre 18-35 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+    
+        "('Revision de sintomas', 'Muy fuerte', 'No', 'Entre 18-35 anios')": {
+            "recomendacion": "Dr. Javier López, Médico Internista",
+            "explicacion": [
+                "- Especialista en diagnóstico y tratamiento de síntomas intensos en adultos jóvenes.",
+                "- Realiza estudios exhaustivos para identificar las causas subyacentes de los síntomas fuertes.",
+                "- Ofrece un enfoque personalizado para el manejo de condiciones médicas graves y crónicas.",
+                "- Costo por consulta: $1,300."
+            ],
+            "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc15.jpeg"    
     },
     "('Dolor', 'Muy fuerte', 'No', 'Mas de 60 anios')": {
         "recomendacion": "Dra. Claudia Ramirez, Geriatra y Algologa",
@@ -1403,7 +1405,7 @@
             "- Recomendado para pacientes que requieren un manejo especializado del dolor.",
             "- Costo por consulta: $900."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc12.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
     "('Consulta preventiva', 'Muy fuerte', 'No', 'Mas de 60 anios')": {
         "recomendacion": "Dr. Javier Torres, Geriatra",
@@ -1413,18 +1415,17 @@
             "- Recomendado para pacientes que requieren un seguimiento medico estrecho.",
             "- Costo por consulta: $850."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc15.jpeg"
     },
     "('Revision de sintomas', 'Leve', 'No', 'Mas de 60 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dr. Carlos Fernández, Médico Geriatra",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en el cuidado integral de la salud en adultos mayores.",
+            "- Realiza evaluaciones detalladas para identificar síntomas leves y prevenir complicaciones.",
+            "- Promueve la detección temprana de enfermedades y el manejo adecuado de la salud a través de un enfoque preventivo.",
+            "- Costo por consulta: $850."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc15.jpeg"
     },
     "('Dolor', 'Leve', 'Alergias a algun alimento', 'Entre 18-35 anios')": {
         "recomendacion": "Dra. Juana Martinez Gutierrez, Medico deportivo",
@@ -1434,7 +1435,7 @@
             "- Recomendada por pacientes que sufren danios leves",
             "- Costo por consulta: $500 . "
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc4.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc4.jpeg"
     },
     "('Control de salud', 'Fuerte', 'Alergias a algun medicamento', 'Menos de 18 anios')": {
         "recomendacion": "Dra. Ana Luisa Lopez Ku, Medico General ",
@@ -1444,7 +1445,7 @@
             "- Recomendada por pacientes que tienen control de salud despues de enfermedades graves",
             "- Costo por consulta: $ 568. "
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc12.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
     "('COMENTARIOOOOOO')":
     {
@@ -1461,7 +1462,7 @@
             "- Brinda orientacion sobre habitos saludables y prevencion de futuras molestias.",
             "- Costo por consulta: $500."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc1.jpeg"
+        "imagen": "c:/Users/danyx/Downloads/Mapa2.png"
     },
     "('Consulta preventiva', 'Moderado', 'Alergias a algun alimento', 'Mas de 60 anios')": {
         "recomendacion": "Dr. Javier Morales Ramirez, Alergologo",
@@ -1471,19 +1472,19 @@
             "- Brinda educacion sobre la identificacion y evitacion de alimentos desencadenantes.",
             "- Costo por consulta: $700."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc8.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc8.jpeg"
     },
-    "('Revision de sintomas', 'Fuerte', 'Operaciones o cirugias', 'Entre 36-60 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
+    
+        "('Revision de sintomas', 'Fuerte', 'Operaciones o cirugias', 'Entre 36-60 anios')": {
+            "recomendacion": "Dr. Javier Gómez, Cirujano General",
+            "explicacion": [
+                "Cirujano especializado en el manejo de síntomas postquirúrgicos.",
+                "Se ofrece una revisión detallada para pacientes con síntomas fuertes relacionados con operaciones o cirugías previas.",
+                "Brinda seguimiento integral postoperatorio para asegurar una recuperación adecuada y sin complicaciones.",
+                "Costo por consulta: $1,200."
+            ],
+            "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc15.jpeg"
+        },
     "('Control de salud', 'Muy fuerte', 'No', 'Entre 18-35 anios')": {
         "recomendacion": "Dr. Luis Hernandez Vargas, Medico Internista",
         "explicacion": [
@@ -1492,7 +1493,7 @@
             "- Brinda orientacion sobre cambios en el estilo de vida para mejorar el estado de salud general.",
             "- Costo por consulta: $800."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc6.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc6.jpeg"
     },
     "('Dolor', 'Moderado', 'Alergias a algun medicamento', 'Menos de 18 anios')": {
         "recomendacion": "Dr. Andres Torres Gutierrez, Pediatra y Alergologo",
@@ -1502,7 +1503,7 @@
             "- Brinda educacion a los padres sobre la prevencion y el manejo de las alergias a medicamentos.",
             "- Costo por consulta: $600."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc5.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc5.jpeg"
     },
     "('Control de salud', 'Muy fuerte', 'Alergias a algun alimento', 'Mas de 60 anios')": {
         "recomendacion": "Dr. Javier Morales Ramirez, Alergologo",
@@ -1512,7 +1513,7 @@
             "- Ofrece seguimiento cercano para prevenir complicaciones y garantizar una vida saludable.",
             "- Costo por consulta: $700."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc8.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc8.jpeg"
     },
     "('Control de salud', 'Fuerte', 'Alergias a algun alimento', 'Entre 18-35 anios')": {
         "recomendacion": "Dra. Laura Torres Ramirez, Alergologa",
@@ -1522,7 +1523,7 @@
             "- Brinda educacion sobre la prevencion de reacciones alergicas y el manejo de emergencias.",
             "- Costo por consulta: $800."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc12.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
     "('Consulta preventiva', 'Moderado', 'No', 'Menos de 18 anios')": {
         "recomendacion": "Dra. Ana Gomez Vargas, Pediatra",
@@ -1532,19 +1533,19 @@
             "- Ofrece orientacion a los padres sobre nutricion, actividad fisica y habitos saludables.",
             "- Costo por consulta: $600."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc4.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc4.jpeg"
     },
+
     "('Revision de sintomas', 'Fuerte', 'Alergias a algun alimento', 'Entre 18-35 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dra. Claudia Torres, Alergóloga",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en el diagnóstico y tratamiento de alergias alimentarias intensas.",
+            "- Realiza estudios completos para identificar alérgenos específicos y ofrecer tratamientos adecuados.",
+            "- Proporciona planes de dieta personalizados para manejar las reacciones alérgicas y mejorar la calidad de vida.",
+            "- Costo por consulta: $1,100."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc15.jpeg"
+        },
     "('Control de salud', 'Muy fuerte', 'Operaciones o cirugias', 'Mas de 60 anios')": {
         "recomendacion": "Dr. Carlos Ramirez Sanchez, Cirujano General",
         "explicacion": [
@@ -1553,7 +1554,7 @@
             "- Ofrece un plan de recuperacion personalizado que incluye rehabilitacion y cuidados especializados.",
             "- Costo por consulta: $1200."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc8.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc8.jpeg"
     },
     "('Dolor', 'Moderado', 'No', 'Entre 36-60 anios')": {
         "recomendacion": "Dr. Alejandro Garcia Morales, Medico Internista",
@@ -1563,7 +1564,7 @@
             "- Ofrece opciones de tratamiento que incluyen medicamentos, terapia fisica y cambios en el estilo de vida.",
             "- Costo por consulta: $800."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc6.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc6.jpeg"
     },
     "('Control de salud', 'Fuerte', 'No', 'Menos de 18 anios')": {
         "recomendacion": "Dr. Fernando Lopez Torres, Pediatra",
@@ -1573,7 +1574,7 @@
             "- Ofrece un enfoque multidisciplinario que incluye la colaboracion con otros especialistas y la educacion de los padres.",
             "- Costo por consulta: $900."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc5.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc5.jpeg"
     },
     "('Dolor', 'Fuerte', 'Alergias a algun medicamento', 'Mas de 60 anios')": {
         "recomendacion": "Dr. Hector Sanchez, Geriatra y Alergologo",
@@ -1583,7 +1584,7 @@
             "- Brinda orientacion sobre alternativas terapeuticas y prevencion de episodios alergicos.",
             "- Costo por consulta: $650."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc7.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc7.jpeg"
     },
     "('Consulta preventiva', 'Leve', 'Alergias a algun alimento', 'Entre 36-60 anios')": {
         "recomendacion": "Dra. Carla Ramirez, Nutriologa y Alergologa",
@@ -1593,30 +1594,30 @@
             "- Brinda educacion sobre identificacion de alimentos desencadenantes y lectura de etiquetas.",
             "- Costo por consulta: $600."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc12.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
+
     "('Revision de sintomas', 'Fuerte', 'No', 'Mas de 60 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+        "recomendacion": "Dr. Laura González, Médico General",
+            "explicacion": [
+            "- Especialista en diagnóstico y manejo de síntomas fuertes en adultos mayores.",
+            "- Realiza revisiones exhaustivas para detectar posibles condiciones subyacentes.",
+            "- Fomenta un enfoque integral para el cuidado de la salud, adaptado a las necesidades de los pacientes mayores.",
+            "- Costo por consulta: $950."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc15.jpeg"
+        
     },
-    "('Revision de sintomas', 'Muy fuerte', 'Alergias a algun medicamento', 'Entre 36-60 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+        "('Revision de sintomas', 'Muy fuerte', 'Alergias a algun medicamento', 'Entre 36-60 anios')": {
+            "recomendacion": "Dr. Juan Pérez, Alergólogo",
+            "explicacion": [
+            "- Especialista en diagnóstico y tratamiento de alergias a medicamentos.",
+            "- Brinda tratamiento personalizado para alergias graves y síntomas intensos.",
+            "- Utiliza pruebas avanzadas para identificar el medicamento causante de las reacciones.",
+            "- Costo por consulta: $1,200."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc5.jpeg"
+        },
     "('Consulta preventiva', 'Fuerte', 'Alergias a algun medicamento', 'Entre 18-35 anios')": {
         "recomendacion": "Dr. Romina Gomez, Alergologo",
         "explicacion": [
@@ -1625,7 +1626,7 @@
             "- Realiza pruebas de sensibilidad y ofrece alternativas terapeuticas seguras.",
             "- Costo por consulta: $700."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc4.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc4.jpeg"
     },
     "('Dolor', 'Fuerte', 'Alergias a algun alimento', 'Menos de 18 anios')": {
         "recomendacion": "Dra. Silvia Perez, Pediatra y Alergologa",
@@ -1635,7 +1636,7 @@
             "- Realiza pruebas de alergia para personalizar el tratamiento.",
             "- Costo por consulta: $500."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc5.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc5.jpeg"
     },
     "('Consulta preventiva', 'Leve', 'No', 'Entre 18-35 anios')": {
         "recomendacion": "Dr. Brenda Solis, Medico general",
@@ -1645,7 +1646,7 @@
             "- Ayuda a detectar riesgos tempranos y mejorar la calidad de vida.",
             "- Costo por consulta: $450."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc4.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc4.jpeg"
     },
     "('Dolor', 'Muy fuerte', 'No', 'Entre 18-35 anios')": {
         "recomendacion": "Dr. Martin Ruiz, Especialista en manejo del dolor",
@@ -1655,1029 +1656,367 @@
             "- Trabaja para mejorar la calidad de vida mediante un enfoque integral.",
             "- Costo por consulta: $850."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc6.jpeg"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc6.jpeg"
     },
     "('Dolor', 'Leve', 'Alergias a algun alimento', 'Mas de 60 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dr. Laura Mendoza, Geriatra y Alergóloga",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en la atención médica de personas mayores con afecciones relacionadas con el envejecimiento.",
+            "- Experiencia en el manejo de alergias alimentarias en pacientes geriátricos.",
+            "- Proporciona tratamientos personalizados para garantizar el bienestar integral del paciente.",
+            "- Costo por consulta: $700."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
     "('Dolor', 'Leve', 'No', 'Mas de 60 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dr. Ricardo Pérez, Geriatra",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en atención médica para personas mayores.",
+            "- Experiencia en el tratamiento de condiciones comunes en adultos mayores.",
+            "- Ofrece consultas integrales con enfoque preventivo y correctivo.",
+            "- Costo por consulta: $600."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc15.jpeg"
     },
     "('Dolor', 'Moderado', 'No', 'Entre 18-35 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dr. Carlos Ramírez, Médico General",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en diagnóstico y tratamiento de dolor moderado en adultos jóvenes.",
+            "- Ofrece un enfoque práctico y eficiente para tratar molestias comunes.",
+            "- Ideal para pacientes sin condiciones alérgicas que requieren atención rápida.",
+            "- Costo por consulta: $500."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc1.jpeg"
     },
     "('Dolor', 'Fuerte', 'Alergias a algun alimento', 'Mas de 60 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dr. Eduardo Fernández, Alergólogo y Geriatra",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en manejo del dolor fuerte en personas mayores con alergias alimentarias.",
+            "- Ofrece tratamientos personalizados para minimizar el dolor y manejar las alergias.",
+            "- Experiencia en pacientes geriátricos con necesidades médicas complejas.",
+            "- Costo por consulta: $800."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc2.jpeg"
     },
     "('Dolor', 'Fuerte', 'Alergias a algun medicamento', 'Menos de 18 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dra. Sofía López, Pediatra y Alergóloga",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en el manejo del dolor y alergias en niños y adolescentes.",
+            "- Proporciona un enfoque amable y efectivo para el bienestar infantil.",
+            "- Experiencia en casos pediátricos complejos relacionados con alergias a medicamentos.",
+            "- Costo por consulta: $750."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
     "('Dolor', 'Fuerte', 'Operaciones o cirugias', 'Menos de 18 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dra. Elena Vargas, Cirujana Pediátrica",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en el manejo postquirúrgico y tratamiento del dolor en niños y adolescentes.",
+            "- Experiencia en el seguimiento de pacientes pediátricos tras procedimientos quirúrgicos.",
+            "- Proporciona atención integral para minimizar el dolor y favorecer la recuperación.",
+            "- Costo por consulta: $850."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc4.jpeg"
     },
     "('Dolor', 'Fuerte', 'Operaciones o cirugias', 'Entre 36-60 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dr. Andrés Martínez, Cirujano General",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en manejo del dolor postquirúrgico en adultos de mediana edad.",
+            "- Experiencia en técnicas avanzadas de manejo del dolor tras operaciones mayores.",
+            "- Ofrece un enfoque multidisciplinario para optimizar la recuperación postoperatoria.",
+            "- Costo por consulta: $900."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc3.jpeg"
     },
     "('Dolor', 'Fuerte', 'Operaciones o cirugias', 'Mas de 60 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dr. Jorge Herrera, Cirujano Geriátrico",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Experto en el manejo del dolor postquirúrgico en personas mayores.",
+            "- Experiencia en casos complejos que requieren atención personalizada tras cirugías.",
+            "- Proporciona tratamientos efectivos para minimizar el dolor y promover la recuperación.",
+            "- Costo por consulta: $950."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc5.jpeg"
     },
     "('Dolor', 'Fuerte', 'No', 'Menos de 18 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dra. Mariana López, Pediatra",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en el manejo de dolor agudo en niños y adolescentes.",
+            "- Proporciona diagnósticos precisos y tratamientos seguros para menores.",
+            "- Experiencia en enfoques no invasivos para minimizar el dolor.",
+            "- Costo por consulta: $750."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
     "('Dolor', 'Muy fuerte', 'Alergias a algun alimento', 'Menos de 18 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dra. Elena Vargas, Alergóloga Pediátrica",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en el tratamiento de alergias alimentarias en pacientes pediátricos.",
+            "- Manejo del dolor relacionado con reacciones alérgicas severas en niños.",
+            "- Ofrece tratamientos personalizados para garantizar una mejor calidad de vida.",
+            "- Costo por consulta: $850."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc4.jpeg"
     },
     "('Dolor', 'Muy fuerte', 'Alergias a algun alimento', 'Entre 18-35 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dr. Carlos Fernández, Especialista en Alergología y Dolor",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Experto en el manejo del dolor severo asociado a alergias alimentarias en adultos jóvenes.",
+            "- Proporciona soluciones innovadoras para prevenir y tratar reacciones graves.",
+            "- Amplia experiencia en terapias integrales que abordan tanto las alergias como el dolor.",
+            "- Costo por consulta: $900."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc6.jpeg"
     },
     "('Dolor', 'Muy fuerte', 'Alergias a algun medicamento', 'Menos de 18 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dra. Mariana López, Pediatra y Alergóloga",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Experta en el manejo de alergias a medicamentos en niños y adolescentes.",
+            "- Brinda tratamientos seguros y efectivos para minimizar riesgos asociados al dolor severo.",
+            "- Experiencia en terapias pediátricas personalizadas para mejorar la calidad de vida del paciente.",
+            "- Costo por consulta: $850."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
     "('Dolor', 'Muy fuerte', 'Operaciones o cirugias', 'Menos de 18 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dr. Jorge Rivas, Cirujano Pediátrico",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en la atención de pacientes pediátricos con dolor postquirúrgico severo.",
+            "- Amplia experiencia en técnicas avanzadas de manejo del dolor en niños.",
+            "- Enfoque en el cuidado integral y recuperación rápida de pacientes jóvenes.",
+            "- Costo por consulta: $900."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc5.jpeg"
     },
     "('Dolor', 'Muy fuerte', 'No', 'Menos de 18 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dra. Elena Vargas, Especialista en Dolor Pediátrico",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Experta en el tratamiento de dolor severo en pacientes pediátricos.",
+            "- Utiliza técnicas no invasivas y seguras adaptadas para niños.",
+            "- Fomenta el bienestar integral del paciente con un enfoque personalizado.",
+            "- Costo por consulta: $800."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc4.jpeg"
     },
     "('Control de salud', 'Leve', 'Alergias a algun alimento', 'Menos de 18 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dra. Laura Mendoza, Pediatra y Nutrióloga",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en el manejo de alergias alimentarias en niños y adolescentes.",
+            "- Fomenta hábitos saludables y proporciona estrategias para evitar reacciones alérgicas.",
+            "- Experiencia en el diseño de dietas personalizadas para pacientes pediátricos con restricciones alimenticias.",
+            "- Costo por consulta: $750."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
     "('Control de salud', 'Leve', 'Alergias a algun alimento', 'Entre 18-35 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dra. Elena Vargas, Nutrióloga y Alergóloga",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Ayuda a adultos jóvenes a controlar alergias alimentarias y mantener un estilo de vida saludable.",
+            "- Proporciona orientación en nutrición adaptada a cada condición alérgica.",
+            "- Enfoque preventivo para evitar complicaciones relacionadas con alergias.",
+            "- Costo por consulta: $800."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc4.jpeg"
     },
     "('Control de salud', 'Leve', 'Alergias a algun alimento', 'Entre 36-60 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dr. Jorge Rivas, Médico Internista",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Experiencia en el manejo integral de la salud en adultos con condiciones alérgicas.",
+            "- Ofrece revisiones periódicas para prevenir y controlar reacciones alérgicas.",
+            "- Asistencia personalizada en la mejora de la calidad de vida a través de hábitos saludables.",
+            "- Costo por consulta: $850."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc5.jpeg"
     },
     "('Control de salud', 'Leve', 'Alergias a algun alimento', 'Mas de 60 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dra. Silvia Martínez, Geriatra",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en el manejo de salud integral en adultos mayores con condiciones alérgicas.",
+            "- Ofrece dietas adaptadas para reducir riesgos relacionados con alergias alimentarias.",
+            "- Fomenta un enfoque preventivo para mantener una buena calidad de vida.",
+            "- Costo por consulta: $900."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
     "('Control de salud', 'Leve', 'Alergias a algun medicamento', 'Entre 18-35 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dr. Manuel García, Alergólogo",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Ayuda a identificar y controlar reacciones alérgicas a medicamentos en adultos jóvenes.",
+            "- Realiza pruebas de alergia específicas para garantizar tratamientos seguros.",
+            "- Proporciona planes personalizados para prevenir reacciones adversas.",
+            "- Costo por consulta: $850."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc8.jpeg"
     },
     "('Control de salud', 'Leve', 'Alergias a algun medicamento', 'Entre 36-60 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dra. Elena Castro, Médica Internista",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Experiencia en el manejo de alergias a medicamentos y cuidado integral en adultos.",
+            "- Evalúa antecedentes médicos para reducir riesgos de reacciones adversas.",
+            "- Ofrece asesoramiento sobre opciones terapéuticas seguras.",
+            "- Costo por consulta: $870."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc4.jpeg"
     },
     "('Control de salud', 'Leve', 'Operaciones o cirugias', 'Menos de 18 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dra. María López, Cirujana Pediátrica",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en el manejo de operaciones y cirugía en pacientes pediátricos.",
+            "- Ofrece asesoramiento pre y postoperatorio, asegurando una recuperación rápida.",
+            "- Costo por consulta: $950."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc4"
     },
     "('Control de salud', 'Leve', 'Operaciones o cirugias', 'Entre 36-60 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dra. Ana González, Cirujana General",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Experta en procedimientos quirúrgicos generales para adultos.",
+            "- Proporciona un enfoque integral para asegurar una recuperación completa.",
+            "- Costo por consulta: $1,000."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc4.jpeg"
     },
     "('Control de salud', 'Leve', 'Operaciones o cirugias', 'Mas de 60 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dra. Patricia Ruiz, Cirujana Geriátrica",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en cirugía geriátrica y manejo postoperatorio para adultos mayores.",
+            "- Brinda un enfoque personalizado para mejorar la calidad de vida tras la cirugía.",
+            "- Costo por consulta: $1,100."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
     "('Control de salud', 'Leve', 'No', 'Menos de 18 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dra. Laura Fernández, Pediatra",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en salud infantil, proporcionando una atención preventiva.",
+            "- Recomendación personalizada basada en el estado general de salud.",
+            "- Costo por consulta: $850."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc4.jpeg"
     },
     "('Control de salud', 'Leve', 'No', 'Entre 36-60 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dra. Carmen Martínez, Médico General",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Médica general con experiencia en control de salud preventivo.",
+            "- Enfoque integral para el bienestar general de los pacientes adultos.",
+            "- Costo por consulta: $950."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc4.jpeg"
     },
     "('Control de salud', 'Leve', 'No', 'Mas de 60 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dra. Elena Rodríguez, Geriatra",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en salud geriátrica, brindando seguimiento y control regular.",
+            "- Asesoría para mantener un estilo de vida saludable en la tercera edad.",
+            "- Costo por consulta: $1,000."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
     "('Control de salud', 'Moderado', 'Alergias a algun alimento', 'Menos de 18 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dra. Isabel Gómez, Pediatra",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en salud infantil, enfocada en alergias alimentarias.",
+            "- Recomendación para un plan de manejo adecuado de alergias.",
+            "- Costo por consulta: $900."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc4.jpeg"
     },
     "('Control de salud', 'Moderado', 'Alergias a algun alimento', 'Entre 18-35 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dra. Mariana López, Nutriologa",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en alergias alimentarias y nutrición.",
+            "- Asesoramiento personalizado para la eliminación de alimentos problemáticos.",
+            "- Costo por consulta: $1,000."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc4.jpeg"
     },
     "('Control de salud', 'Moderado', 'Alergias a algun alimento', 'Mas de 60 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dra. Carmen Torres, Geriatra",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Atención especializada para personas mayores con alergias alimentarias.",
+            "- Plan de manejo y recomendaciones para mejorar la calidad de vida.",
+            "- Costo por consulta: $1,100."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
     "('Control de salud', 'Moderado', 'Alergias a algun medicamento', 'Menos de 18 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dra. Ana Rodríguez, Alergóloga Infantil",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en el diagnóstico y manejo de alergias a medicamentos en niños.",
+            "- Ofrece pruebas específicas para determinar reacciones alérgicas y asegura tratamientos adecuados.",
+            "- Se enfoca en la prevención y control de alergias en menores.",
+            "- Costo por consulta: $600."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc15.jpeg"
     },
     "('Control de salud', 'Moderado', 'Alergias a algun medicamento', 'Entre 18-35 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dr. Luis Fernández, Alergólogo",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Experto en el diagnóstico de alergias a medicamentos y reacciones adversas.",
+            "- Realiza pruebas de alergia específicas para pacientes jóvenes.",
+            "- Ofrece tratamientos personalizados para evitar complicaciones a largo plazo.",
+            "- Costo por consulta: $700."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc8.jpeg"
     },
     "('Control de salud', 'Moderado', 'Alergias a algun medicamento', 'Mas de 60 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dra. Silvia Martínez, Geriatra y Alergóloga",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en manejo de alergias en adultos mayores, adaptando tratamientos a su salud integral.",
+            "- Realiza un seguimiento continuo para minimizar los efectos secundarios de los medicamentos.",
+            "- Recomienda alternativas terapéuticas seguras y efectivas para este grupo de edad.",
+            "- Costo por consulta: $800."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
     "('Control de salud', 'Moderado', 'Operaciones o cirugias', 'Menos de 18 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dr. Javier Mendoza, Cirujano Pediátrico",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en cirugía pediátrica, brindando asesoramiento integral antes y después de las operaciones.",
+            "- Ofrece un seguimiento exhaustivo para garantizar una recuperación adecuada.",
+            "- Realiza evaluaciones prequirúrgicas y proporciona planes de cuidado postoperatorio.",
+            "- Costo por consulta: $650."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc5.jpeg"
     },
     "('Control de salud', 'Moderado', 'Operaciones o cirugias', 'Entre 36-60 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dr. Manuel Rodríguez, Cirujano General",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Experto en cirugía general, especializado en intervenciones en adultos de mediana edad.",
+            "- Realiza un análisis exhaustivo de antecedentes médicos antes de realizar cualquier operación.",
+            "- Ofrece un seguimiento postoperatorio detallado para asegurar una recuperación óptima.",
+            "- Costo por consulta: $750."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc15.jpeg"
     },
     "('Control de salud', 'Moderado', 'No', 'Menos de 18 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dr. Carlos Martínez, Médico General",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Médico general especializado en la atención de niños y adolescentes.",
+            "- Ofrece una consulta integral para mantener la salud general de los menores.",
+            "- Realiza chequeos de rutina y ofrece orientación sobre prevención de enfermedades.",
+            "- Costo por consulta: $550."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc1.jpeg"
     },
     "('Control de salud', 'Moderado', 'No', 'Mas de 60 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dra. Silvia González, Geriatra",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en atención médica para adultos mayores, con enfoque en prevención de enfermedades.",
+            "- Realiza exámenes de rutina y ofrece recomendaciones para mantener una vida saludable en la tercera edad.",
+            "- Asiste en la gestión de condiciones crónicas y promueve una vida activa y saludable.",
+            "- Costo por consulta: $800."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
+        "imagen": "/Users/Melisa/Documents/PROLOG/PROYECTO/image/doc12.jpeg"
     },
     "('Control de salud', 'Fuerte', 'Alergias a algun alimento', 'Menos de 18 anios')": {
-        "recomendacion": "Recomendacion generica",
+        "recomendacion": "Dr. Manuel García, Alergólogo Infantil",
         "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
+            "- Especialista en el diagnóstico y tratamiento de alergias alimentarias en niños.",
+            "- Ofrece pruebas de alergia para identificar alimentos que causan reacciones alérgicas.",
+            "- Brinda orientación sobre dietas seguras y métodos de prevención de reacciones alérgicas.",
+            "- Costo por consulta: $600."
         ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Control de salud', 'Fuerte', 'Alergias a algun alimento', 'Entre 36-60 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Control de salud', 'Fuerte', 'Alergias a algun alimento', 'Mas de 60 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Control de salud', 'Fuerte', 'Operaciones o cirugias', 'Entre 36-60 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Control de salud', 'Fuerte', 'No', 'Entre 18-35 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Control de salud', 'Fuerte', 'No', 'Entre 36-60 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Control de salud', 'Muy fuerte', 'Alergias a algun alimento', 'Entre 36-60 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Control de salud', 'Muy fuerte', 'Alergias a algun medicamento', 'Menos de 18 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Control de salud', 'Muy fuerte', 'Alergias a algun medicamento', 'Entre 18-35 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Control de salud', 'Muy fuerte', 'Alergias a algun medicamento', 'Mas de 60 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Control de salud', 'Muy fuerte', 'Operaciones o cirugias', 'Entre 36-60 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Control de salud', 'Muy fuerte', 'No', 'Menos de 18 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Control de salud', 'Muy fuerte', 'No', 'Entre 36-60 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Revision de sintomas', 'Leve', 'Alergias a algun alimento', 'Menos de 18 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Revision de sintomas', 'Leve', 'Alergias a algun alimento', 'Entre 18-35 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Revision de sintomas', 'Leve', 'Alergias a algun alimento', 'Mas de 60 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Revision de sintomas', 'Leve', 'Alergias a algun medicamento', 'Mas de 60 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Revision de sintomas', 'Leve', 'Operaciones o cirugias', 'Menos de 18 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Revision de sintomas', 'Moderado', 'Alergias a algun alimento', 'Entre 18-35 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Revision de sintomas', 'Moderado', 'Alergias a algun alimento', 'Entre 36-60 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Revision de sintomas', 'Moderado', 'No', 'Menos de 18 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Revision de sintomas', 'Moderado', 'No', 'Entre 36-60 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Revision de sintomas', 'Fuerte', 'Alergias a algun alimento', 'Entre 36-60 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Revision de sintomas', 'Fuerte', 'Alergias a algun medicamento', 'Menos de 18 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Revision de sintomas', 'Fuerte', 'Alergias a algun medicamento', 'Entre 18-35 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Revision de sintomas', 'Fuerte', 'Alergias a algun medicamento', 'Entre 36-60 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Revision de sintomas', 'Fuerte', 'Alergias a algun medicamento', 'Mas de 60 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Revision de sintomas', 'Fuerte', 'No', 'Entre 36-60 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Revision de sintomas', 'Muy fuerte', 'Alergias a algun alimento', 'Menos de 18 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Revision de sintomas', 'Muy fuerte', 'Alergias a algun alimento', 'Mas de 60 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Revision de sintomas', 'Muy fuerte', 'Alergias a algun medicamento', 'Entre 18-35 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Revision de sintomas', 'Muy fuerte', 'Alergias a algun medicamento', 'Mas de 60 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Revision de sintomas', 'Muy fuerte', 'Operaciones o cirugias', 'Mas de 60 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Revision de sintomas', 'Muy fuerte', 'No', 'Menos de 18 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Revision de sintomas', 'Muy fuerte', 'No', 'Entre 36-60 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Consulta preventiva', 'Leve', 'Alergias a algun alimento', 'Menos de 18 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Consulta preventiva', 'Leve', 'Alergias a algun alimento', 'Mas de 60 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Consulta preventiva', 'Leve', 'Alergias a algun medicamento', 'Mas de 60 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Consulta preventiva', 'Moderado', 'Alergias a algun alimento', 'Entre 36-60 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Consulta preventiva', 'Moderado', 'Alergias a algun medicamento', 'Menos de 18 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Consulta preventiva', 'Moderado', 'Alergias a algun medicamento', 'Mas de 60 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Consulta preventiva', 'Fuerte', 'Alergias a algun alimento', 'Menos de 18 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Consulta preventiva', 'Fuerte', 'Alergias a algun alimento', 'Mas de 60 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Consulta preventiva', 'Fuerte', 'Alergias a algun medicamento', 'Entre 36-60 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Consulta preventiva', 'Fuerte', 'Operaciones o cirugias', 'Menos de 18 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Consulta preventiva', 'Fuerte', 'Operaciones o cirugias', 'Entre 18-35 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Consulta preventiva', 'Fuerte', 'Operaciones o cirugias', 'Entre 36-60 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Consulta preventiva', 'Fuerte', 'No', 'Menos de 18 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Consulta preventiva', 'Fuerte', 'No', 'Mas de 60 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Consulta preventiva', 'Muy fuerte', 'Alergias a algun alimento', 'Menos de 18 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Consulta preventiva', 'Muy fuerte', 'Alergias a algun alimento', 'Entre 36-60 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Consulta preventiva', 'Muy fuerte', 'Alergias a algun medicamento', 'Menos de 18 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Consulta preventiva', 'Muy fuerte', 'Alergias a algun medicamento', 'Entre 18-35 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Consulta preventiva', 'Muy fuerte', 'Alergias a algun medicamento', 'Entre 36-60 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Consulta preventiva', 'Muy fuerte', 'Operaciones o cirugias', 'Entre 18-35 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Consulta preventiva', 'Muy fuerte', 'No', 'Menos de 18 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15"
-    },
-    "('Consulta preventiva', 'Muy fuerte', 'No', 'Entre 36-60 anios')": {
-        "recomendacion": "Recomendacion generica",
-        "explicacion": [
-            "Este es un ejemplo de explicacion para la combinacion de atributos:",
-            "Recomendado por ",
-            " unoabc",
-            " dosabc",
-            " Costo por consulta: $"
-        ],
-        "imagen": "/home/keny/Descargas/SE-M-PRUEBA/image/doc15.jpeg"
+        "imagen": "/home/keny/Escritorio/spaceCode/SE/image/doc11.jpeg"
     }
 }
