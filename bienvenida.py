@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import ttk
-from interfaz import InterfazMedica
+from interfaz_medica import InterfazMedica
 from custom_styles import Styles, CustomButton, CustomFrame, CustomLabel, setup_window_style
 
 def centrar_ventana(ventana):
